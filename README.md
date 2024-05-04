@@ -1,4 +1,4 @@
-University of Sydney Research Thesis Rmarkdown Template
+University of Magallanes Research Thesis Rmarkdown Template
 ========================
 
 This repository provides a template for a University of Sydney Honour/Master/PhD thesis using Rmarkdown with the `bookdown` R-package. This template is largely adapted from [Rob Hyndman's Monash PhD Thesis Rmarkdown Template](https://github.com/robjhyndman/MonashThesis). It is designed for research students at the University of Sydney.

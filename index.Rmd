@@ -1,0 +1,30 @@
+---
+title: 'Krill dynamics population and fishery along Wester Antartic Peninsula'
+degreetype: 'Doctorate' # Replace with degree completing, e.g. Bachelor of Science Honours
+author: 'Mauricio Mardones'
+degrees: 'B.Sc. (Hons), Universidad de Concepción' # leave this empty if no undergraduate degree is completed
+keywords: 'Fisheries, population dynamics, Stock assessment, climate change'
+subject: 'Integrated model'
+country: 'Chile'
+department: 'CIGA'
+university: 'Universidad de Magallanes'
+logo: 'figures/logoUMAG.jpg' # do not include logo for Honours or non-examined PhD thesis
+#logo: '' # for no logo
+output: bookdown::pdf_book
+site: bookdown::bookdown_site
+link-citations: yes
+knit: "bookdown::render_book"
+---
+
+<!-- 
+Edit these lines as appropriate.
+The actual thesis content is in several Rmd files.
+
+You'll need to edit the _bookdown.yml file to set the order in which you'd like them to appear. 
+
+If you have specific LaTeX packages to add, put them in monashthesis.tex.
+
+You will need to ensure you have installed the knitr and bookdown packages for R.
+
+You will also need LaTeX installed on your computer.
+-->
