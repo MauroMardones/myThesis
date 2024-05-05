@@ -1,11 +1,11 @@
-University of Magallanes Research Thesis Rmarkdown Template
+University of Magallanes Thesis Rmarkdown Template
 ========================
 
-This repository provides a template for a University of Sydney Honour/Master/PhD thesis using Rmarkdown with the `bookdown` R-package. This template is largely adapted from [Rob Hyndman's Monash PhD Thesis Rmarkdown Template](https://github.com/robjhyndman/MonashThesis). It is designed for research students at the University of Sydney.
+This repository provides a template for a University of Sydney Honour/Master/PhD thesis using Rmarkdown with the `bookdown` R-package. This template is largely adapted from [Rob Hyndman's Monash PhD Thesis Rmarkdown Template](https://github.com/robjhyndman/MonashThesis). It is modified to prepared Thesis of Mauricio Mardones in Antarctic andSubAntarctic Sciene doctoral Program in University of Magallanes.
 
 ## Difference to Monash Thesis
 
-At this present moment (2018/07/28), the difference is minor. The major difference lies in the ability to customise the School/Department, University, Country, logo and some metadata of the pdf (subject and keyowrds) from the YAML of `index.Rmd`. 
+At this present moment (2024/04/1), the difference is minor. The major difference lies in the ability to customise the School/Department, University, Country, logo and some metadata of the pdf (subject and keyowrds) from the YAML of `index.Rmd`. and addingdirector and codirectors
 
 ## Requirements
 
@@ -24,7 +24,7 @@ tinytex::install_tinytex()
 
 ## Editor
 
-It is preferred that you use [RStudio](https://www.rstudio.com/) for editing.
+It is preferred that you use [RStudio](https://www.rstudio.com/) for editing or [Sublime](https://www.sublimetext.com).
 
 ## Getting Started
 
