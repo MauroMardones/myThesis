@@ -1,11 +1,15 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2024.5.6)  6 MAY 2024 12:33
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2024.5.6)  6 MAY 2024 14:03
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
 **thesisDOCAS.tex
 (./thesisDOCAS.tex
 LaTeX2e <2022-11-01> patch level 1
-L3 programming layer <2023-01-16> (./sydneythesis.cls
+L3 programming layer <2023-01-16> (./umagthesis.cls
+
+LaTeX Warning: You have requested document class `umagthesis',
+               but the document class provides `sydneythesis'.
+
 Document Class: sydneythesis 2018/07/28 Sydney Thesis Class
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
@@ -13,6 +17,17 @@ Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 Package: inputenc 2021/02/14 v1.3d Input encoding file
 \inpenc@prehook=\toks16
 \inpenc@posthook=\toks17
+) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
+\f@nch@headwidth=\skip48
+\f@nch@O@elh=\skip49
+\f@nch@O@erh=\skip50
+\f@nch@O@olh=\skip51
+\f@nch@O@orh=\skip52
+\f@nch@O@elf=\skip53
+\f@nch@O@erf=\skip54
+\f@nch@O@olf=\skip55
+\f@nch@O@orf=\skip56
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/bera/bera.sty
 Package: bera 2004/01/31 (WaS)
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/base/fontenc.sty
@@ -54,8 +69,8 @@ LaTeX Font Info:    Font shape `T1/fve/m/n' will be
 \c@subparagraph=\count191
 \c@figure=\count192
 \c@table=\count193
-\abovecaptionskip=\skip48
-\belowcaptionskip=\skip49
+\abovecaptionskip=\skip57
+\belowcaptionskip=\skip58
 \bibindent=\dimen140
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -92,17 +107,6 @@ Package caption Info: Standard document class detected.
 )
 \c@caption@flags=\count197
 \c@continuedfloat=\count198
-) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
-Package: fancyhdr 2022/11/09 v4.1 Extensive control of page headers and footers
-\f@nch@headwidth=\skip50
-\f@nch@O@elh=\skip51
-\f@nch@O@erh=\skip52
-\f@nch@O@olh=\skip53
-\f@nch@O@orh=\skip54
-\f@nch@O@elf=\skip55
-\f@nch@O@erf=\skip56
-\f@nch@O@olf=\skip57
-\f@nch@O@orf=\skip58
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/tools/bm.sty
 Package: bm 2022/01/05 v1.2f Bold Symbol Support (DPC/FMi)
 \symboldoperators=\mathgroup5
@@ -597,10 +601,10 @@ Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 28
 )
 \Hy@SectionHShift=\skip87
 )
-Package hyperref Info: Option `breaklinks' set `true' on input line 159.
-Package hyperref Info: Option `bookmarksopen' set `true' on input line 159.
-Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 159.
-Package hyperref Info: Option `colorlinks' set `true' on input line 159.
+Package hyperref Info: Option `breaklinks' set `true' on input line 160.
+Package hyperref Info: Option `bookmarksopen' set `true' on input line 160.
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 160.
+Package hyperref Info: Option `colorlinks' set `true' on input line 160.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/tocbibind/tocbibind.sty
 Package: tocbibind 2010/10/13 v1.5k extra ToC listings
 Package tocbibind Info: The document has chapter divisions on input line 50.
@@ -855,13 +859,6 @@ Package biblatex Warning: The following entry could not be found
 
 Package biblatex Warning: The following entry could not be found
 (biblatex)                in the database:
-(biblatex)                Hidalgo2011
-(biblatex)                Please verify the spelling and rerun
-(biblatex)                LaTeX afterwards.
-
-
-Package biblatex Warning: The following entry could not be found
-(biblatex)                in the database:
 (biblatex)                IPCC2014
 (biblatex)                Please verify the spelling and rerun
 (biblatex)                LaTeX afterwards.
@@ -1003,17 +1000,19 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvs' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 22.39185pt on input line 37.
-LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 22.39185pt on input line 37.
-LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
-(Font)              scaled to size 12.9599pt on input line 37.
 <figures/logoUMAG.jpg, id=72, 224.84pt x 225.84375pt>
 File: figures/logoUMAG.jpg Graphic file (type jpg)
 <use figures/logoUMAG.jpg>
 Package pdftex.def Info: figures/logoUMAG.jpg  used on input line 37.
-(pdftex.def)             Requested size: 113.81102pt x 114.3207pt.
+(pdftex.def)             Requested size: 142.26378pt x 142.90605pt.
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 22.39185pt on input line 37.
+LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
+(Font)              scaled to size 22.39185pt on input line 37.
+LaTeX Font Info:    Font shape `T1/fvs/b/it' will be
+(Font)              scaled to size 22.39185pt on input line 37.
+LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
+(Font)              scaled to size 12.9599pt on input line 37.
 LaTeX Font Info:    Font shape `T1/fvs/m/n' will be
 (Font)              scaled to size 10.79993pt on input line 37.
 [1
@@ -1071,119 +1070,110 @@ LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
 ]
 Chapter 1.
 
-LaTeX Warning: Citation 'IPCC2014' on page 1 undefined on input line 82.
+Underfull \hbox (badness 2717) in paragraph at lines 80--80
+|\T1/fvs/b/n/24.88 (+20) Ecosystems drivers on im-pact
+ []
 
 
-LaTeX Warning: Citation 'Marshall2018' on page 1 undefined on input line 82.
+LaTeX Warning: Citation 'IPCC2014' on page 1 undefined on input line 84.
 
 
-LaTeX Warning: Citation 'Worm2012' on page 1 undefined on input line 82.
+LaTeX Warning: Citation 'Marshall2018' on page 1 undefined on input line 84.
 
 
-LaTeX Warning: Citation 'Arana2020b' on page 1 undefined on input line 82.
+LaTeX Warning: Citation 'Worm2012' on page 1 undefined on input line 84.
 
 
-LaTeX Warning: Citation 'Arcos2004' on page 1 undefined on input line 82.
+LaTeX Warning: Citation 'Arana2020b' on page 1 undefined on input line 84.
 
 
-LaTeX Warning: Citation 'Worm2012' on page 1 undefined on input line 82.
+LaTeX Warning: Citation 'Arcos2004' on page 1 undefined on input line 84.
 
 
-LaTeX Warning: Citation 'Koenigstein2016' on page 1 undefined on input line 84.
+LaTeX Warning: Citation 'Worm2012' on page 1 undefined on input line 84.
+
+
+LaTeX Warning: Citation 'Koenigstein2016' on page 1 undefined on input line 86.
 
 [1]
 
-LaTeX Warning: Citation 'Kortsch2015' on page 2 undefined on input line 88.
+LaTeX Warning: Citation 'Kortsch2015' on page 2 undefined on input line 90.
 
-LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 90.
+LaTeX Font Info:    Trying to load font information for TS1+ppl on input line 92.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/psnfss/ts1ppl.fd
 File: ts1ppl.fd 2001/06/04 font definitions for TS1/ppl.
 )
 
-LaTeX Warning: Citation 'Sylvester2021' on page 2 undefined on input line 90.
+LaTeX Warning: Citation 'Sylvester2021' on page 2 undefined on input line 92.
 
 
-LaTeX Warning: Citation 'Morley2020' on page 2 undefined on input line 90.
-
-
-LaTeX Warning: Citation 'Atkinson2009' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'Veytia2020' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'Pinones2016' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'Pinones2016' on page 2 undefined on input line 92.
-
-
-LaTeX Warning: Citation 'Atkinson2009' on page 2 undefined on input line 92.
+LaTeX Warning: Citation 'Morley2020' on page 2 undefined on input line 92.
 
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 12.9599pt on input line 93.
-[2] [3]
+(Font)              scaled to size 12.9599pt on input line 94.
+[2]
 
-LaTeX Warning: Citation 'Morley2020' on page 4 undefined on input line 100.
+LaTeX Warning: Citation 'Atkinson2009' on page 3 undefined on input line 94.
 
 
-LaTeX Warning: Citation 'Duncan2020' on page 4 undefined on input line 102.
+LaTeX Warning: Citation 'Veytia2020' on page 3 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Pinones2016' on page 3 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Pinones2016' on page 3 undefined on input line 94.
+
+
+LaTeX Warning: Citation 'Atkinson2009' on page 3 undefined on input line 94.
+
+[3]
+
+LaTeX Warning: Citation 'Morley2020' on page 4 undefined on input line 102.
+
+
+LaTeX Warning: Citation 'Duncan2020' on page 4 undefined on input line 104.
 
 LaTeX Font Info:    Font shape `T1/fvs/b/n' will be
-(Font)              scaled to size 13.49991pt on input line 105.
+(Font)              scaled to size 13.49991pt on input line 107.
 
-LaTeX Warning: Citation 'IPCC2014' on page 4 undefined on input line 107.
+LaTeX Warning: Citation 'IPCC2014' on page 4 undefined on input line 109.
 
 
-LaTeX Warning: Citation 'Bindoff2019' on page 4 undefined on input line 107.
+LaTeX Warning: Citation 'Bindoff2019' on page 4 undefined on input line 109.
 
 [4]
 
-LaTeX Warning: Citation 'Koenigstein2016' on page 5 undefined on input line 111.
+LaTeX Warning: Citation 'Koenigstein2016' on page 5 undefined on input line 113.
 
 [5]
-<figures/Exa.png, id=191, 1211.02437pt x 596.72937pt>
+<figures/Exa.png, id=195, 1211.02437pt x 596.72937pt>
 File: figures/Exa.png Graphic file (type png)
 <use figures/Exa.png>
-Package pdftex.def Info: figures/Exa.png  used on input line 117.
+Package pdftex.def Info: figures/Exa.png  used on input line 119.
 (pdftex.def)             Requested size: 426.79135pt x 210.29704pt.
 [6 <./figures/Exa.png>]
-<figures/Exa17.pdf, id=200, 239.89626pt x 427.5975pt>
+<figures/Exa17.pdf, id=204, 239.89626pt x 427.5975pt>
 File: figures/Exa17.pdf Graphic file (type pdf)
 <use figures/Exa17.pdf>
-Package pdftex.def Info: figures/Exa17.pdf  used on input line 130.
+Package pdftex.def Info: figures/Exa17.pdf  used on input line 132.
 (pdftex.def)             Requested size: 213.39568pt x 380.36484pt.
 
-LaTeX Warning: Citation 'Saba2014' on page 7 undefined on input line 139.
+LaTeX Warning: Citation 'Saba2014' on page 7 undefined on input line 141.
 
 [7 <./figures/Exa17.pdf>]
 
-LaTeX Warning: Citation 'Frawley2019' on page 8 undefined on input line 141.
+LaTeX Warning: Citation 'Frawley2019' on page 8 undefined on input line 143.
 
 
-LaTeX Warning: Citation 'IPCC2014' on page 8 undefined on input line 143.
+LaTeX Warning: Citation 'IPCC2014' on page 8 undefined on input line 145.
 
 [8]
 
-LaTeX Warning: Citation 'Duncan2020' on page 9 undefined on input line 150.
+LaTeX Warning: Citation 'Duncan2020' on page 9 undefined on input line 152.
 
 
-LaTeX Warning: Citation 'IPCC2014' on page 9 undefined on input line 152.
-
-
-LaTeX Warning: Citation 'Isensee2016' on page 9 undefined on input line 154.
-
-
-LaTeX Warning: Citation 'Deutsch2015' on page 9 undefined on input line 154.
-
-
-LaTeX Warning: Citation 'Isensee2016' on page 9 undefined on input line 154.
-
-
-LaTeX Warning: Citation 'Deutsch2015' on page 9 undefined on input line 156.
-
-
-LaTeX Warning: Citation 'Portner2001' on page 9 undefined on input line 156.
+LaTeX Warning: Citation 'IPCC2014' on page 9 undefined on input line 154.
 
 
 LaTeX Warning: Citation 'Isensee2016' on page 9 undefined on input line 156.
@@ -1192,91 +1182,103 @@ LaTeX Warning: Citation 'Isensee2016' on page 9 undefined on input line 156.
 LaTeX Warning: Citation 'Deutsch2015' on page 9 undefined on input line 156.
 
 
+LaTeX Warning: Citation 'Isensee2016' on page 9 undefined on input line 156.
+
+
 LaTeX Warning: Citation 'Deutsch2015' on page 9 undefined on input line 158.
 
 
-LaTeX Warning: Citation 'IPCC2014' on page 9 undefined on input line 158.
+LaTeX Warning: Citation 'Portner2001' on page 9 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Isensee2016' on page 9 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Deutsch2015' on page 9 undefined on input line 158.
+
+
+LaTeX Warning: Citation 'Deutsch2015' on page 9 undefined on input line 160.
+
+
+LaTeX Warning: Citation 'IPCC2014' on page 9 undefined on input line 160.
 
 [9] [10]
-<figures/Exa18.pdf, id=235, 255.95625pt x 282.05376pt>
+<figures/Exa18.pdf, id=239, 255.95625pt x 282.05376pt>
 File: figures/Exa18.pdf Graphic file (type pdf)
 <use figures/Exa18.pdf>
-Package pdftex.def Info: figures/Exa18.pdf  used on input line 164.
+Package pdftex.def Info: figures/Exa18.pdf  used on input line 166.
 (pdftex.def)             Requested size: 426.79135pt x 470.33948pt.
 
-LaTeX Warning: Citation 'IPCC2014' on page 11 undefined on input line 171.
+LaTeX Warning: Citation 'IPCC2014' on page 11 undefined on input line 173.
 
 [11 <./figures/Exa18.pdf>]
 
-LaTeX Warning: Citation 'Marshall2018' on page 12 undefined on input line 178.
+LaTeX Warning: Citation 'Marshall2018' on page 12 undefined on input line 180.
 
 
-LaTeX Warning: Citation 'Saba2014' on page 12 undefined on input line 180.
+LaTeX Warning: Citation 'Saba2014' on page 12 undefined on input line 182.
 
-<figures/Krill.pdf, id=248, 416.55624pt x 324.21124pt>
+<figures/Krill.pdf, id=252, 416.55624pt x 324.21124pt>
 File: figures/Krill.pdf Graphic file (type pdf)
 <use figures/Krill.pdf>
-Package pdftex.def Info: figures/Krill.pdf  used on input line 184.
+Package pdftex.def Info: figures/Krill.pdf  used on input line 186.
 (pdftex.def)             Requested size: 298.75264pt x 232.5365pt.
 [12] [13 <./figures/Krill.pdf>]
 
-LaTeX Warning: Citation 'Arcos2004' on page 14 undefined on input line 195.
-
-
-LaTeX Warning: Citation 'Arcos2004' on page 14 undefined on input line 195.
+LaTeX Warning: Citation 'Arcos2004' on page 14 undefined on input line 197.
 
 
 LaTeX Warning: Citation 'Arcos2004' on page 14 undefined on input line 197.
 
-<figures/Exa11.pdf, id=262, 301.125pt x 393.47pt>
+
+LaTeX Warning: Citation 'Arcos2004' on page 14 undefined on input line 199.
+
+<figures/Exa11.pdf, id=266, 301.125pt x 393.47pt>
 File: figures/Exa11.pdf Graphic file (type pdf)
 <use figures/Exa11.pdf>
-Package pdftex.def Info: figures/Exa11.pdf  used on input line 201.
+Package pdftex.def Info: figures/Exa11.pdf  used on input line 203.
 (pdftex.def)             Requested size: 192.06227pt x 269.72343pt.
-<figures/Exa12.pdf, id=263, 298.11375pt x 411.5375pt>
+<figures/Exa12.pdf, id=267, 298.11375pt x 411.5375pt>
 File: figures/Exa12.pdf Graphic file (type pdf)
 <use figures/Exa12.pdf>
-Package pdftex.def Info: figures/Exa12.pdf  used on input line 201.
+Package pdftex.def Info: figures/Exa12.pdf  used on input line 203.
 (pdftex.def)             Requested size: 192.05672pt x 269.72545pt.
 
-LaTeX Warning: Citation 'Saba2014' on page 14 undefined on input line 208.
+LaTeX Warning: Citation 'Saba2014' on page 14 undefined on input line 210.
 
 
-LaTeX Warning: Citation 'Morley2020' on page 14 undefined on input line 208.
+LaTeX Warning: Citation 'Morley2020' on page 14 undefined on input line 210.
 
 
-LaTeX Warning: Citation 'Lovenduski2005' on page 14 undefined on input line 208.
+LaTeX Warning: Citation 'Lovenduski2005' on page 14 undefined on input line 210.
 
 [14]
 
-LaTeX Warning: Citation 'Parmesan2003' on page 15 undefined on input line 215.
+LaTeX Warning: Citation 'Parmesan2003' on page 15 undefined on input line 217.
 
 [15 <./figures/Exa11.pdf> <./figures/Exa12.pdf>]
 
-LaTeX Warning: Citation 'Turner2005' on page 16 undefined on input line 219.
+LaTeX Warning: Citation 'Turner2005' on page 16 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'Pinkerton2021' on page 16 undefined on input line 219.
+LaTeX Warning: Citation 'Pinkerton2021' on page 16 undefined on input line 221.
 
 
-LaTeX Warning: Citation 'Atkinson2009' on page 16 undefined on input line 221.
+LaTeX Warning: Citation 'Atkinson2009' on page 16 undefined on input line 223.
 
 
-LaTeX Warning: Citation 'Sylvester2021' on page 16 undefined on input line 221.
+LaTeX Warning: Citation 'Sylvester2021' on page 16 undefined on input line 223.
 
 [16]
 
-LaTeX Warning: Citation 'Mintenbeck2017' on page 17 undefined on input line 223.
+LaTeX Warning: Citation 'Mintenbeck2017' on page 17 undefined on input line 225.
 
 
-LaTeX Warning: Citation 'Vanderhaven2013' on page 17 undefined on input line 223.
-
-
-LaTeX Warning: Citation 'Hidalgo2011' on page 17 undefined on input line 223.
+LaTeX Warning: Citation 'Vanderhaven2013' on page 17 undefined on input line 225.
 
 [17]
 
-LaTeX Warning: Citation 'Arana2020b' on page 18 undefined on input line 234.
+LaTeX Warning: Citation 'Arana2020b' on page 18 undefined on input line 236.
 
 [18] [19] [20]
 Chapter 2.
@@ -1288,12 +1290,12 @@ Chapter 3.
 
 ] [24]
 Appendix A.
-LaTeX Font Info:    Trying to load font information for T1+fvm on input line 295.
+LaTeX Font Info:    Trying to load font information for T1+fvm on input line 297.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/bera/t1fvm.fd
 File: t1fvm.fd 2004/09/07 scalable font definitions for T1/fvm.
 )
 LaTeX Font Info:    Font shape `T1/fvm/m/n' will be
-(Font)              scaled to size 9.85492pt on input line 295.
+(Font)              scaled to size 9.85492pt on input line 297.
 Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `fvm' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
@@ -1308,28 +1310,28 @@ Appendix B.
 
 ] [29] [30] [31] (./thesisDOCAS.aux)
 Package rerunfilecheck Info: File `thesisDOCAS.out' has not changed.
-(rerunfilecheck)             Checksum: 0B3A1F43DDA3DAFC03A8D654F75A0C81;2565.
+(rerunfilecheck)             Checksum: 8152EA2267093E200EAE034C7290291B;2915.
 Package logreq Info: Writing requests to 'thesisDOCAS.run.xml'.
 \openout1 = `thesisDOCAS.run.xml'.
 
  )
 (\end occurred inside a group at level 1)
 
-### semi simple group (level 1) entered at line 102 (\begingroup)
+### semi simple group (level 1) entered at line 103 (\begingroup)
 ### bottom level 
 Here is how much of TeX's memory you used:
- 23349 strings out of 478033
- 413860 string characters out of 5838240
+ 23374 strings out of 478033
+ 414083 string characters out of 5838240
  1860330 words of memory out of 5000000
- 42714 multiletter control sequences out of 15000+600000
- 604959 words of font info for 304 fonts, out of 8000000 for 9000
+ 42718 multiletter control sequences out of 15000+600000
+ 610948 words of font info for 318 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  78i,12n,82p,2116b,18264s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
-Output written on thesisDOCAS.pdf (41 pages, 1026183 bytes).
+{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/base/8r.enc}</Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/mathpazo/fplmbi.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/mathpazo/fplmri.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvmr8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsb8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsbo8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/bera/fvsr8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplb8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplbi8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplr8a.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/urw/palatino/uplri8a.pfb>
+Output written on thesisDOCAS.pdf (41 pages, 1030486 bytes).
 PDF statistics:
- 480 PDF objects out of 1000 (max. 8388607)
- 388 compressed objects within 4 object streams
+ 489 PDF objects out of 1000 (max. 8388607)
+ 395 compressed objects within 4 object streams
  101 named destinations out of 1000 (max. 500000)
- 79532 words of extra memory for PDF output out of 89155 (max. 10000000)
+ 83628 words of extra memory for PDF output out of 89155 (max. 10000000)
 

@@ -13,6 +13,7 @@
 %% FONT
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
+\usepackage{fancyhdr}
 \RequirePackage{bera}
 \RequirePackage{mathpazo}
 
@@ -99,7 +100,7 @@
 
 %% SPACING
 \RequirePackage{setspace}
-\spacing{1.5}
+\spacing{1.0}
 
 %% LINE AND PAGE BREAKING
 \sloppy
@@ -185,6 +186,11 @@
 \def\titlepage{{\sf
     \thispagestyle{empty}%
     \null\vskip1cm%
+     \begin{center}
+     \vfill\vfill
+
+        \ifx\logo\empty\else\includegraphics[width=5cm]{\logo}\fi
+    \end{center}
     \begin{center}
         \Huge\textbf{\expandafter{\@title}}
     \end{center}
@@ -197,10 +203,7 @@
     \begin{center}
         by\\[0.6cm]
         {\@author}\\[0.2cm]
-
-        \vfill\vfill
-
-        \ifx\logo\empty\else\includegraphics[width=4cm]{\logo}\fi
+            %{\@degrees}
 
         \university\\\country
     \end{center}

@@ -1,5 +1,5 @@
 bookdown::pdf_book:
-  template: sydneythesis.tex
+  template: umagthesis.tex
   csl: apa.csl
   fig_caption: yes
   fig_height: 3.8

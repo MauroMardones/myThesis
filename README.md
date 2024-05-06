@@ -38,6 +38,6 @@ The compiled thesis will be located in the folder `compiled_thesis`.
 
 For customisation, modify the yaml of `index.Rmd` and `_bookdown.yml`. Notice that you can include chapters written in tex.  
 
-to recompile a render it is necessary to delete the `thesis.RMD` file
+to recompile a render it is necessary to delete the `thesisDOCAS.RMD` file
 
 

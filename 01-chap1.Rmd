@@ -11,7 +11,7 @@ library(ggplot2)
 ```
 
 
-# INTRODUCCION {#ch:intro}
+# Ecosystems drivers on impact in krill popoluation dynamics in Southern Ocean {#ch:intro}
 
 \quad
 
@@ -128,7 +128,7 @@ Las tendencias de la temperatura son muy variables en todo el continente antárt
 
 El cambio climático está alterando rápidamente el hábitat del krill antártico *Euphausia superba*, al punto de diezmar sus poblaciones [@Kruger2021]. Esta especie constituye un factor clave de la red trófica del Océano Austral, al mismo tiempo que sostiene una pesca comercial de proporciones mundiales [@Atkinson2009]. El doble papel del cambio climático forzado y la variabilidad natural que afecta al hábitat del krill antártico y, por tanto, a la productividad de esta especie, complica la interacción de cualquier tendencia observada empirícamente y contribuyen a la incertidumbre en las proyecciones futuras para un manejo pesquero adecuado [@Sylvester2021].
 
-Las especies objetivo de las pesquerías antárticas actuales incluyen al bacalao y bacalao antártico *Dissostichus eleginoides* y *D. mawsoni*. Ambas especies son vulnerables a la sobrepesca debido al crecimiento lento, la madurez tardía y la fecundidad baja. Esta vulnerabilidad natural podría aumentar, ya que las comunidades que viven en el ecosistema antártico también se enfrentan actualmente a alteraciones de su entorno debido al cambio climático, como el aumento de la temperatura del agua y la disminución del hielo marino. Estos peces polares (Notothenioidei) están bien adaptados a las condiciones ambientales frías del Océano Austral, por lo que cualquier cambio en las condiciones del medio en que habitan, tednría drásticas consecuencias en sus niveles poblacionales [@Mintenbeck2017]. El CC no tiene un impacto uniforme alrededor de la Antártica, dado que en algunas áreas se prevén efectos negativos sobre las poblaciones de peces y la supervivencia, los hábitats e indirectamente sobre los ecosistemas [@Vanderhaven2013]. En este sentido, y de acuerdo a [@Hidalgo2011], los efectos sinérgicos de la pesca, el clima y la dinámica interna de las fluctuaciones de la población son poco entendidos debido a la complejidad de estas interacciones, más aún en una condición de cambio.
+Las especies objetivo de las pesquerías antárticas actuales incluyen al bacalao y bacalao antártico *Dissostichus eleginoides* y *D. mawsoni*. Ambas especies son vulnerables a la sobrepesca debido al crecimiento lento, la madurez tardía y la fecundidad baja. Esta vulnerabilidad natural podría aumentar, ya que las comunidades que viven en el ecosistema antártico también se enfrentan actualmente a alteraciones de su entorno debido al cambio climático, como el aumento de la temperatura del agua y la disminución del hielo marino. Estos peces polares (Notothenioidei) están bien adaptados a las condiciones ambientales frías del Océano Austral, por lo que cualquier cambio en las condiciones del medio en que habitan, tednría drásticas consecuencias en sus niveles poblacionales [@Mintenbeck2017]. El CC no tiene un impacto uniforme alrededor de la Antártica, dado que en algunas áreas se prevén efectos negativos sobre las poblaciones de peces y la supervivencia, los hábitats e indirectamente sobre los ecosistemas [@Vanderhaven2013]. En este sentido, y de acuerdo a [@Hidalgo2018], los efectos sinérgicos de la pesca, el clima y la dinámica interna de las fluctuaciones de la población son poco entendidos debido a la complejidad de estas interacciones, más aún en una condición de cambio.
 
 \pagebreak
 
