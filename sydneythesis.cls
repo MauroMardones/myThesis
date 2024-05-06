@@ -108,7 +108,7 @@
 \brokenpenalty = 10000
 \RequirePackage{microtype}
 
-%% BIBLIOGRAPHY
+%% REFERENCES
 \usepackage[style=authoryear-comp, backend=biber, natbib=true]{biblatex}
 \ExecuteBibliographyOptions{bibencoding=utf8,minnames=1,maxnames=3, maxbibnames=99,dashed=false,terseinits=true,giveninits=true,uniquename=false,uniquelist=false,doi=false, isbn=false,url=true,sortcites=false}
 
@@ -163,7 +163,7 @@
 \ifsinglesp@%
   \singlespacing%
 \else%
-  \singlespacing%
+  \doublespacing%
 \fi%
 }
 
@@ -196,14 +196,12 @@
     \vfill
     \begin{center}
         by\\[0.6cm]
-        {\LARGE\@author}\\[0.2cm]
-                {\@degrees}
+        {\@author}\\[0.2cm]
 
         \vfill\vfill
 
-        \ifx\logo\empty\else\includegraphics[width=3cm]{\logo}\fi
+        \ifx\logo\empty\else\includegraphics[width=4cm]{\logo}\fi
 
-        \department\\
         \university\\\country
     \end{center}
         \begin{center}\large

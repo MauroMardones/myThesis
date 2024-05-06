@@ -4,3 +4,6 @@
 .Ruserdata
 _book/*
 _bookdown_files/*
+figures/*
+thesis_cache/*
+thesis_files/*

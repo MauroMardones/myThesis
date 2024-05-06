@@ -1,6 +1,6 @@
 ---
 title: 'Krill dynamics population and fishery along Wester Antartic Peninsula'
-degreetype: 'Doctorate' # Replace with degree completing, e.g. Bachelor of Science Honours
+degreetype: 'Doctor in Antarctic and SubAntarctic Science' # Replace with degree completing, e.g. Bachelor of Science Honours
 author: 'Mauricio Mardones'
 degrees: 'B.Sc. (Hons), Universidad de Concepción' # leave this empty if no undergraduate degree is completed
 keywords: 'Fisheries, population dynamics, Stock assessment, climate change'
