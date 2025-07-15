@@ -1,4 +1,4 @@
-# Discussion
+# Discussion {#chap6}
 
 \begin{flushright}
 \textit{Este texto estará alineado a la derecha en itálico}
@@ -26,3 +26,7 @@ Nulla malesuada, diam sed finibus sodales, eros justo condimentum elit, nec tinc
 knitr::include_graphics(c("figures/Exa11.pdf","figures/Exa12.pdf"))
 ```
 
+## Conclusion
+
+
+blablabla

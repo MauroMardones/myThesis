@@ -1,9 +1,9 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2025.7.14)  15 JUL 2025 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2025.7.14)  15 JUL 2025 15:14
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
-**DOCAS_Tesis_MMardones.tex
-(./DOCAS_Tesis_MMardones.tex
+**Doc_Tesis_Mardones.tex
+(./Doc_Tesis_Mardones.tex
 LaTeX2e <2022-11-01> patch level 1
 L3 programming layer <2023-01-16> (./templates/ut-thesis.cls
 Document Class: templates/ut-thesis 2012/06/01 v2.0 graduate theses at the University of Magallanes
@@ -469,7 +469,9 @@ LaTeX Info: Redefining \lslig on input line 900.
 Package microtype Info: Loading configuration file microtype.cfg.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/microtype/microtype.cfg
 File: microtype.cfg 2022/06/23 v3.0f microtype main configuration file (RS)
-))
+)) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
 \cslhangindent=\skip104
 \csllabelwidth=\skip105
 \cslentryspacingunit=\skip106
@@ -530,7 +532,7 @@ Package: tocbasic 2022/10/12 v3.38 KOMA-Script package (handling toc-files)
 \scr@dte@tocline@numbox=\box65
 )
 Package tocbasic Info: omitting babel extension for `atoc'
-(tocbasic)             because of missing \bbl@set@language on input line 136.
+(tocbasic)             because of missing \bbl@set@language on input line 137.
 \mylen=\skip110
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/multirow/multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
@@ -554,9 +556,6 @@ Package: colortbl 2022/06/20 v1.0f Color table columns (DPC)
 Package: pdflscape 2022-10-27 v0.13 Display of landscape pages in PDF
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/pdflscape/pdflscape-nometadata.sty
 Package: pdflscape-nometadata 2022-10-28 v0.13 Display of landscape pages in PDF (HO)
-(/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/graphics/lscape.sty
-Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
-)
 Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
 )) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/tabu/tabu.sty
 Package: tabu 2019/01/11 v2.9 - flexible LaTeX tabulars (FC+tabu-fixed)
@@ -706,38 +705,38 @@ Package: hhline 2020/01/04 v2.04 Table rule package (DPC)
 )
 \Oldarrayrulewidth=\skip119
 \Oldtabcolsep=\skip120
-LaTeX Font Info:    Trying to load font information for T1+lmr on input line 246.
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 247.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmr.fd
 File: t1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2023-01-16 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count343
 \l__pdf_internal_box=\box121
-) (./DOCAS_Tesis_MMardones.aux
+) (./Doc_Tesis_Mardones.aux
 
 LaTeX Warning: Label `tab:env' multiply defined.
 
 )
-\openout1 = `DOCAS_Tesis_MMardones.aux'.
+\openout1 = `Doc_Tesis_Mardones.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 246.
-LaTeX Font Info:    ... okay on input line 246.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 247.
+LaTeX Font Info:    ... okay on input line 247.
 *geometry* driver: auto-detecting
 *geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
@@ -778,17 +777,17 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 48
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-Package hyperref Info: Link coloring ON on input line 246.
-(./DOCAS_Tesis_MMardones.out) (./DOCAS_Tesis_MMardones.out)
+Package hyperref Info: Link coloring ON on input line 247.
+(./Doc_Tesis_Mardones.out) (./Doc_Tesis_Mardones.out)
 \@outlinefile=\write4
-\openout4 = `DOCAS_Tesis_MMardones.out'.
+\openout4 = `Doc_Tesis_Mardones.out'.
 
-LaTeX Info: Redefining \microtypecontext on input line 246.
-Package microtype Info: Applying patch `item' on input line 246.
-Package microtype Info: Applying patch `toc' on input line 246.
-Package microtype Info: Applying patch `eqnum' on input line 246.
+LaTeX Info: Redefining \microtypecontext on input line 247.
+Package microtype Info: Applying patch `item' on input line 247.
+Package microtype Info: Applying patch `toc' on input line 247.
+Package microtype Info: Applying patch `eqnum' on input line 247.
 
-Package microtype Warning: Unable to apply patch `footnote' on input line 246.
+Package microtype Warning: Unable to apply patch `footnote' on input line 247.
 
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
@@ -796,26 +795,26 @@ Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 246.
+LaTeX Info: Redefining \showhyphens on input line 247.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-cmr.cfg
 File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (RS)
 )
-Package scrwfile Info: Using immediate redefinition of `\@starttoc' on input line 246.
-Package scrwfile Info: Extending `\@starttoc`  on input line 246.
+Package scrwfile Info: Using immediate redefinition of `\@starttoc' on input line 247.
+Package scrwfile Info: Extending `\@starttoc`  on input line 247.
 <figures/logoUMAG.jpg, id=111, 224.84pt x 225.84375pt>
 File: figures/logoUMAG.jpg Graphic file (type jpg)
 <use figures/logoUMAG.jpg>
-Package pdftex.def Info: figures/logoUMAG.jpg  used on input line 253.
+Package pdftex.def Info: figures/logoUMAG.jpg  used on input line 254.
 (pdftex.def)             Requested size: 113.81102pt x 114.3207pt.
 Package microtype Info: Character `029' is missing
 (microtype)             in font `T1/lmr/m/sc/12'.
 (microtype)             Ignoring protrusion settings for this character.
 
 LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
-(Font)              using `T1/lmr/m/scsl' instead on input line 253.
+(Font)              using `T1/lmr/m/scsl' instead on input line 254.
 
 [1
 
@@ -831,7 +830,7 @@ Underfull \vbox (badness 10000) has occurred while \output is active []
 ] [7] [8
 
 
-] (./DOCAS_Tesis_MMardones.toc
+] (./Doc_Tesis_Mardones.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
@@ -869,7 +868,7 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) [9] (./DOCAS_Tesis_MMardones.lof) [10] (./DOCAS_Tesis_MMardones.lot) [11] [1
+)) [9] (./Doc_Tesis_Mardones.lof) [10] (./Doc_Tesis_Mardones.lot) [11] [1
 
 
 ]
@@ -877,196 +876,209 @@ Chapter 1.
 [2
 
 ] [3] [4]
-Chapter 2.
+<figures/Esquema2.png, id=253, 908.193pt x 477.639pt>
+File: figures/Esquema2.png Graphic file (type png)
+<use figures/Esquema2.png>
+Package pdftex.def Info: figures/Esquema2.png  used on input line 420.
+(pdftex.def)             Requested size: 650.43001pt x 342.07048pt.
 [5
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.424 \end{landscape}
+                      <./figures/Esquema2.png>]
+Chapter 2.
+[6
+
+
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 432.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 442.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [6]
-<figures/Exa.png, id=324, 1211.02437pt x 596.72937pt>
+) [7]
+<figures/Exa.png, id=333, 1211.02437pt x 596.72937pt>
 File: figures/Exa.png Graphic file (type png)
 <use figures/Exa.png>
-Package pdftex.def Info: figures/Exa.png  used on input line 453.
+Package pdftex.def Info: figures/Exa.png  used on input line 463.
 (pdftex.def)             Requested size: 451.68752pt x 222.57104pt.
-[7
+[8
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.462 R
+l.472 R
        ijnsdorp et al. (\protect\hyperlink{ref-Rijnsdorp2009}{2009}) indicat... <./figures/Exa.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[8]
-<figures/Exa17.pdf, id=342, 239.89626pt x 427.5975pt>
+[9]
+<figures/Exa17.pdf, id=350, 239.89626pt x 427.5975pt>
 File: figures/Exa17.pdf Graphic file (type pdf)
 <use figures/Exa17.pdf>
-Package pdftex.def Info: figures/Exa17.pdf  used on input line 468.
+Package pdftex.def Info: figures/Exa17.pdf  used on input line 478.
 (pdftex.def)             Requested size: 225.84375pt x 402.55501pt.
 
 Underfull \vbox (badness 8189) has occurred while \output is active []
 
-[9
+[10
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.480 
+l.490 
        <./figures/Exa17.pdf>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[10] [11]
-<figures/Exa18.pdf, id=395, 255.95625pt x 282.05376pt>
+[11] [12]
+<figures/Exa18.pdf, id=403, 255.95625pt x 282.05376pt>
 File: figures/Exa18.pdf Graphic file (type pdf)
 <use figures/Exa18.pdf>
-Package pdftex.def Info: figures/Exa18.pdf  used on input line 502.
+Package pdftex.def Info: figures/Exa18.pdf  used on input line 512.
 (pdftex.def)             Requested size: 451.68752pt x 497.77612pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[12
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.516 
+l.526 
        <./figures/Exa18.pdf>]
-<figures/Krill.pdf, id=411, 416.55624pt x 324.21124pt>
+<figures/Krill.pdf, id=419, 416.55624pt x 324.21124pt>
 File: figures/Krill.pdf Graphic file (type pdf)
 <use figures/Krill.pdf>
-Package pdftex.def Info: figures/Krill.pdf  used on input line 521.
+Package pdftex.def Info: figures/Krill.pdf  used on input line 531.
 (pdftex.def)             Requested size: 316.17987pt x 246.09639pt.
-[13
+[14
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.529 
+l.539 
        <./figures/Krill.pdf>]
-<figures/Exa11.pdf, id=423, 301.125pt x 393.47pt>
+<figures/Exa11.pdf, id=432, 301.125pt x 393.47pt>
 File: figures/Exa11.pdf Graphic file (type pdf)
 <use figures/Exa11.pdf>
-Package pdftex.def Info: figures/Exa11.pdf  used on input line 538.
+Package pdftex.def Info: figures/Exa11.pdf  used on input line 548.
 (pdftex.def)             Requested size: 203.26437pt x 260.1653pt.
-<figures/Exa12.pdf, id=424, 298.11375pt x 411.5375pt>
+<figures/Exa12.pdf, id=433, 298.11375pt x 411.5375pt>
 File: figures/Exa12.pdf Graphic file (type pdf)
 <use figures/Exa12.pdf>
-Package pdftex.def Info: figures/Exa12.pdf  used on input line 538.
+Package pdftex.def Info: figures/Exa12.pdf  used on input line 548.
 (pdftex.def)             Requested size: 203.25598pt x 260.16797pt.
-[14] [15
+[15] [16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.557 
+l.567 
        <./figures/Exa11.pdf> <./figures/Exa12.pdf>]
-Overfull \hbox (15.50125pt too wide) in alignment at lines 579--587
+Overfull \hbox (15.50125pt too wide) in alignment at lines 589--597
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (15.50125pt too wide) in alignment at lines 587--593
+Overfull \hbox (15.50125pt too wide) in alignment at lines 597--603
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (15.50125pt too wide) in alignment at lines 593--599
+Overfull \hbox (15.50125pt too wide) in alignment at lines 603--609
  [] [] [] [] [] 
  []
 
 
-Overfull \hbox (15.50125pt too wide) in alignment at lines 599--621
+Overfull \hbox (15.50125pt too wide) in alignment at lines 609--631
  [] [] [] [] [] 
  []
 
-[16] [17]
+[17] [18]
 Chapter 3.
-[18
+[19
 
-] [19]
+] [20]
 Chapter 4.
-[20
+[21
 
-] [21]
+] [22]
 Chapter 5.
-[22
+[23
 
-] [23]
+] [24]
 Chapter 6.
-[24
+[25
 
 ]
 File: figures/Exa11.pdf Graphic file (type pdf)
 <use figures/Exa11.pdf>
-Package pdftex.def Info: figures/Exa11.pdf  used on input line 737.
+Package pdftex.def Info: figures/Exa11.pdf  used on input line 747.
 (pdftex.def)             Requested size: 203.26437pt x 260.1653pt.
 File: figures/Exa12.pdf Graphic file (type pdf)
 <use figures/Exa12.pdf>
-Package pdftex.def Info: figures/Exa12.pdf  used on input line 737.
+Package pdftex.def Info: figures/Exa12.pdf  used on input line 747.
 (pdftex.def)             Requested size: 203.25598pt x 260.16797pt.
-[25
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.750 \chapter*{References}\label{references}}
-                                              ] [26
+l.760 \chapter*{References}\label{references}}
+                                              ] [27
 
 ]
-Underfull \hbox (badness 1688) in paragraph at lines 823--825
+Underfull \hbox (badness 1688) in paragraph at lines 833--835
  []\T1/lmr/m/n/10 (+20) Lovenduski, N. S., & Gru-ber, N. (2005). Im-pact of the South-ern An-nu-lar Mode on
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 823--825
+Underfull \hbox (badness 2073) in paragraph at lines 833--835
  \T1/lmr/m/n/10 (+20) South-ern Ocean cir-cu-la-tion and bi-ol-ogy. \T1/lmr/m/it/10 (+20) Geo-phys-i-cal Re-search Let-ters\T1/lmr/m/n/10 (+20) , \T1/lmr/m/it/10 (+20) 32\T1/lmr/m/n/10 (+20) (11), 1--4.
  []
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[27]
-Overfull \hbox (31.17728pt too wide) in paragraph at lines 853--855
+[28]
+Overfull \hbox (31.17728pt too wide) in paragraph at lines 863--865
  \T1/lmr/m/n/10 (-20) ther-mal tol-er-ance in an-i-mals. \T1/lmr/m/it/10 (-20) Natur-wis-senschaften\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20) 88\T1/lmr/m/n/10 (-20) (4), 137--146. http://doi.org/[][]10.1007/s001140100216[][] 
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 865--867
+Underfull \hbox (badness 1540) in paragraph at lines 875--877
  \T1/lmr/m/n/10 (+20) South-ern Ocean Krill Growth Habi-tat. \T1/lmr/m/it/10 (+20) Fron-tiers in Ma-rine Sci-ence\T1/lmr/m/n/10 (+20) , \T1/lmr/m/it/10 (+20) 8\T1/lmr/m/n/10 (+20) (June), 1--15.
  []
 
-[28]
+[29]
 Appendix A.
-[29
+[30
 
 
 ]
 Appendix B.
-[30
+[31
 
 ]
-\openout2 = `DOCAS_Tesis_MMardones.wrt'.
+\openout2 = `Doc_Tesis_Mardones.wrt'.
 
-(./DOCAS_Tesis_MMardones.aux)
-\openout2 = `DOCAS_Tesis_MMardones.toc'.
+(./Doc_Tesis_Mardones.aux)
+\openout2 = `Doc_Tesis_Mardones.toc'.
 
-(./DOCAS_Tesis_MMardones.wrt)
-\openout2 = `DOCAS_Tesis_MMardones.lof'.
+(./Doc_Tesis_Mardones.wrt)
+\openout2 = `Doc_Tesis_Mardones.lof'.
 
-(./DOCAS_Tesis_MMardones.wrt)
-\openout2 = `DOCAS_Tesis_MMardones.lot'.
+(./Doc_Tesis_Mardones.wrt)
+\openout2 = `Doc_Tesis_Mardones.lot'.
 
-(./DOCAS_Tesis_MMardones.wrt)
+(./Doc_Tesis_Mardones.wrt)
 
 LaTeX Warning: There were multiply-defined labels.
 
-Package rerunfilecheck Info: File `DOCAS_Tesis_MMardones.out' has not changed.
+Package rerunfilecheck Info: File `Doc_Tesis_Mardones.out' has not changed.
 (rerunfilecheck)             Checksum: B311D6ACFBFABB7732880BC981C5AB55;5392.
  ) 
 Here is how much of TeX's memory you used:
- 17460 strings out of 478033
- 293070 string characters out of 5838239
+ 17470 strings out of 478033
+ 293156 string characters out of 5838239
  1864330 words of memory out of 5000000
- 36882 multiletter control sequences out of 15000+600000
+ 36889 multiletter control sequences out of 15000+600000
  581141 words of font info for 165 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,7n,92p,3438b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 94i,7n,92p,3435b,556s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
 pdfTeX warning (dest): name{ref-Walsh2020} has been referenced but does not exist, replaced by a fixed one
 
@@ -1077,10 +1089,10 @@ pdfTeX warning (dest): name{ref-Veytia2021} has been referenced but does not exi
 pdfTeX warning (dest): name{ref-Flores2012} has been referenced but does not exist, replaced by a fixed one
 
 {/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}</Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb>
-Output written on DOCAS_Tesis_MMardones.pdf (41 pages, 1140409 bytes).
+Output written on Doc_Tesis_Mardones.pdf (42 pages, 1540935 bytes).
 PDF statistics:
- 667 PDF objects out of 1000 (max. 8388607)
- 584 compressed objects within 6 object streams
- 139 named destinations out of 1000 (max. 500000)
- 39164 words of extra memory for PDF output out of 42996 (max. 10000000)
+ 675 PDF objects out of 1000 (max. 8388607)
+ 589 compressed objects within 6 object streams
+ 141 named destinations out of 1000 (max. 500000)
+ 39169 words of extra memory for PDF output out of 42996 (max. 10000000)
 

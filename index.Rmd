@@ -4,10 +4,16 @@ department: 'Antarctic and SubAntartic Sciences'
 degreetype: 'Doctorate' # Replace with degree completing, e.g. Bachelor of Science Honours
 gradyear: '2024'
 author: 'Mauricio Mardones Inostroza'
-title: 'Dynamics population and fishery of krill (*Euphausia superba*) along Wester Antarctic Peninsula'
+title: 'Population dynamics and fisheries of krill (*Euphausia superba*) along the Western Antarctic Peninsula'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 output: torontodown::thesis_pdf
+# si la quiero en word, descativo torontodown arriba
+# output: 
+#   bookdown::word_document2:
+#     toc: true
+#     number_sections: true
+#     reference_docx: custom-reference.docx # opcional si tienes una plantilla
 bibliography: [bib/ThesisDOCAS.bib]
 csl: csl/apa.csl
 link-citations: true
@@ -28,3 +34,23 @@ knitr::opts_chunk$set(
   fig.show='hold'
 )
 ```
+
+```{r message=FALSE, eval=TRUE}
+library(here)
+library(kableExtra)
+library(ggpubr)
+library(tibble)
+library(readxl)
+library(openxlsx)
+library(r4ss)
+library(readr)
+library(flextable)
+library(officer)
+library(r4ss)
+library(pdftools)
+library(magick)
+```
+
+
+
+

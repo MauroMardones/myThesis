@@ -9,3 +9,4 @@ thesis_cache/*
 thesis_files/*
 *.pdf
 _thesis/*
+*.png

@@ -1,4 +1,4 @@
-# Ecosystems drivers on krill population dynamic
+# Ecosystems drivers on krill population dynamic {#chap2}
 
 \begin{flushright}
 \textit{Este texto estará alineado a la derecha en itálico}
@@ -115,6 +115,44 @@ Temperature trends are highly variable throughout the Antarctic continent and it
 Climate change is rapidly altering Antarctic krill *Euphausia superba* habitat, to the point of decimating its populations [@Kruger2021]. This species constitutes a key factor in the Southern Ocean food web, while sustaining a commercial fishery of global proportions [@Atkinson2009]. The dual role of forced climate change and natural variability affecting Antarctic krill habitat and therefore this species' productivity complicates the interaction of any empirically observed trend and contributes to uncertainty in future projections for adequate fishery management [@Sylvester2021].
 
 Target species of current Antarctic fisheries include cod and Antarctic cod *Dissostichus eleginoides* and *D. mawsoni*. Both species are vulnerable to overfishing due to slow growth, late maturity and low fecundity. This natural vulnerability could increase, as communities living in the Antarctic ecosystem also currently face alterations to their environment due to climate change, such as increased water temperature and decreased sea ice. These polar fish (Notothenioidei) are well adapted to cold environmental conditions of the Southern Ocean, so any change in their habitat conditions would have drastic consequences on their population levels [@Mintenbeck2017]. CC does not have uniform impact around Antarctica, since negative effects on fish populations and survival, habitats and indirectly on ecosystems are predicted in some areas [@Vanderhaven2013]. In this sense, and according to [@Hidalgo2011], synergistic effects of fishing, climate and internal dynamics of population fluctuations are poorly understood due to the complexity of these interactions, even more so in a changing condition.
+
+## Environmental variable modelling
+
+To identify the most influential environmental drivers of krill recruitment to be considered in stock evaluation processes, we examined the relationship between a recruitment index and three key environmental variables described previously as critical in shaping krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a concentration (Chla) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) summarizes the key characteristics of the environmental datasets used in the analysis, including sea ice, sea surface temperature (SST), and chlorophyll a. These variables were obtained from different satellite platforms and reanalysis products, namely Nimbus-7, ERA5, and Copernicus. The table details spatial and temporal resolution, as well as the temporal coverage of each dataset.
+
+```{r env, eval=TRUE}
+env_features <- data.frame(
+  Feature = c("Sea Ice", "SST", "Chlorophyll a"),
+  Platform = c("Nimbus-7", "ERA5", "E.U. Copernicus Marine Service"),
+  Spatial_Resolution = c("25 × 25 km", "0.25º × 0.25º", "0.25º × 0.25º"),
+  Temporal_Resolution = c("Daily", "Monthly", "Daily-Monthly"),
+  Time_Range = c("1978 - Present", "1991 - Present", "2000 - Present"),
+  stringsAsFactors = FALSE
+)
+
+#to word
+ft_env <- flextable(env_features) |>
+  set_header_labels(
+    Feature = "Feature",
+    Platform = "Platform",
+    Spatial_Resolution = "Spatial Resolution",
+    Temporal_Resolution = "Temporal Resolution",
+    Time_Range = "Time Range"
+  ) |>
+  set_caption("Summary of environmental variables used in correlation analysis") |>
+  add_footer_lines("doi.org/10.48670/moi-00021; doi.org/10.48670/moi-00148") |>
+  color(part = "header", color = "black") |>
+  theme_booktabs() |>
+  fontsize(size = 10) 
+
+ft_1 <- autofit(ft_env)
+ft_2 <- set_table_properties(ft_1, width = .5, layout = "autofit")
+ft_2
+```
+
+
+
+
 
 \newpage
 
