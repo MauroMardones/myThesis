@@ -1,11 +1,11 @@
 University of Magallanes Thesis Rmarkdown Template
 ========================
 
-This repository provides a template for a University of Sydney Honour/Master/PhD thesis using Rmarkdown with the `bookdown` R-package. This template is largely adapted from [Rob Hyndman's Monash PhD Thesis Rmarkdown Template](https://github.com/robjhyndman/MonashThesis). It is modified to prepared Thesis of Mauricio Mardones in Antarctic andSubAntarctic Sciene doctoral Program in University of Magallanes.
+This repository provides a template for a University of Sydney Honour/Master/PhD thesis using Rmarkdown with the `bookdown` R-package. This template is largely adapted from [unofficial University of Toronto R Markdown thesis template](https://www.sgs.utoronto.ca/academic-progress/program-completion/formatting/) developed and maintained by Francois Pitt. It is modified to prepared Thesis of Mauricio Mardones in Antarctic andSubAntarctic Sciene doctoral Program in University of Magallanes.
 
-## Difference to Monash Thesis
+## Difference to Toronto Thesis
 
-At this present moment (2024/04/1), the difference is minor. The major difference lies in the ability to customise the School/Department, University, Country, logo and some metadata of the pdf (subject and keyowrds) from the YAML of `index.Rmd`. and addingdirector and codirectors
+At this present moment, the difference is minor. The major difference lies in the ability to customise the School/Department, University, Country, logo and some metadata of the pdf (subject and keyowrds) from the YAML of `index.Rmd`. and addingdirector and codirectors
 
 ## Requirements
 
@@ -39,5 +39,4 @@ The compiled thesis will be located in the folder `compiled_thesis`.
 For customisation, modify the yaml of `index.Rmd` and `_bookdown.yml`. Notice that you can include chapters written in tex.  
 
 to recompile a render it is necessary to delete the `thesisDOCAS.RMD` file
-
 
