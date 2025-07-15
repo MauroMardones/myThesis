@@ -7,3 +7,4 @@ _bookdown_files/*
 figures/*
 thesis_cache/*
 thesis_files/*
+*.pdf

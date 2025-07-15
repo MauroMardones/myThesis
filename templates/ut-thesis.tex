@@ -262,14 +262,17 @@ $endfor$
 %% However, if your document is two-sided and you want the abstract
 %% _not_ to appear on the back of the title page, then uncomment the
 %% following line.
-\clearemptydoublepage
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
 
 %% This generates the abstract page, with the line spacing adjusted
 %% according to SGS guidelines.
 \begin{declaration}
 \addcontentsline{toc}{chapter}{Declaration}
 $declaration$ % Added by MTW
-This is to declarate that the intellectual content of this thesis is the product of my own work and that all the assistance received in preparing this thesis and sources have been acknowledged. 
+This is to declarate that the intellectual content of this thesis is the product of my own work and that all the assistance received in preparing this thesis and sources have been acknowledged.
 \end{declaration}
 
 %% This generates an "acknowledgements" section, if needed
@@ -286,7 +289,7 @@ $acknowledgements$ % Added by MTW
 \begin{dedication}
 \addcontentsline{toc}{chapter}{Dedication} % Added by MTW
 $dedication$ % Added by MTW
-\vspace*{10\baselineskip}
+\vspace*{28\baselineskip}
 \begin{flushright}
 \textit{"To María José... always!"}
 \end{flushright}
@@ -324,7 +327,10 @@ $abstract$ % Added by MTW
 %% for example, as follows (adjust as desired).
 %\vspace{.5in}  % vertical space between dedication and acknowledgements
 
-
+\clearpage
+\thispagestyle{empty}
+\mbox{}
+\newpage
 
 
 %% Table of Contents

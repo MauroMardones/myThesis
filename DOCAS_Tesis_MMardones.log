@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2025.7.14)  15 JUL 2025 09:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2025.7.14)  15 JUL 2025 11:34
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -801,7 +801,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 Package scrwfile Info: Using immediate redefinition of `\@starttoc' on input line 246.
 Package scrwfile Info: Extending `\@starttoc`  on input line 246.
-<figures/logoUMAG.jpg, id=135, 224.84pt x 225.84375pt>
+<figures/logoUMAG.jpg, id=143, 224.84pt x 225.84375pt>
 File: figures/logoUMAG.jpg Graphic file (type jpg)
 <use figures/logoUMAG.jpg>
 Package pdftex.def Info: figures/logoUMAG.jpg  used on input line 253.
@@ -817,9 +817,12 @@ LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
 
 {/Users/mauriciomardones/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/logoUMAG.jpg>] [2
 
-] [3
+] [3] [4
 
-] [4] [5
+] [5] [6
+
+] [7
+
 
 ] (./DOCAS_Tesis_MMardones.toc
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1.
@@ -859,219 +862,210 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-)) [6
-
-] (./DOCAS_Tesis_MMardones.lof) [7] (./DOCAS_Tesis_MMardones.lot) [8]
-Chapter 1.
-[1
+)) [8] (./DOCAS_Tesis_MMardones.lof) [9] (./DOCAS_Tesis_MMardones.lot) [10] [1
 
 
 ]
-Chapter 2.
+Chapter 1.
 [2
 
+] [3] [4]
+Chapter 2.
+[5
+
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 377.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 424.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [3]
-<figures/Exa.png, id=308, 1211.02437pt x 596.72937pt>
+) [6]
+<figures/Exa.png, id=339, 1211.02437pt x 596.72937pt>
 File: figures/Exa.png Graphic file (type png)
 <use figures/Exa.png>
-Package pdftex.def Info: figures/Exa.png  used on input line 400.
+Package pdftex.def Info: figures/Exa.png  used on input line 445.
 (pdftex.def)             Requested size: 451.68752pt x 222.57104pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[4]
-<figures/Exa17.pdf, id=320, 239.89626pt x 427.5975pt>
-File: figures/Exa17.pdf Graphic file (type pdf)
-<use figures/Exa17.pdf>
-Package pdftex.def Info: figures/Exa17.pdf  used on input line 413.
-(pdftex.def)             Requested size: 225.84375pt x 402.55501pt.
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[5
+[7
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.429 
-       <./figures/Exa.png>] [6
+l.454 R
+       ijnsdorp et al. (\protect\hyperlink{ref-Rijnsdorp2009}{2009}) indicat... <./figures/Exa.png>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[8]
+<figures/Exa17.pdf, id=356, 239.89626pt x 427.5975pt>
+File: figures/Exa17.pdf Graphic file (type pdf)
+<use figures/Exa17.pdf>
+Package pdftex.def Info: figures/Exa17.pdf  used on input line 460.
+(pdftex.def)             Requested size: 225.84375pt x 402.55501pt.
+
+Underfull \vbox (badness 8189) has occurred while \output is active []
+
+[9
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.438 
-       <./figures/Exa17.pdf>] [7]
-<figures/Exa18.pdf, id=375, 255.95625pt x 282.05376pt>
+l.472 
+       <./figures/Exa17.pdf>]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10] [11]
+<figures/Exa18.pdf, id=410, 255.95625pt x 282.05376pt>
 File: figures/Exa18.pdf Graphic file (type pdf)
 <use figures/Exa18.pdf>
-Package pdftex.def Info: figures/Exa18.pdf  used on input line 447.
+Package pdftex.def Info: figures/Exa18.pdf  used on input line 494.
 (pdftex.def)             Requested size: 451.68752pt x 497.77612pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[8
+[12
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.461 
+l.508 
        <./figures/Exa18.pdf>]
-<figures/Krill.pdf, id=391, 416.55624pt x 324.21124pt>
+<figures/Krill.pdf, id=426, 416.55624pt x 324.21124pt>
 File: figures/Krill.pdf Graphic file (type pdf)
 <use figures/Krill.pdf>
-Package pdftex.def Info: figures/Krill.pdf  used on input line 466.
+Package pdftex.def Info: figures/Krill.pdf  used on input line 513.
 (pdftex.def)             Requested size: 316.17987pt x 246.09639pt.
-[9
+[13
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.474 
+l.521 
        <./figures/Krill.pdf>]
-<figures/Exa11.pdf, id=403, 301.125pt x 393.47pt>
+<figures/Exa11.pdf, id=438, 301.125pt x 393.47pt>
 File: figures/Exa11.pdf Graphic file (type pdf)
 <use figures/Exa11.pdf>
-Package pdftex.def Info: figures/Exa11.pdf  used on input line 483.
+Package pdftex.def Info: figures/Exa11.pdf  used on input line 530.
 (pdftex.def)             Requested size: 203.26437pt x 260.1653pt.
-<figures/Exa12.pdf, id=404, 298.11375pt x 411.5375pt>
+<figures/Exa12.pdf, id=439, 298.11375pt x 411.5375pt>
 File: figures/Exa12.pdf Graphic file (type pdf)
 <use figures/Exa12.pdf>
-Package pdftex.def Info: figures/Exa12.pdf  used on input line 483.
+Package pdftex.def Info: figures/Exa12.pdf  used on input line 530.
 (pdftex.def)             Requested size: 203.25598pt x 260.16797pt.
-[10] [11
+[14] [15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.502 
-       <./figures/Exa11.pdf> <./figures/Exa12.pdf>]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[12] [13] [14]
+l.549 
+       <./figures/Exa11.pdf> <./figures/Exa12.pdf>] [16]
 Chapter 3.
-[15
-
-]
-Chapter 4.
-[16
-
-]
-Chapter 5.
 [17
 
-]
-Chapter 6.
-File: figures/Krill.pdf Graphic file (type pdf)
-<use figures/Krill.pdf>
-Package pdftex.def Info: figures/Krill.pdf  used on input line 546.
-(pdftex.def)             Requested size: 316.17987pt x 246.09639pt.
-[18
+] [18]
+Chapter 4.
+[19
 
-] [19
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.558 
-      ]
+] [20]
+Chapter 5.
+[21
+
+] [22]
+Chapter 6.
+[23
+
+]
 File: figures/Exa11.pdf Graphic file (type pdf)
 <use figures/Exa11.pdf>
-Package pdftex.def Info: figures/Exa11.pdf  used on input line 563.
+Package pdftex.def Info: figures/Exa11.pdf  used on input line 656.
 (pdftex.def)             Requested size: 203.26437pt x 260.1653pt.
 File: figures/Exa12.pdf Graphic file (type pdf)
 <use figures/Exa12.pdf>
-Package pdftex.def Info: figures/Exa12.pdf  used on input line 563.
+Package pdftex.def Info: figures/Exa12.pdf  used on input line 656.
 (pdftex.def)             Requested size: 203.25598pt x 260.16797pt.
-[20
-pdfTeX warning (ext4): destination with the same identifier (name{figure.6.2}) has been already used, duplicate ignored
+[24
+pdfTeX warning (ext4): destination with the same identifier (name{figure.6.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.571 
-      ] [21] [22
+l.664 \chapter*{References}\label{references}}
+                                              ] [25
 
 ]
-Underfull \hbox (badness 1688) in paragraph at lines 653--655
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[26]
+Underfull \hbox (badness 1688) in paragraph at lines 746--748
  []\T1/lmr/m/n/10 (+20) Lovenduski, N. S., & Gru-ber, N. (2005). Im-pact of the South-ern An-nu-lar Mode on
  []
 
 
-Underfull \hbox (badness 2073) in paragraph at lines 653--655
+Underfull \hbox (badness 2073) in paragraph at lines 746--748
  \T1/lmr/m/n/10 (+20) South-ern Ocean cir-cu-la-tion and bi-ol-ogy. \T1/lmr/m/it/10 (+20) Geo-phys-i-cal Re-search Let-ters\T1/lmr/m/n/10 (+20) , \T1/lmr/m/it/10 (+20) 32\T1/lmr/m/n/10 (+20) (11), 1--4.
  []
 
 
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[23]
-Overfull \hbox (31.17728pt too wide) in paragraph at lines 689--691
+Overfull \hbox (31.17728pt too wide) in paragraph at lines 782--784
  \T1/lmr/m/n/10 (-20) ther-mal tol-er-ance in an-i-mals. \T1/lmr/m/it/10 (-20) Natur-wis-senschaften\T1/lmr/m/n/10 (-20) , \T1/lmr/m/it/10 (-20) 88\T1/lmr/m/n/10 (-20) (4), 137--146. http://doi.org/[][]10.1007/s001140100216[][] 
  []
 
 
-Underfull \hbox (badness 1540) in paragraph at lines 701--703
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[27]
+Underfull \hbox (badness 1540) in paragraph at lines 794--796
  \T1/lmr/m/n/10 (+20) South-ern Ocean Krill Growth Habi-tat. \T1/lmr/m/it/10 (+20) Fron-tiers in Ma-rine Sci-ence\T1/lmr/m/n/10 (+20) , \T1/lmr/m/it/10 (+20) 8\T1/lmr/m/n/10 (+20) (June), 1--15.
  []
 
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[24] [25]
-Appendix A.
-[26
-
-
-] [27]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
 [28]
-Underfull \vbox (badness 10000) has occurred while \output is active []
+Appendix A.
+[29
 
-[29] [30]
+
+] [30]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [31]
-
-LaTeX Warning: Reference `tab:parainit1' on page 32 undefined on input line 782.
-
-
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[32]
+[32] [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
-
-[33]
-Overfull \hbox (15.50125pt too wide) in alignment at lines 803--811
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (15.50125pt too wide) in alignment at lines 811--817
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (15.50125pt too wide) in alignment at lines 817--823
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (15.50125pt too wide) in alignment at lines 823--845
- [] [] [] [] [] 
- []
 
 [34]
+
+LaTeX Warning: Reference `tab:parainit1' on page 35 undefined on input line 875.
+
+
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
 [35]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[36]
+Overfull \hbox (15.50125pt too wide) in alignment at lines 896--904
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.50125pt too wide) in alignment at lines 904--910
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.50125pt too wide) in alignment at lines 910--916
+ [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (15.50125pt too wide) in alignment at lines 916--938
+ [] [] [] [] [] 
+ []
+
+[37]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[38]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <9> on input line 887.
+(Font)              <9> on input line 980.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 887.
-[36
+(Font)              <6> on input line 980.
+[39
 pdfTeX warning (ext4): destination with the same identifier (name{table.A.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.903 \newpage
+l.996 \newpage
               ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 908.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1001.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1080,29 +1074,29 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
 
-Underfull \hbox (badness 10000) in paragraph at lines 976--977
+Underfull \hbox (badness 10000) in paragraph at lines 1069--1070
  []\T1/lmr/m/n/10 (+20) Regarding per-for-mance and sce-nario com-par-i-son, ([][]\T1/lmr/bx/n/10 (+20) Car-valho2017?[][]\T1/lmr/m/n/10 (+20) ); ([][]\T1/lmr/bx/n/10 (+20) Car-valho2021b?[][]\T1/lmr/m/n/10 (+20) );
  []
 
-[37]
+[40]
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[38]
+[41]
 
-LaTeX Warning: Reference `fig:mapachl' on page 39 undefined on input line 1020.
+LaTeX Warning: Reference `fig:mapachl' on page 42 undefined on input line 1113.
 
-[39
+[42
 pdfTeX warning (ext4): destination with the same identifier (name{table.A.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1022 \newpage
-               ] [40]
+l.1115 \newpage
+               ] [43]
 Appendix B.
-[41
+[44
 
 ]
 \openout2 = `DOCAS_Tesis_MMardones.wrt'.
@@ -1121,14 +1115,14 @@ Appendix B.
 LaTeX Warning: There were undefined references.
 
 Package rerunfilecheck Info: File `DOCAS_Tesis_MMardones.out' has not changed.
-(rerunfilecheck)             Checksum: CA429CC4B876D527C2BFDEACE2E27F83;4644.
+(rerunfilecheck)             Checksum: 3D4E61D1C500541A6F8ACC1828CBA143;5897.
  ) 
 Here is how much of TeX's memory you used:
- 17776 strings out of 478033
- 297216 string characters out of 5838239
+ 17786 strings out of 478033
+ 297696 string characters out of 5838239
  1867330 words of memory out of 5000000
- 36986 multiletter control sequences out of 15000+600000
- 605769 words of font info for 226 fonts, out of 8000000 for 9000
+ 36989 multiletter control sequences out of 15000+600000
+ 605704 words of font info for 225 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
  94i,12n,92p,5815b,521s stack positions out of 10000i,1000n,20000p,200000b,200000s
 
@@ -1365,14 +1359,11 @@ pdfTeX warning (dest): name{ref-McBride2021} has been referenced but does not ex
 
 pdfTeX warning (dest): name{ref-Atkinson2019a} has been referenced but does not exist, replaced by a fixed one
 
-
-pdfTeX warning (dest): name{ref-smith} has been referenced but does not exist, replaced by a fixed one
-
 {/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on DOCAS_Tesis_MMardones.pdf (49 pages, 1281630 bytes).
+Output written on DOCAS_Tesis_MMardones.pdf (54 pages, 1299320 bytes).
 PDF statistics:
- 1038 PDF objects out of 1200 (max. 8388607)
- 925 compressed objects within 10 object streams
- 246 named destinations out of 1000 (max. 500000)
- 52012 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 1059 PDF objects out of 1200 (max. 8388607)
+ 941 compressed objects within 10 object streams
+ 255 named destinations out of 1000 (max. 500000)
+ 52028 words of extra memory for PDF output out of 61914 (max. 10000000)
 

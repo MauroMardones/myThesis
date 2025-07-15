@@ -1,9 +1,9 @@
 # Ecosystems drivers on krill population dynamic
 
-
 \begin{flushright}
-"Este texto estará alineado a la derecha"
+\textit{Este texto estará alineado a la derecha en itálico}
 \end{flushright}
+\vfill
 
 
 In recent decades, evidence of changes in climatic and oceanographic variables has been demonstrated with profuse scientific evidence which has been well compiled by the Intergovernmental Panel on Climate Change (IPCC) [@IPCC2014]. The impact of these changes has resulted in perturbations in structure and functioning of ecosystems and have been associated with anthropogenic action [@Marshall2018] [@Worm2012] and related to global Climate Change (CC) [@Bryndum-Buchholz2019; @Rijnsdorp2009] [@Arana2020b; @Arcos2004; @Worm2012].
@@ -33,13 +33,13 @@ Temperature regulates the rate of aerobic metabolism through energy consumption 
 
 With respect to temperature and its future variations, [@Bryndum-Buchholz2019] made predictions through fish biomass simulations in different oceans through ensemble models, and different results were identified facing the same environmental variable, which in this case was Sea Surface Temperature (SST) variability  (Figure \@ref(fig:temp)).
 
-It should be noted according to this analysis, that in the great majority of oceans, the relationship between SST increase and biomass changes were inversely proportional, except for the Southern and Arctic oceans, where temperature changes would benefit marine populations of those ecosystems. These results coincide with what was proposed by [@Koenigstein2016], who pointed to benefits in marine populations of high-latitude ecosystems due to the effect of CC and global warming.
-
 ```{r temp, out.width = "100%", fig.align='center', fig.cap="Projection of Climate Change impacts on population indicators of marine species around the world (Bryndum-Buchholz et al,. 2019)"}
 knitr::include_graphics("figures/Exa.png")
 ```
 
-[@Rijnsdorp2009] indicate that temperature has a direct effect on physiology, growth, reproduction, recruitment and behavior of poikilothermic organisms such as fish, mollusks, cephalopods and crustaceans. They also identify that temperature will have an effect on life history and ontogeny aspects of species, where different stages of an organism (eggs, larvae, juveniles, adults) can be influenced by temperature differently (Figure 2).
+It should be noted according to this analysis, that in the great majority of oceans, the relationship between SST increase and biomass changes were inversely proportional, except for the Southern and Arctic oceans, where temperature changes would benefit marine populations of those ecosystems. These results coincide with what was proposed by [@Koenigstein2016], who pointed to benefits in marine populations of high-latitude ecosystems due to the effect of CC and global warming.
+
+@Rijnsdorp2009 indicate that temperature has a direct effect on physiology, growth, reproduction, recruitment and behavior of poikilothermic organisms such as fish, mollusks, cephalopods and crustaceans. They also identify that temperature will have an effect on life history and ontogeny aspects of species, where different stages of an organism (eggs, larvae, juveniles, adults) can be influenced by temperature differently (Figure 2).
 
 \pagebreak
 
@@ -115,20 +115,6 @@ Temperature trends are highly variable throughout the Antarctic continent and it
 Climate change is rapidly altering Antarctic krill *Euphausia superba* habitat, to the point of decimating its populations [@Kruger2021]. This species constitutes a key factor in the Southern Ocean food web, while sustaining a commercial fishery of global proportions [@Atkinson2009]. The dual role of forced climate change and natural variability affecting Antarctic krill habitat and therefore this species' productivity complicates the interaction of any empirically observed trend and contributes to uncertainty in future projections for adequate fishery management [@Sylvester2021].
 
 Target species of current Antarctic fisheries include cod and Antarctic cod *Dissostichus eleginoides* and *D. mawsoni*. Both species are vulnerable to overfishing due to slow growth, late maturity and low fecundity. This natural vulnerability could increase, as communities living in the Antarctic ecosystem also currently face alterations to their environment due to climate change, such as increased water temperature and decreased sea ice. These polar fish (Notothenioidei) are well adapted to cold environmental conditions of the Southern Ocean, so any change in their habitat conditions would have drastic consequences on their population levels [@Mintenbeck2017]. CC does not have uniform impact around Antarctica, since negative effects on fish populations and survival, habitats and indirectly on ecosystems are predicted in some areas [@Vanderhaven2013]. In this sense, and according to [@Hidalgo2011], synergistic effects of fishing, climate and internal dynamics of population fluctuations are poorly understood due to the complexity of these interactions, even more so in a changing condition.
-
-\pagebreak
-
-## Discussion
-
-As stated above, there is profuse scientific evidence demonstrating that Climate Change effects on the ocean will have severe impacts and alter life in marine ecosystems. It is essential then to understand what are the main factors that directly affect structure, distribution and variables such as biomass and/or abundance of marine populations around the world, with emphasis on high-latitude regions and ecosystems such as the Southern Ocean.
-
-The Southern Ocean is an ecosystem shaped by extreme conditions to which it is exposed, and therefore, its populations have physiologically adapted to these conditions. In a scenario of global warming and variability of oceanographic conditions, it exposes these species to vulnerability to minimal changes in the analyzed drivers. According to the analysis, it should be noted that there are no general patterns, since each population and each ecosystem has particularities that would result in varied responses to the same driver. This is why scientific research has to make the effort to cover the greatest number of species, as well as each ecosystem to obtain credible responses regarding effects on marine populations. In this way, understanding of CC impacts, as well as their projections could be better understood and in turn be better prepared for the future.
-
-We must consider that the Southern Ocean and surroundings is rich and productive in marine life, including species of mollusks, crustaceans and fish of interest to the fishing industry [@Arana2020b], and currently are species prone to changes in their population dynamics, and while it is not possible to determine if these environmental changes will have effects on population variability, management of these fisheries must take into account direct impacts on the fish they capture. Specific areas of vulnerability of species and the Antarctic marine ecosystem should also be considered. A small change in climate conditions could cause population collapse in exploited species or in some other associated species in their trophic and ecological web.
-
-As noted above, krill and cod are species that inhabit the SO and constitute important fisheries exploited by a set of fleets from different countries. In this sense, it is necessary to understand and anticipate the impacts that drivers will have on these populations, and thus be precautionary and adaptive in extraction and exploitation of resources facing these new climate conditions. This may mean that quotas are reduced, or that spatial and/or temporal catch allocations are more explicit. Fortunately today there is a global effort with several international organizations and institutions that in addition to ensuring sustainability of the aforementioned fisheries, are making research efforts trying to understand CC impacts in this ocean, among them, the Scientific Committee on Antarctic Research (SCAR), the Council of Managers of National Antarctic Programs (COMNAP), International Association of Antarctic Tour Operators (IAATO) and Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR). In this context, scientific programs are being developed today that try to deal with this knowledge challenge, but analytical and conceptual tools still need to improve, since the most varied components that influence CC must be integrated. However, in aspects related to management and assessment of these populations, questions remain open and in continuous scientific development trying to project the impacts it has in an ecosystem context and fluctuating climate changes, and how this affects marine populations of the Southern Ocean.
-
-According to this review, there are direct and indirect drivers such as temperature, oxygen and oceanographic-atmospheric processes such as SAM and ENSO that have direct impacts on Southern Ocean marine populations. In this sense, changes in levels and trends of these drivers will alter functions such as spatial distribution, ecology and physiology of species that inhabit the Southern Ocean.
 
 \newpage
 

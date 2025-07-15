@@ -3,8 +3,8 @@ degree: 'Doctorate'
 department: 'Antarctic and SubAntartic Sciences'
 degreetype: 'Doctorate' # Replace with degree completing, e.g. Bachelor of Science Honours
 gradyear: '2024'
-author: 'Mauricio Mardones'
-title: 'Dynamics population and fishery of krill (*Euphausia superba*) along Wester Antartic Peninsula'
+author: 'Mauricio Mardones Inostroza'
+title: 'Dynamics population and fishery of krill (*Euphausia superba*) along Wester Antarctic Peninsula'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 output: torontodown::thesis_pdf
@@ -24,6 +24,7 @@ knitr::opts_chunk$set(
   warning = FALSE,
   error = FALSE,
   fig.align = 'center',
-  fig.pos = "!ht"
+  fig.pos = "!ht",
+  fig.show='hold'
 )
 ```

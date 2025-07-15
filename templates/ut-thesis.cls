@@ -405,8 +405,7 @@
       A thesis submitted in conformity with the requirements for the degree of \\
       {\@degree}\\
       in {\@department}\\
-      University of Magallanes\\
-      Chile\\
+      University of Magallanes, Chile\\
       \vfill
       {\@date}\\
       \vspace{.01\textheight}
@@ -425,7 +424,7 @@
    \end{center}
    \begingroup\noindent}%
   {\par\endgroup\newpage}
-  
+
 %% dedication
 \newenvironment*{dedication}%
    {\begin{center}
