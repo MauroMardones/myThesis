@@ -1,51 +1,42 @@
 # Ecosystems drivers on krill population dynamic {#chap2}
 
 \begin{flushright}
-\textit{Este texto estará alineado a la derecha en itálico}
+\textit{"The investigation of nature is an infinite pasture-ground where all may graze, and where the more bite, the longer the grass grows, the sweeter is its flavor, and the more it nourishes."}\\
+\textit{(Thomas Huxley, 1871)}
 \end{flushright}
 \vfill
 
+## Introduction
 
-In recent decades, evidence of changes in climatic and oceanographic variables has been demonstrated with profuse scientific evidence which has been well compiled by the Intergovernmental Panel on Climate Change (IPCC) [@IPCC2014]. The impact of these changes has resulted in perturbations in structure and functioning of ecosystems and have been associated with anthropogenic action [@Marshall2018] [@Worm2012] and related to global Climate Change (CC) [@Bryndum-Buchholz2019; @Rijnsdorp2009] [@Arana2020b; @Arcos2004; @Worm2012].
-
-A driver is defined as any natural or anthropogenic factor that causes direct or indirect changes in an ecosystem. A direct driver has unequivocal influence on ecosystem processes, while an indirect driver operates diffusely, by altering one or more drivers. In marine populations, direct drivers have impact on physiology and phenological aspects, and indirect drivers have impact on primary productivity or ecological interactions, spatial distribution or larval transport [@Koenigstein2016].
-
-In all oceans of the world, marine populations are evidencing the effects of CC, either by the sum and/or combination of CC drivers, and on which there exists solid scientific evidence that demonstrates the effects on responses such as physiology, ecology and observable variables such as distribution, biomass and productivity at local and global scales [@Barange2014; @Bryndum-Buchholz2019; @Perry2005; @Rijnsdorp2009]. These new external conditions are producing impacts on marine ecosystems through changes in habitats [@Bryndum-Buchholz2019; @Shoji2011; @Rijnsdorp2009; @Hidalgo2018], which has effects on population sustainability and in turn, on associated socio-ecological systems.
-
-There is multiple evidence that demonstrates and quantifies the impact of CC on different groups of marine species, whether these are mammals, fish, mollusks and diverse organisms that constitute ecological communities in different ecosystems of the planet. Some authors propose that the impacts of CC, through warming of water masses, would trigger changes in spatial distribution patterns of marine organisms making them migrate toward high latitudes [@Cheung2010a; @Kortsch2015; @Melbourne-Thomas2021]. In this sense, it is necessary to understand how these environmental drivers will impact high-latitude ecosystems such as, for example, the Southern Ocean (SO), and therefore, how marine species that inhabit there will respond. In that sense, polar regions must be analyzed in light of scientific evidence, identifying the changes that have occurred, as well as projecting the impacts of CC on these populations.
-
-The Southern Ocean that surrounds Antarctica is a critical component of the terrestrial system, and sustains a marine ecosystem of immense ecological, economic and intrinsic value. This ocean is spatially defined based on the Antarctic Circumpolar Current, which transports the most water in the entire ocean. This current formed 34 million years ago flows almost freely from west to east around the Antarctic continent, in a fluctuating band that is located approximately at 60° south latitude. At this point the water is colder and less salty than in adjacent oceans. For all these characteristics, this ocean is one of the most sensitive areas to CC. The key drivers and their influence on key processes within the SO have already experienced changes in their attributes, among them can be identified: ocean temperature, sea ice dynamics, stratification, currents, among others [@Sylvester2021; @Morley2020].
-
-In the SO inhabit species that make up the largest marine populations on the planet, among them krill *Euphausia superba* and demersal fish such as Antarctic cod *Dissostichus mawsoni* [@Atkinson2009; @Veytia2020; @Pinones2016]. These two species are essential in the Southern Ocean, given that they form structural part of the trophic and ecological web [@Pinones2016; @Atkinson2009]. On the other hand, these populations are intensively exploited by the fishing industry for more than 50 years, constituting a very important economic activity. In this sense, any impact that the different environmental drivers have on the productivity of these marine species raises multiple interests, ranging from scientific to economic.
-
-Understanding then what are and how the main drivers act and their impact on population processes of the most important species that inhabit the SO and how these species will respond to this influence is fundamental to understand and anticipate some climate scenario. The objective therefore is to identify the influence of CC through environmental drivers on the most important marine populations of the Southern Ocean.
-
-
-Any perception of a marine environment without changes is today a naive and biased statement. This view is easily contradicted by observing the dramatic evidence of changes in structure, abundance and distribution of species across the temporal scale from years, decades, centuries and millennia [@Pinsky2020]. In this sense, it is important to determine which environmental drivers are producing changes at the population level. This type of studies have been abundant in recent times given the importance of the SO and the populations that inhabit there in a context of accelerated CC.
-
-[@Morley2020] have classified the most important and most influential drivers in the SO, which are classified as physical, anthropogenic and biological drivers. Among physical drivers, global warming, atmospheric-oceanographic processes and marine currents can be identified.
-
-Regarding drivers associated with global warming that have impact on marine populations, the factors with most evidence are temperature and dissolved oxygen. These two drivers are the main responsible for controlling aerobic metabolism of ectothermic organisms such as fish and crustaceans, and are also the two environmental variables most generally influenced by anthropogenic climate change [@Duncan2020].
-
-## Temperature
-
-Temperature regulates the rate of aerobic metabolism through energy consumption for physiological processes, a process accelerated when the organism is subjected to high temperatures. In this sense, it should be noted that the ocean has warmed incessantly since 2005, showing clear well-documented trends in the 5th IPCC Assessment Report [@IPCC2014]. The warming trend is confirmed by ocean temperature measurements during the last decade. Depths of 0-700 m. and 700-2000 m. of the ocean have warmed at rates of 5.31 ± 0.48 and 4.02 ± 0.97 g° year-1 from 2005 to 2017. The long-term trend for depths of 0-700 m. and 700-2000 m. have warmed 4.35 ± 0.8 and 2.25 ± 0.64 g° year-1 between 1971-1990 and 1998-2017 respectively. It is likely that ocean warming has continued in the abyssal and deep ocean below 2000 m (southern hemisphere and southern ocean) [@Bindoff2019].
-
-With respect to temperature and its future variations, [@Bryndum-Buchholz2019] made predictions through fish biomass simulations in different oceans through ensemble models, and different results were identified facing the same environmental variable, which in this case was Sea Surface Temperature (SST) variability  (Figure \@ref(fig:temp)).
+In recent decades, evidence of changes in climatic and oceanographic drivers has been demonstrated with profuse scientific evidence which has been well compiled by the Intergovernmental Panel on Climate Change (IPCC) [@IPCC2014]. The impact of these changes has resulted in perturbations in structure and functioning of ecosystems and have been associated with anthropogenic action [@Marshall2018] [@Worm2012] and related to global Climate Change (CC)  (Figure \@ref(fig:temp)) [@Bryndum-Buchholz2019; @Rijnsdorp2009] [@Arana2020b; @Arcos2004; @Worm2012]. A driver is defined as any natural or anthropogenic factor that causes direct or indirect changes in an ecosystem. A direct driver has unequivocal influence on ecosystem processes, while an indirect driver operates diffusely, by altering one or more drivers. In marine populations, direct drivers have impact on physiology and phenological aspects, and indirect drivers have impact on primary productivity or ecological interactions, spatial distribution or larval transport [@Koenigstein2016]. In all oceans of the world, marine populations are evidencing the effects of CC, either by the sum and/or combination of environmental changing drivers, and on which there exists solid scientific evidence that demonstrates the effects on responses such as physiology, ecology and observable variables such as distribution, biomass and productivity at local and global scales [@Barange2014; @Bryndum-Buchholz2019; @Perry2005; @Rijnsdorp2009]. These new external conditions are producing impacts on marine ecosystems through changes in habitats [@Bryndum-Buchholz2019; @Shoji2011; @Rijnsdorp2009; @Hidalgo2018], which has effects on population sustainability.
 
 ```{r temp, out.width = "100%", fig.align='center', fig.cap="Projection of Climate Change impacts on population indicators of marine species around the world (Bryndum-Buchholz et al,. 2019)"}
 knitr::include_graphics("figures/Exa.png")
 ```
 
+There is multiple evidence that demonstrates and quantifies the impact of several drivers on different groups of marine species, whether these are mammals, fish, mollusks and diverse organisms that constitute ecological communities in different ecosystems of the planet. Some authors propose that the impacts of CC, through warming of water masses, would trigger changes in spatial distribution patterns of marine organisms making them migrate toward high latitudes [@Cheung2010a; @Kortsch2015; @Melbourne-Thomas2021]. In this sense, it is necessary to understand how these changes in environmental drivers will impact high-latitude ecosystems such as, and therefore, how marine species that inhabit there will respond. In that sense, polar regions must be analyzed in light of scientific evidence, identifying the changes that have occurred, as well as projecting the impacts of environmental drivers on these populations.
+
+
+The Southern Ocean (SO) that surrounds Antarctica is a critical component of the marine and terrestrial system, and sustains a marine ecosystem of immense ecological, economic and intrinsic value. This ocean is spatially defined based on the Antarctic Circumpolar Current, which transports the most water in the entire ocean. This current formed 34 million years ago flows almost freely from west to east around the Antarctic continent, in a fluctuating band that is located approximately at 60° south latitude. At this point the water is colder and less salty than in adjacent oceans. For all these characteristics, this ocean is one of the most sensitive areas to CC. The key drivers and their influence on key processes within the SO have already experienced changes in their attributes, among them can be identified: ocean temperature, sea ice dynamics, stratification, currents, among others [@Sylvester2021; @Morley2020]. In the SO inhabit species that make up the largest marine populations on the planet, among them krill *Euphausia superba* [@Atkinson2009; @Veytia2020; @Pinones2016]. This specie are essential in the SO, given that they form structural part of the trophic and ecological web [@Pinones2016; @Atkinson2009]. On the other hand, are intensively harvested by the fishing industry for more than 50 years, constituting a very important economic activity. In this sense, any impact that the different environmental drivers have on the productivity of these marine species raises multiple interests, ranging from scientific to economic.
+
+Understanding then what are and how the main drivers act and their impact on krill population processes of the most important species that inhabit the SO and how these species will respond to this influence is fundamental to understand and anticipate some climate scenario. The objective therefore is to identify the influence of CC through environmental drivers on the most important marine populations of the Southern Ocean.
+
+
+Any perception of a marine environment without changes is today a naive and biased statement. This view is easily contradicted by observing the dramatic evidence of changes in structure, abundance and distribution of species across the temporal scale from years, decades, centuries and millennia [@Pinsky2020]. In this sense, it is important to determine which environmental drivers are producing changes at the population level. This type of studies have been abundant in recent times given the importance of the SO and the populations that inhabit there in a context of accelerated CC.
+
+
+
+Regarding drivers associated with global warming that have impact on marine populations, the factors with most evidence are temperature and dissolved oxygen. These two drivers are the main responsible for controlling aerobic metabolism of ectothermic organisms such as fish and crustaceans, and are also the two environmental variables most generally influenced by anthropogenic climate change [@Duncan2020].
+
+Temperature regulates the rate of aerobic metabolism through energy consumption for physiological processes, a process accelerated when the organism is subjected to high temperatures. In this sense, it should be noted that the ocean has warmed incessantly since 2005, showing clear well-documented trends in the 5th IPCC Assessment Report [@IPCC2014]. The warming trend is confirmed by ocean temperature measurements during the last decade. Depths of 0-700 m. and 700-2000 m. of the ocean have warmed at rates of 5.31 ± 0.48 and 4.02 ± 0.97 g° year-1 from 2005 to 2017. The long-term trend for depths of 0-700 m. and 700-2000 m. have warmed 4.35 ± 0.8 and 2.25 ± 0.64 g° year-1 between 1971-1990 and 1998-2017 respectively. It is likely that ocean warming has continued in the abyssal and deep ocean below 2000 m (southern hemisphere and southern ocean) [@Bindoff2019].
+
+With respect to temperature and its future variations, [@Bryndum-Buchholz2019] made predictions through fish biomass simulations in different oceans through ensemble models, and different results were identified facing the same environmental variable, which in this case was Sea Surface Temperature (SST) variability.
+
+
 It should be noted according to this analysis, that in the great majority of oceans, the relationship between SST increase and biomass changes were inversely proportional, except for the Southern and Arctic oceans, where temperature changes would benefit marine populations of those ecosystems. These results coincide with what was proposed by [@Koenigstein2016], who pointed to benefits in marine populations of high-latitude ecosystems due to the effect of CC and global warming.
 
 @Rijnsdorp2009 indicate that temperature has a direct effect on physiology, growth, reproduction, recruitment and behavior of poikilothermic organisms such as fish, mollusks, cephalopods and crustaceans. They also identify that temperature will have an effect on life history and ontogeny aspects of species, where different stages of an organism (eggs, larvae, juveniles, adults) can be influenced by temperature differently (Figure 2).
 
-\pagebreak
-
-```{r , out.width = "50%", fig.align='center', fig.cap="Conceptual diagram of changes in optimal habitats (based on water temperature) with (a) species and/or population latitude and (b) by life stage. Arrow (a) denotes a range of tolerable temperatures measured for adults during maturation and spawning. (Rijnsdorp et al., 2009)"}
-knitr::include_graphics("figures/Exa17.pdf")
-```
 
 According to these results also, it is possible to identify a very narrow temperature tolerance range (thermal niche) at high and low latitudes and with a wide tolerance range at intermediate latitudes (Figure 2).
 
@@ -55,29 +46,15 @@ Marine organisms respond to ocean temperature increase through distribution chan
 
 Local temperatures in polar marine ecosystems are increasing twice as fast as the global average [@IPCC2014], leading to a borealization of Arctic animal communities, with decreased abundance of species with polar affinity and increasing abundance of boreal species. It is expected that overall species abundance in semi-enclosed seas (i.e., the Mediterranean Sea, the Baltic Sea) and tropical oceanic basins will decrease in the future [@Cheung2013].
 
-\pagebreak
-
-## Dissolved oxygen
-
-For its part, oxygen availability poses an upper limit on aerobic metabolism, in which an organism can consume the oxygen required to fuel physiological processes. This is established through diffusion rates across a pressure gradient from the environment [@Duncan2020].
-
-It was recently demonstrated that fish body size can be reduced due to climate change, especially in response to warming, reduced oxygen and resource availability [@Cheung2013]. The IPCC projects that oceans will become warmer and less oxygenated [@IPCC2014].
+For its part, oxygen availability poses an upper limit on aerobic metabolism, in which an organism can consume the oxygen required to fuel physiological processes. This is established through diffusion rates across a pressure gradient from the environment [@Duncan2020]. It was recently demonstrated that fish body size can be reduced due to climate change, especially in response to warming, reduced oxygen and resource availability [@Cheung2013]. The IPCC projects that oceans will become warmer and less oxygenated [@IPCC2014].
 
 Climate change is decreasing oxygen concentrations in the open sea [@Isensee2016; @Deutsch2015]. The combined effects of climate change and excess nutrients (nitrogen and phosphorus from sources such as agricultural runoff and human waste) are leading to oxygen decreases in coastal marine systems and semi-enclosed seas that are heavily influenced by their watershed in a global and regional context. Models predict that oxygen content in oceans continues to decrease as atmospheric and oceanic temperatures increase and human population size increases [@Isensee2016].
 
 In this sense, impacts produced by changes in dissolved oxygen concentrations in the sea translate into important modulation in marine populations and their functioning. Recent evidence suggests that combined effects of warming and oxygen loss together limit geographic distributions of marine ectothermic organisms [@Deutsch2015; @Portner2001; @Isensee2016]. Sufficient oxygen is needed for an organism to survive, feed, defend itself, grow and reproduce. With expected warming by end of century, habitat losses will be particularly acute at equatorial limits [@Deutsch2015]. These results suggest that synergistic impacts of both oxygen and warming are likely to strongly shape future species distributions, biomass, production and ecosystem function.
 
-The limits of thermal tolerance ranges from the equator often coincide with habitats where oxygen supply is two to five times the oxygen demand established by a species' resting metabolic rate [@Deutsch2015]. On the other hand, and according to IPCC projections, oceans will have warmer waters and less dissolved oxygen [@IPCC2014], since warmer temperatures drive higher metabolic rates, which exceed oxygen availability. An example of this was identified in the Mediterranean Sea, where [@Cheung2013] used a Dynamic Bioclimate Envelope Model, which simulated changes in relative abundance and spatial distribution of marine populations in a global grid, considering ecophysiological aspects, preferences and tolerances to environmental conditions and movement of adult individuals. In this analysis it was determined that average fish weight decreased between 4% to 49% from 1970 to 2050 (Figure 3).
-
-\newpage
-
-```{r echo=FALSE, out.width = "100%", fig.align='center', fig.cap="Projection of climate conditions and expected biological responses of fish in terms of size and weight. Upper panel indicates projected dissolved oxygen concentration. Lower panel shows a schematic view of expected changes in marine communities as a function of dissolved oxygen (Cheung et al., 2013)"}
-knitr::include_graphics("figures/Exa18.pdf")
-```
+The limits of thermal tolerance ranges from the equator often coincide with habitats where oxygen supply is two to five times the oxygen demand established by a species' resting metabolic rate [@Deutsch2015]. On the other hand, and according to IPCC projections, oceans will have warmer waters and less dissolved oxygen [@IPCC2014], since warmer temperatures drive higher metabolic rates, which exceed oxygen availability. An example of this was identified in the Mediterranean Sea, where [@Cheung2013] used a Dynamic Bioclimate Envelope Model, which simulated changes in relative abundance and spatial distribution of marine populations in a global grid, considering ecophysiological aspects, preferences and tolerances to environmental conditions and movement of adult individuals. In this analysis it was determined that average fish weight decreased between 4% to 49% from 1970 to 2050.
 
 However, these studies must be analyzed in detail, since projecting future dissolved oxygen scenarios is a risky task. There is no consensus on the future volume of low-oxygen waters in the open sea due to large uncertainties about possible biogeochemical effects and the evolution of tropical ocean dynamics [@IPCC2014].
-
-## SAM/ENSO
 
 There are global drivers that affect the SO at present and will also affect in the future. Atmospheric-oceanographic drivers are those that manifest through changes produced in the atmosphere and that have implications in the sea, such as the Southern Annular Mode (SAM) and El Niño Southern Oscillation (ENSO).
 Ozone depletion directly influences the main mode of atmospheric circulation variability in the southern extratropical regions. This climate phenomenon is called the Southern Annular Mode (SAM). One way to measure SAM is through an index calculated as the pressure gradient between mid-latitudes and Antarctica, which when very positive, results in westerly winds that are stronger than average and shift poleward. Since 1957 there has been a significant increase in positive SAM phase in austral summer and autumn. The summer trend is believed to be mainly due to stratospheric polar ozone depletion. SAM variability has a significant impact on Antarctic surface temperature, precipitation and sea ice [@Marshall2018].
@@ -96,29 +73,49 @@ An abundant and well-documented literature supports the thesis that fluctuations
 
 One of the main effects of El Niño phenomenon that [@Arcos2004] work argues is that the juvenile jack mackerel population "was cornered" in the central-south sector (zone of intense fishing) due to poor water conditions in the north (warmer during El Niño). This resulted in intense exploitation of individuals less than 26 cm (juveniles), with which the commercial stock could not regenerate in subsequent years, decreasing landings and causing well-known havoc. Figure 5 represents a conceptual model of jack mackerel populations under normal ocean conditions (left) and facing El Niño conditions (right).
 
-```{r echo=FALSE, out.width="45%",out.height="40%",fig.show='hold', fig.align='center', fig.cap="Conceptual model of the impact of non-Niño (left) and Niño (right) conditions on jack mackerel populations on Chilean coasts (Arcos et al. 2004)"}
-knitr::include_graphics(c("figures/Exa11.pdf","figures/Exa12.pdf"))
-```
-
 CC has generated temporal mismatches of oceanographic-atmospheric phenomena that shape marine populations in the southern hemisphere oceans, such as ENSO and SAM [@Saba2014; @Morley2020; @Lovenduski2005]. While marine populations have tried to adapt and synchronize to these interdecadal phenomena, any other natural factor at play, such as global warming, will translate into loss of synchrony between environmental optima and biological productivity of these species, causing drastic changes at the level of physiology, distribution and productivity. [@Barange2014] identified changes in habitat use of sardine and anchovy populations in the Gulf of California and Peru, areas affected by ENSO. These species alternate synchronously in relation to their biomass, and decoupling produced by CC has generated loss of adjustment to optimal climatic conditions of their populations.
 
 While there is some alternation and connection between these two oceanographic-atmospheric phenomena, [@Ehrnsten2019] suggests that it is difficult to test the effect of multiple drivers across a long spatial gradient with empirical studies. However, despite this logistical problem, the influence of these two factors is widely demonstrated by the international scientific community.
 
-## Climate Change in Southern Ocean marine populations
+### Climate Change in Southern Ocean marine populations
 
 Changes in marine population distribution demonstrate that global warming is directing marine populations toward the poles [@Perry2005; @Parmesan2003], which puts focus on climate change impacts on high-latitude ecosystems and their community and population structures.
 
-While this type of analysis has been conducted with emphasis on oceans around the world, doubts still persist about the effect of previously described drivers on marine populations in high-latitude ecosystems, and more specifically in the Southern Ocean. These doubts have been tried to be resolved, and several studies have addressed this problem in Antarctic species and their correlation with climatic and oceanographic drivers in these types of environments.
+While this type of analysis has been conducted with emphasis on oceans around the world, doubts still persist about the effect of previously described drivers on marine populations in high-latitude ecosystems, and more specifically in the Southern Ocean. These doubts have been tried to be resolved, and several studies have addressed this problem in Antarctic species and their correlation with climatic and oceanographic drivers in these types of environments [@Morley2020].
 
 Temperature trends are highly variable throughout the Antarctic continent and its adjacent ocean, and rapid warming has occurred mainly over the Antarctic Peninsula, which stands out as a clear and consistent region of rapid changes, while conditions have been much more variable in other sectors [@Turner2005]. In some cases CC effects have an impact that has positive correlation in increasing indicators. [@Pinkerton2021] identified impacts that climate condition changes have on primary producers (phytoplankton) in the last 20 years in the Southern Ocean, identifying an increase in most primary producer biomass in the SO. This positive effect on these variables would be produced by increased nutrients derived from processes such as water column mixing, marine dust input to subsurface layers, and ice cap melting.
 
+
+### Environmental impacts in krill populations
+
 Climate change is rapidly altering Antarctic krill *Euphausia superba* habitat, to the point of decimating its populations [@Kruger2021]. This species constitutes a key factor in the Southern Ocean food web, while sustaining a commercial fishery of global proportions [@Atkinson2009]. The dual role of forced climate change and natural variability affecting Antarctic krill habitat and therefore this species' productivity complicates the interaction of any empirically observed trend and contributes to uncertainty in future projections for adequate fishery management [@Sylvester2021].
 
-Target species of current Antarctic fisheries include cod and Antarctic cod *Dissostichus eleginoides* and *D. mawsoni*. Both species are vulnerable to overfishing due to slow growth, late maturity and low fecundity. This natural vulnerability could increase, as communities living in the Antarctic ecosystem also currently face alterations to their environment due to climate change, such as increased water temperature and decreased sea ice. These polar fish (Notothenioidei) are well adapted to cold environmental conditions of the Southern Ocean, so any change in their habitat conditions would have drastic consequences on their population levels [@Mintenbeck2017]. CC does not have uniform impact around Antarctica, since negative effects on fish populations and survival, habitats and indirectly on ecosystems are predicted in some areas [@Vanderhaven2013]. In this sense, and according to [@Hidalgo2011], synergistic effects of fishing, climate and internal dynamics of population fluctuations are poorly understood due to the complexity of these interactions, even more so in a changing condition.
+Antarctic krill exhibit a complex life cycle intricately linked to the seasonal dynamics of the Southern Ocean ecosystem (Figure \@ref(fig:pinones)). Their development—from eggs and embryos sinking to the seafloor, to larval and juvenile stages ascending through the water column—coincides with critical environmental cues such as sea ice extent, chlorophyll-a availability, and ocean temperature. These factors not only influence the timing and success of key developmental stages but also define the spatial structure of krill populations. The reliance on seasonal sea ice and primary productivity highlights the species’ vulnerability to climate-driven changes in the region. As such, the close coupling between krill biology and ecosystem variability underscores the delicate balance required to sustain both krill populations and the broader food web they support [@Pinones2016].
 
-## Environmental variable modelling
+```{r pinones, out.width = "100%", fig.align='center', fig.cap="Seasonal life cycle of Antarctic krill and their vertical distribution in the water column. The diagram shows developmental stages from embryos to juveniles, aligned with seasonal changes in environmental drivers. Critical periods and the influence of Circumpolar Deep Water (CDW) are indicated"}
+knitr::include_graphics("figures/Pinones.png")
+```
 
-To identify the most influential environmental drivers of krill recruitment to be considered in stock evaluation processes, we examined the relationship between a recruitment index and three key environmental variables described previously as critical in shaping krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a concentration (Chla) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) summarizes the key characteristics of the environmental datasets used in the analysis, including sea ice, sea surface temperature (SST), and chlorophyll a. These variables were obtained from different satellite platforms and reanalysis products, namely Nimbus-7, ERA5, and Copernicus. The table details spatial and temporal resolution, as well as the temporal coverage of each dataset.
+
+This study aims to explore the relationship between environmental variables and the population dynamics of krill (*Euphausia superba*), incorporating spatial complexity and biological components such as length data from fishery monitoring. By using mixed-effects models, we assess how environmental factors influence krill size distribution across different strata, considering both spatial and temporal scales.  
+
+
+The primary goal of this analysis is to empirically verify the influence of environmental factors on krill population dynamics, specifically through length variability, which serves as an indicator of growth fluctuations. By identifying correlations between environmental variables and population or fishery indicators, this study also aims to establish a time series of key environmental factors for potential integration into stock assessment models. This approach follows similar methodologies to @Wang2021, but applied to a longer fishery time series.  
+
+### Hypothesis
+
+
+> **We hypothesize that environmental variability in the Southern Ocean—particularly physical and oceanographic drivers such as sea ice extent, sea surface temperature, and primary productivity—significantly influences the spatiotemporal structure of Antarctic krill (*Euphausia superba*) populations.** These environmental factors are expected to affect the length-frequency distribution observed in the fishery, reflecting underlying changes in recruitment, growth, and distribution patterns across the Western Antarctic Peninsula.
+
+
+
+
+
+
+
+## Methodology
+
+To identify the most influential environmental drivers of krill recruitment to be considered in stock evaluation processes, we examined the relationship between a recruitment index and three key environmental variables described previously as critical in shaping krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a concentration (Chla) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) and Figure \@ref(fig:envf) summarizes the key characteristics of the environmental datasets used in the analysis, including sea ice, sea surface temperature (SST), and chlorophyll a. These variables were obtained from different satellite platforms and reanalysis products, namely Nimbus-7, ERA5, and Copernicus. The table details spatial and temporal resolution, as well as the temporal coverage of each dataset.
 
 ```{r env, eval=TRUE}
 env_features <- data.frame(
@@ -153,6 +150,290 @@ ft_2
 
 
 
+### Spatial heterogeneity 
+
+Figure \@ref(fig:Figure1) (S2 Fig 1 now) illustrates the spatial heterogeneity of key environmental and population variables across different management units (BS, EI, GS, JOIN, SSWI) in the Antarctic Peninsula, where krill populations are distributed. Biomass and catch trends show substantial variability between strata, with BS and GS exhibiting the highest biomass estimates, whereas JOIN and SSWI display comparatively lower values. Catch levels also differ significantly, with BS and GS experiencing the most intensive exploitation, while SSWI and JOIN have minimal catch records.  Environmental variables further highlight this heterogeneity. Sea surface temperature (SST) trends vary among strata, with GS and JOIN exhibiting a slight warming trend over time, while BS and EI remain relatively stable. Sea ice cover differs substantially, with GS showing consistently high coverage, whereas JOIN presents greater fluctuations. Chlorophyll-a (Chl-a) levels, a proxy for primary productivity, also vary across regions, with BS and GS showing declining trends, while EI and SSWI remain relatively stable at lower concentrations.  Given these spatial differences in both krill population metrics and environmental conditions, it is essential to analyze and estimate SPR at this local scale. The observed heterogeneity supports the need for spatially explicit management, as krill population dynamics are likely influenced by regional environmental drivers. By incorporating SPR analysis at this resolution, we can provide a spatial explicit framework for sustainable krill management, ensuring that conservation efforts align with local population and ecosystem characteristics.
+
+```{r envf, out.width='85%', fig.cap="Spatial heterogeneity of krill biomass, catch, and environmental variables across management units in the Antarctic Peninsula (BS, EI, GS, JOIN, SSWI)"}
+knitr::include_graphics("figures/var_env.png")
+```
+
+### Length composition data as indicator of krill dynamics
+
+```{r message=FALSE}
+#Load data procesed
+data_large2 <- read_csv("data/datapost_LBSPR.csv")
+```
+
+Figure \@ref(fig:Figure2) consists of two side-by-side scatterplots, each displaying trends in krill length over time (years) for different spatial strata (ID).
+
+```{r}
+data_filtered <- data_large2 %>%
+  filter(!is.na(LENGTH), 
+         !is.na(LENGTH_P75))
+
+length <- ggplot(data_filtered, 
+                 aes(x = ANO, y = LENGTH, color = ID)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "lm", se = FALSE) + 
+  labs(title = "",
+       x = "",
+       y = "Mean Krill Length (cm)") +
+  theme_minimal() +
+  theme(legend.position = "bottom")+
+  scale_color_viridis_d(option="F")+
+  ylim(2,6)
+
+length75 <- ggplot(data_filtered, 
+                   aes(x = ANO, y = LENGTH_P75, color = ID)) +
+  geom_point(alpha = 0.7) +
+  geom_smooth(method = "lm", se = FALSE) +  
+  labs(title = "",
+       x = "Year",
+       y = "75th Percentile Krill Length") +
+  theme_minimal() +
+  theme(legend.position = "bottom")+
+  scale_color_viridis_d(option="F")+
+  ylim(2,6)
+```
+
+
+```{r Figure2, out.width='100%', fig.cap="Lenght mean and 75th percentile between year and strata."}
+ggarrange(length,
+          length75,
+          ncol=2)
+```
+
+
+There is spatial variation in krill length trends across different strata, with some areas showing an increase in krill length over time, while others remain stable or decrease. The differences between the mean and the 75th percentile length suggest potential changes in krill population structure across strata. This visualization helps assess how krill size dynamics vary over time and across different spatial regions.
+
+
+
+### Correlation analysis
+
+#### Pearson test
+
+The Pearson test are statistical methods used to assess the correlation between two variables. The Pearson test evaluates the linear correlation between two continuous variables. In the case of the Pearson test, the degree of association between two continuous variables is measured through a correlation coefficient that
+varies between -1 and 1. A value of 1 indicates a perfectly positive
+correlation, a value of -1 indicates a perfectly negative correlation,
+and a value of 0 indicates no correlation between the two variables [@McCulloch2001].
+
+-   Pearson Product-Moment Coefficient
+
+This is the most widely used correlation analysis formula, which
+measures the strength of the 'linear' relationships between the raw data
+from both variables, rather than their ranks. This is an dimensionless
+coefficient, meaning that there are no data-related boundaries to be
+considered when conducting analyses with this formula, which is a reason
+why this coefficient is the first formula researchers try.
+
+$\begin{aligned} r = 1- \frac{6\sum_{i=1}^n D_{i}^n}{n (n^2 - 1)}\end{aligned}$
+
+
+```{r}
+data_corr <- data_large2 %>% 
+  dplyr::select(-ID, -ANO, - SPR, -`SE SPR`) %>%  # Elimina las variables categóricas
+  cor(method = "pearson", 
+                 use = "complete.obs")  # Calcula la correlación excluyendo NA
+```
+
+
+```{r Figure3, out.width='80%', fig.cap="Coorrelation plot to different variables."}
+ggcorrplot(data_corr, method = "circle", 
+           type = "lower", 
+           colors = c("green", "white", "yellow"),
+           lab = TRUE, outline.col = "white", 
+           ggtheme = theme_minimal())
+```
+
+
+The correlation matrix provides valuable insights into the relationships among the variables (Figure \@ref(fig:Figure3)):  
+
+**Sea ice (seaice)** is **negatively correlated with LENGTH (-0.339)** and **LENGTH_P75 (-0.329)**, suggesting that higher sea ice levels might be associated with smaller organism sizes.  **TSM** has a **moderate positive correlation with LENGTH (0.330) and LENGTH_P75 (0.298)**, indicating that turbidity may be linked to larger body sizes. **Chla** is **negatively correlated with LENGTH (-0.421) and LENGTH_P75 (-0.393)**, implying that areas with higher chlorophyll-a concentrations may have smaller individuals.   Based on the correlation matrix provided, the relationship between **Chla and TSM** is strong and negative (**r = -0.73**). This indicates that as **TSM increases, Chla tends to decrease**, suggesting a potential inverse relationship between these two environmental variables. Given this strong correlation, it will be necessary to account for this relationship in the GLMM models, either by:  
+
+1. Incorporating both variables separately, treating them as independent predictors.  
+2. Modeling their correlation explicitly, such as including an interaction term (**TSM and Chla**) to assess their combined effect.  
+3. Testing alternative models to evaluate whether including both variables together introduces multicollinearity issues.  
+
+By considering these approaches, we aim to capture the effects of environmental conditions on LENGTH and LENGTH_P75 while ensuring statistical robustness. These insights will help refine the **GLMM** models to better capture the environmental effects on population structure while maintaining statistical reliability. 
+
+To explore the distribution of numerical variables in our dataset, we conducted a histogram analysis (Figure \@ref(fig:Figure4). First, we excluded non-numeric variables (`ID`, `ANO`, `SE SPR`, and `cvto`) to focus on the remaining quantitative data. The results from this exploratory analysis provided essential insights into the characteristics of our dataset, helping to guide subsequent modeling and statistical analyses.
+
+```{r Figure4, out.width='80%', fig.cap="Distribution of numerical variables to test assumtion of regresion models"}
+data_filtered2 <- data_large2 %>%
+  dplyr::select(-ID, -ANO, -`SE SPR`, -cvto) %>%
+  pivot_longer(cols = everything(), 
+               names_to = "Variable", values_to = "Valor")
+
+ggplot(data_filtered2, aes(x = Valor)) +
+  geom_histogram(bins = 30, fill = "skyblue", color = "black", alpha = 0.7) +
+  facet_wrap(~Variable, scales = "free") +
+  theme_minimal() +
+  labs(title = "Variable distribution",
+       x = "",
+       y = "Frecuency")
+```
+To ensure independence from the assumption of normality in variable behavior, we will use **Generalized Linear Mixed Models (GLMMs)**. This approach is appropriate because GLMMs allow for **non-normal distributions** of response variables and can account for **hierarchical or grouped data structures** by incorporating random effects. In our case, GLMMs help model variations in `LENGTH` and `LENGTH_P75` while considering **both fixed effects (categorical factors like `ID`) and random effects (environmental covariates and `ANO`)**. This methodology provides **greater flexibility** compared to standard linear models, making it suitable for ecological and fisheries research where data often exhibit heteroscedasticity and non-normal distributions.
+
+#### GLMM models
+
+To evaluate the spatial and temporal variability of krill length from fishery and its relationship with environmental covariates, we applied a series of regression models, including generalized linear models (GLMs) and general linear mixed-effects models (GLMMs). Initial GLMs were constructed to assess the fixed effects of year (ANO), spatial strata (ID), sea ice concentration, chlorophyll-a (Chla), and sea surface temperature (TSM) on krill length. To account for the hierarchical structure of the data, we incorporated random intercepts for year (ANO) and, in some models, for spatial strata (ID) using the `lme4` package in R. Interactions between ID and ANO were tested to explore whether temporal trends in krill length differed across spatial units. Model selection was based on the Akaike Information Criterion (AIC) and residual deviance, with lower values indicating better model fit. Variance inflation factors (VIF) were calculated to check for multicollinearity among environmental predictors, and when necessary, covariates were standardized or imputed to handle missing data. The inclusion of random effects allowed us to capture unexplained annual variability while accounting for spatial heterogeneity in krill growth patterns. Visualization of model predictions and marginal effects was conducted using the `ggeffects` and `sjPlot` packages [@Ludecke2024], providing insights into how krill length dynamics respond to environmental and spatial drivers over time.  
+
+
+Random effects are a way to model variability in data that comes from
+factors that cannot be directly measured or controlled. In the context
+of statistical models, random effects refer to variables that are
+assumed to have an unknown probability distribution, and are included in
+the model to explain some of the variation in the data. Random effects are often modeled by using mixed effects models, which combine random and fixed effects in the same model. Fixed effects are
+those that are assumed to be constant for all study units and are
+directly measured, while random effects are those that are assumed to
+vary randomly across study units and cannot be directly measured.
+
+In short, random effects are a way of modeling variability in data that
+cannot be directly explained by the variables measured in the study, and
+are included in the model to improve the precision of the estimates and
+reduce the potential for bias [@McCulloch2001; @Bates2015].
+
+In our models, **ID represents the stratum** within the study area, and it is treated as a fixed effect. This approach assumes that each stratum has a specific and constant influence on the response variable (*LENGTH* or *LENGTH_P75*), allowing for direct estimation and comparison of its effects. By treating ID as a fixed effect, we acknowledge that each stratum possesses unique environmental and oceanographic characteristics that may impact the response variable differently. This approach contrasts with a random effects model, which would assume that the observed strata are a random sample from a larger population, estimating only the variance between them rather than their specific effects. Given that the number of strata is finite and known, and our interest lies in explicitly assessing differences among them rather than making inferences beyond the observed data, treating ID as a fixed effect is the most appropriate choice.
+
+In our models, **ANO represents the temporal component** and is treated as a random effect. This approach assumes that annual variations influence the response variable (*LENGTH* or *LENGTH_P75*), but rather than estimating specific effects for each year, we model their variance as a way to account for unobserved temporal fluctuations. By treating ANO as a random effect, we acknowledge that interannual variability may be influenced by unmeasured environmental or ecological factors, reducing the risk of overfitting and allowing for more generalizable inferences. This also improves model parsimony by capturing temporal correlations without requiring individual year-specific coefficients. Since our interest lies in understanding general temporal patterns rather than estimating the fixed influence of each year, treating ANO as a random effect is the most appropriate methodological choice.
+
+
+\[
+\text{Mod 1:} \quad LENGTH_{i} = \beta_0 + \beta_1 ID_{i} + (1 | YEAR_i) + \epsilon_i
+\]
+\[
+\text{Mod 2:} \quad LENGTH_{i} = \beta_0 + \beta_1 ID_{i} + \beta_2 Chla_{i} + (1 | ANO_i) + \epsilon_i
+\]
+\[
+\text{Mod 3:} \quad LENGTH_{i} = \beta_0 + \beta_1 ID_{i} + \beta_2 Chla_{i} + \beta_3 SST_{i} + (1 | YEAR_i) + \epsilon_i
+\]
+\[
+\text{Mod 4:} \quad LENGTH_{i} = \beta_0 + \beta_1 ID_{i} + \beta_2 Chla_{i} + \beta_3 SST_{i} + \beta_4 seaice_{i} + (1 | YEAR_i) + \epsilon_i
+\]
+\[
+\text{Mod 5:} \quad LENGTH_{i} = \beta_0 + \beta_1 ID_{i} + \beta_2 seaice_{i} + \beta_3 SST_{i} + \beta_4 Chla_{i} + \beta_5 (SST \times Chla)_{i} + (1 | YEAR_i) + \epsilon_i
+\]
+\[
+\text{Mod 5\_P75:} \quad LENGTH\_P75_{i} = \beta_0 + \beta_1 ID_{i} + \beta_2 seaice_{i} + \beta_3 SST_{i} + \beta_4 Chla_{i} + \beta_5 (SST \times Chla)_{i} + (1 | YEAR_i) + \epsilon_i
+\]
+
+
+This represents each model in mathematical terms, where \(\beta\) are the coefficients, \( (1 | ANO_i) \) represents the random effect of ANO, and \(\epsilon_i\) is the error term.
+
+
+```{r}
+data_large3 <- data_large2 %>% 
+  drop_na(LENGTH, LENGTH_P75) %>% 
+  filter(ANO > 1999) %>%
+  mutate(tsm = scale(tsm),
+         Chla = scale(Chla),
+         seaice = scale(seaice))
+# Modelo 1: Solo ID como efecto fijo
+mod1_L <- lmer(LENGTH ~ ID + (1 | ANO), 
+               data = data_large3, 
+               REML = FALSE)
+# Modelo 2: Agregando Sea Ice
+mod2_L <- lmer(LENGTH ~ ID + Chla + (1 | ANO), 
+               data = data_large3, 
+               REML = FALSE)
+# Modelo 3: Sumando TSM
+mod3_L <- lmer(LENGTH ~ ID + Chla+ tsm + (1 | ANO), 
+               data = data_large3, REML = FALSE)
+# Modelo 4: Sumando Chla
+mod4_L <- lmer(LENGTH ~ ID + Chla + tsm + seaice + (1 | ANO), 
+               data = data_large3, REML = FALSE)
+# Modelo 5: Interacción TSM y Chla
+mod5_L <- lmer(LENGTH ~ ID + seaice + tsm * Chla + (1 | ANO), 
+               data = data_large3, REML = FALSE)
+# Modelo 5_P75: Interacción TSM y Chla
+mod5_P75 <- lmer(LENGTH_P75 ~ ID + seaice + tsm * Chla + (1 | ANO),
+                 data = data_large3, REML = FALSE)
+```
+
+## Results
+
+Table \@ref(tab:metrics)
+```{r metrics}
+model_comparison <- compare_performance(mod1_L, 
+                                        mod2_L, 
+                                        mod3_L,
+                                        mod4_L, 
+                                        mod5_L, 
+                                        mod5_P75,
+                                        rank = TRUE,
+                                        verbose = FALSE)
+
+model_comparison %>%
+  kable(format = "latex", 
+        digits = 3, 
+        align = "c", 
+        caption = "Model Performance Comparison") %>%
+ kable_styling(latex_options = c("HOLD_position", "scale_down"))
+```
+
+The Figure \@ref(fig:Figure5) show graphically the performance in the models.
+
+```{r Figure5, out.width='80%', fig.cap="Comparision the performance and quality of several models"}
+plot(compare_performance(mod1_L, 
+                    mod2_L, 
+                    mod3_L,
+                    mod4_L, 
+                    mod5_L, 
+                    mod5_P75,
+                    rank=TRUE,
+                    verbose = FALSE))
+```
+
+In our *best model* `mod5_L` we fitted a linear mixed model (estimated using ML and nloptwrap optimizer) to
+predict `LENGTH` with `ID`, `seaice`, `tsm` and `Chla` (formula: LENGTH ~ ID + seaice + tsm * Chla). The model included ANO as random effect (formula: ~1 | ANO). The model's total explanatory power is substantial (conditional R2 = 0.82) and the part related to the fixed effects alone (marginal R2) is of 0.41. The model's intercept, corresponding to ID = BS, seaice = 0, tsm = 0 and Chla = 0, is at 5.02
+(95% CI [3.65, 6.39], t(51) = 7.36, p < .001). about colinearity, the effect of tsm × Chla is statistically non-significant and negative (beta = -0.11, 95% CI [-0.23, 7.00e-03], t(51) = -1.89, p = 0.064; Std. beta = -0.25, 95% CI [-0.52, 0.02])
+
+
+Figure \@ref(fig:Figure6) presents two panels, each illustrating different aspects of a mixed-effects model analyzing krill *LENGTH*. The left panel displays the random effects associated with interannual variability, where the x-axis represents the magnitude of the random effects, with a vertical reference line at zero indicating no effect, and the y-axis corresponds to different years from 2001 to 2020. Each point represents the estimated random effect for a given year, with horizontal error bars indicating confidence intervals. Blue points denote positive effects, while red points signify negative ones. Notably, some years, such as 2008, 2012, and 2004, show more pronounced negative effects, whereas other years exhibit relatively small variations around zero.  
+
+The right panel visualizes the estimated fixed effects of different spatial strata (ID [SSWI], ID [EI], ID [JOIN], ID [GS]) and chlorophyll-a concentration (*Chla*) on krill length. The x-axis represents the estimated effect size, with a vertical line at zero serving as a reference, while the y-axis lists the fixed effects included in the model. Each point represents the estimated coefficient for a given variable, with horizontal error bars showing confidence intervals. The results indicate that all fixed effects have a positive influence on krill length, with *Chla* and certain spatial strata showing stronger effects.  
+
+Overall, the plot suggests that krill length is influenced by both interannual variability and spatial-environmental factors. The random effects panel highlights fluctuations in krill size over time, while the fixed effects panel confirms that spatial structure and chlorophyll-a concentration play significant roles in shaping krill growth patterns. This analysis provides valuable insights into how environmental and regional factors contribute to krill population dynamics.
+
+```{r Figure6, out.width='80%', fig.cap="Comparision the performance and quality of several models"}
+pre <- plot_model(mod5_L, type = "re",  
+                  facet.grid = FALSE,  
+                  free.scale = FALSE,  
+                  title = NULL,  
+                  vline.color = "darkgrey",  
+                  sort.est = TRUE,  
+                  colors = "Set1",  
+                  show.data = TRUE,  
+                  jitter = 0.2) +  
+       theme_few()
+
+pest <- plot_model(mod5_L, type = "est",  
+                   facet.grid = FALSE,  
+                   free.scale = FALSE,  
+                   title = NULL,  
+                   vline.color = "darkgrey",  
+                   sort.est = TRUE,  
+                   colors = "Set2",  
+                   show.data = TRUE,  
+                   jitter = 0.2) +  
+        theme_few()
+
+ggarrange(pre,
+          pest,
+          ncol=2)
+```
+## Discusion
+
+Our analysis aimed to explore the spatial variability in krill *LENGTH* and the 75th percentile of length (*LENGTH_P75*) while incorporating key environmental covariates, such as chlorophyll-a concentration (Chla), sea surface temperature (TSM), and sea ice cover. Using mixed-effects models, we evaluated the influence of these environmental factors on krill growth across different spatial strata (ID) while accounting for temporal variability by including year (ANO) as a random effect. The inclusion of interactions between TSM and Chla allowed us to capture potential synergistic or antagonistic effects of these variables, providing insights into how environmental variability drives size distribution across regions.  
+
+Among the tested models, **Model 5** which includes spatial strata (ID), sea ice, and the interaction between TSM and Chla—performed best based on AIC selection criteria. The model revealed significant annual and spatial variability in *LENGTH*, suggesting that both temporal and spatial factors play a crucial role in shaping this response variable. Among the environmental predictors, Chla exhibited a notable effect, indicating its potential influence on LENGTH, while the effects of tsm and seaice were more uncertain, with wide confidence intervals suggesting a higher degree of variability or weaker associations. Additionally, the random effects associated with ID were significant, highlighting differences among stratas that may be driven by intrinsic biological factors. These findings emphasize the importance of accounting for both fixed and random effects when analyzing variations in LENGTH over time and across individuals.
+
+On one hand, the mixed-effects models confirm the influence of spatial structure, where each stratum represents a distinct environmental context affecting both the dependent variable (krill sizes) and independent variables (environmental factors). This highlights the importance of considering spatial heterogeneity in growth studies.  
+
+Additionally, our results corroborate the influence of environmental variables on krill size variability. Among them, chlorophyll-a emerged as the most significant factor, with a negative effect on krill size. This suggests that higher chlorophyll concentrations lead to increased recruitment, as the greater availability of phytoplankton provides a more abundant substrate for the krill population, thereby shifting the size structure toward smaller individuals.  
+
+Overall, these findings demonstrate that krill population structure is shaped not only by fishing pressure but also by environmental conditions. By incorporating these environmental components into stock assessment models, we enhance our understanding of krill population dynamics in the Antarctic Peninsula, particularly in Subarea 48.1, and improve the ecological realism of predictive models such as LBSPR.
 
 \newpage
 

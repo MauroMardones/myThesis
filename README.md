@@ -83,19 +83,19 @@ While largely based on the Toronto template, this version includes:
 
 ```
 myThesis/
-├── index.Rmd              # Main configuration and first chapter
+├── index.Rmd              # Main configuration 
 ├── _bookdown.yml          # Bookdown configuration
-├── _output.yml            # Output format settings
 ├── myThesis.Rproj         # RStudio project file
 ├── ut-thesis.cls          # LaTeX class file
 ├── ut-thesis.tex          # LaTeX template
 ├── chapters/              # Individual chapter files
 │   ├── 01-intro.Rmd
-│   ├── 02-literature.Rmd
+│   ├── 02-chap2.Rmd
+│   ├── 03-chap3.Rmd
 │   └── ...
 ├── figures/               # Image files
-├── data/                  # Data files
-├── references.bib         # Bibliography file
+├── bib/                   # .bib folder
+│   ├── ThesisDOCAS.bib    # Bibliography file
 └── _book/                 # Compiled output (generated)
 ```
 

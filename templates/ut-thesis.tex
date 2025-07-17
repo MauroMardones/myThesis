@@ -268,13 +268,6 @@ $endfor$
 \mbox{}
 \newpage
 
-%% This generates the abstract page, with the line spacing adjusted
-%% according to SGS guidelines.
-\begin{declaration}
-\addcontentsline{toc}{chapter}{Declaration}
-$declaration$ % Added by MTW
-This is to declarate that the intellectual content of this thesis is the product of my own work and that all the assistance received in preparing this thesis and sources have been acknowledged.
-\end{declaration}
 
 %% This generates an "acknowledgements" section, if needed
 %% (uncomment to have it appear in the document).
@@ -290,22 +283,34 @@ $acknowledgements$ % Added by MTW
 \begin{dedication}
 \addcontentsline{toc}{chapter}{Dedication} % Added by MTW
 $dedication$ % Added by MTW
-\vspace*{28\baselineskip}
+\vspace*{22\baselineskip}
 \begin{flushright}
-\textit{"To María José... always!"}
+\textit{"El lujo es vulgaridad dijo, y me conquistó..."}\\
+\textit{"Un poco de amor francés", (Patricio Rey y los redonditos de ricotta)}\\
+\vspace*{0.5cm}
+\textit{To María José, always...} \\
+\textit{for her boundless kindness and simplicity, which illuminate my days, time and time again.}
 \end{flushright}
 \end{dedication}
 
 
-
 %% This generates the abstract page, with the line spacing adjusted
 %% according to SGS guidelines.
-\begin{abstract}
-\addcontentsline{toc}{chapter}{Abstract}
-$abstract$ % Added by MTW
-%% *** Put your Abstract here. ***
-%% (At most 150 words for M.Sc. or 350 words for Ph.D.)
-\end{abstract}
+\begin{declaration}
+\addcontentsline{toc}{chapter}{Declaration}
+$declaration$ % Added by MTW
+This is to declarate that the intellectual content of this thesis is the product of my own work and that all the assistance received in preparing this thesis and sources have been acknowledged.
+\end{declaration}
+
+
+% %% This generates the abstract page, with the line spacing adjusted
+% %% according to SGS guidelines.
+% \begin{abstract}
+% \addcontentsline{toc}{chapter}{Abstract}
+% $abstract$ % Added by MTW
+% %% *** Put your Abstract here. ***
+% %% (At most 150 words for M.Sc. or 350 words for Ph.D.)
+% \end{abstract}
 
 %% Anything placed between the abstract and table of contents will
 %% appear on a separate page since the abstract ends with \newpage and

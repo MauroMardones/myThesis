@@ -10,3 +10,6 @@ thesis_files/*
 *.pdf
 _thesis/*
 *.png
+*.aux
+*.log
+*.out

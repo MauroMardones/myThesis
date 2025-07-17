@@ -1,10 +1,13 @@
 # Krill stock assessment from an integrated length model perspective {#chap4}
 
 
+\vspace*{0.5cm}
 \begin{flushright}
-\textit{Este texto estará alineado a la derecha en itálico}
+\textit{About models}
+\textit{"...they are essentiall for understanding reality (dynamic population marine exploited resources), sould not be confussed with that reality itself"}\\
+\textit{"The ecological detective" (Hilborn and Mangel, 1997)}
 \end{flushright}
-\vfill
+\vspace*{2cm}
 
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, neque nec gravida cursus, orci eros convallis tellus, nec lobortis massa nulla sed turpis. Integer non magna a erat pulvinar rutrum at et justo. Integer cursus tincidunt diam, vitae consequat lorem rutrum non. Sed imperdiet nibh a volutpat pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 

@@ -8,6 +8,7 @@ title: 'Population dynamics and fisheries of krill (*Euphausia superba*) along t
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 output: torontodown::thesis_pdf
+keep_tex: true
 # si la quiero en word, descativo torontodown arriba
 # output: 
 #   bookdown::word_document2:
@@ -30,7 +31,7 @@ knitr::opts_chunk$set(
   warning = FALSE,
   error = FALSE,
   fig.align = 'center',
-  fig.pos = "!ht",
+  fig.pos = "H",
   fig.show='hold'
 )
 ```
@@ -49,6 +50,37 @@ library(officer)
 library(r4ss)
 library(pdftools)
 library(magick)
+library(here)
+#analisis
+library(ggsignif)
+library(ggrepel)
+library(ggpubr)
+#library(inlmisc)
+library(nortest) #para testear distribucion
+library(skimr) #provides a frictionless approach to summary statistics 
+library(lubridate)
+library(easystats) # multiples unciones analiticas
+library(lme4)
+library(skimr)
+library(readxl)
+library(fitdistrplus)
+# vizualizacion
+library(ggridges)
+library(sf)
+library(GGally)
+library(tidyverse, quietly = TRUE)
+library(knitr, quietly = TRUE)
+library(kableExtra)
+library(raster)
+library(egg)
+library(car) #Variance inflation Factor
+library(ggthemes)
+library(sjPlot)
+library(GGally)
+library(CCAMLRGIS)
+library(modelsummary)
+library(tinytable)
+library(ggcorrplot)
 ```
 
 
