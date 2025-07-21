@@ -10,10 +10,11 @@ site: bookdown::bookdown_site
 output: torontodown::thesis_pdf
 keep_tex: true
 # si la quiero en word, descativo torontodown arriba
-# output: 
+# output:
 #   bookdown::word_document2:
 #     toc: true
 #     number_sections: true
+#     always_allow_html: true
 #     reference_docx: custom-reference.docx # opcional si tienes una plantilla
 bibliography: [bib/ThesisDOCAS.bib]
 csl: csl/apa.csl
@@ -31,8 +32,8 @@ knitr::opts_chunk$set(
   warning = FALSE,
   error = FALSE,
   fig.align = 'center',
-  fig.pos = "H",
-  fig.show='hold'
+  fig.pos = "htbp",
+  fig.show='asis'
 )
 ```
 

@@ -10,6 +10,8 @@
 \vspace*{2cm}
 
 
+## Introduction
+
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, neque nec gravida cursus, orci eros convallis tellus, nec lobortis massa nulla sed turpis. Integer non magna a erat pulvinar rutrum at et justo. Integer cursus tincidunt diam, vitae consequat lorem rutrum non. Sed imperdiet nibh a volutpat pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
 
 Donec vitae viverra nisi. Etiam scelerisque malesuada nisi. Vivamus non convallis metus. Morbi scelerisque blandit massa non pulvinar. Curabitur tincidunt ante vel purus convallis, ac facilisis nunc feugiat. Pellentesque vulputate, erat nec sagittis accumsan, justo leo blandit ante, in facilisis eros nisl id mi. Nam eu ex vel arcu ultricies fermentum. Proin ut diam diam. 
@@ -20,13 +22,26 @@ Curabitur a justo mauris. Morbi at leo a metus scelerisque tincidunt. Aenean lob
 
 Maecenas laoreet blandit turpis. Sed mollis dui felis, nec gravida nulla imperdiet nec. Mauris quis velit eget sem malesuada scelerisque non eget libero. Integer sed fringilla diam. In eget lacinia nisl. Suspendisse finibus elit a finibus faucibus. Morbi dictum quam ut tortor vulputate faucibus. Quisque efficitur vestibulum sapien. In mattis nunc nec sapien vehicula, sed scelerisque magna facilisis. Sed scelerisque tincidunt sapien, nec tincidunt risus. Suspendisse imperdiet felis erat, nec pulvinar sapien malesuada ut. Vestibulum tincidunt sagittis erat, a porta ligula imperdiet vel. Proin ac lorem dolor.
 
-Mauris luctus justo at orci eleifend, a accumsan nisl lacinia. Pellentesque facilisis, magna a feugiat sagittis, enim metus laoreet diam, a pretium turpis orci ac lacus. Nullam suscipit tortor id imperdiet pretium. Aenean laoreet accumsan nulla, et vehicula velit scelerisque non. Duis a urna nunc. Proin mattis nisi sed sapien efficitur finibus. Vestibulum rutrum diam at turpis tincidunt pulvinar.
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae risus viverra, tempor felis ut, aliquam magna. Nullam vitae viverra sem. Suspendisse potenti. Aenean congue diam nec nunc tempor, ut pulvinar turpis placerat. Mauris porttitor nisi eros, sed laoreet tellus pulvinar in. Suspendisse condimentum sagittis nunc a viverra. Nam efficitur risus at metus tempor hendrerit. Sed vestibulum nunc vel sapien tempor, vitae feugiat mi fermentum. Nam sit amet gravida arcu. Donec blandit ex justo, non hendrerit justo faucibus sed.
+## Methodology
+
+Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae risus viverra, tempor felis ut, aliquam magna. Nullam vitae viverra sem. Suspendisse potenti. Aenean congue diam nec nunc tempor, ut pulvinar turpis placerat. Mauris porttitor nisi eros, sed laoreet tellus pulvinar in. Suspendisse condimentum sagittis nunc a viverra. Nam efficitur risus at metus tempor hendrerit. Sed vestibulum nunc vel sapien tempor, vitae feugiat mi fermentum. Nam sit amet gravida arcu. Donec blandit ex justo, non hendrerit justo faucibus sed Figure \@ref(fig:conceptual)
+
+
+```{r conceptual, out.width='40%', fig.cap="Conceptual model used to model dynamics population in Antarctic krill in WAP"}
+knitr::include_graphics('figures/conceptual.png')
+```
+
+
+/Users/mauriciomardones/DOCAS/SA_Krill/Figs/conceptual.jpeg
+
+## Results
 
 Nulla malesuada, diam sed finibus sodales, eros justo condimentum elit, nec tincidunt libero dolor nec tellus. Fusce tincidunt congue diam, ut lacinia dolor fermentum vitae. Quisque imperdiet convallis nisi, id tincidunt libero porta sed. Suspendisse ut sollicitudin sem. Nulla facilisi. Nam vel rutrum sapien. Sed faucibus leo id elit malesuada, eget cursus lorem placerat. Pellentesque eget ipsum felis. In a fermentum tellus. Etiam non sapien a risus finibus porttitor.
 
+## Discusion
 
+Mauris luctus justo at orci eleifend, a accumsan nisl lacinia. Pellentesque facilisis, magna a feugiat sagittis, enim metus laoreet diam, a pretium turpis orci ac lacus. Nullam suscipit tortor id imperdiet pretium. Aenean laoreet accumsan nulla, et vehicula velit scelerisque non. Duis a urna nunc. Proin mattis nisi sed sapien efficitur finibus. Vestibulum rutrum diam at turpis tincidunt pulvinar.
 
 @Aguilera2016; @Duarte2015
 

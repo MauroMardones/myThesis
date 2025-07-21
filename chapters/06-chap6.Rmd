@@ -22,11 +22,23 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae risus vive
 Nulla malesuada, diam sed finibus sodales, eros justo condimentum elit, nec tincidunt libero dolor nec tellus. Fusce tincidunt congue diam, ut lacinia dolor fermentum vitae. Quisque imperdiet convallis nisi, id tincidunt libero porta sed. Suspendisse ut sollicitudin sem. Nulla facilisi. Nam vel rutrum sapien. Sed faucibus leo id elit malesuada, eget cursus lorem placerat. Pellentesque eget ipsum felis. In a fermentum tellus. Etiam non sapien a risus finibus porttitor.
 
 
-```{r echo=FALSE, out.width="45%",out.height="40%",fig.show='hold', fig.align='center', fig.cap="Modelo conceptual del impacto de las condiciones no Niño (izq.) y Niño (der.) sobre las poblaciones de jurel en las costas de Chile (Arcos et al. 2004)"}
-knitr::include_graphics(c("figures/Exa11.pdf","figures/Exa12.pdf"))
-```
-
 ## Conclusion
 
 
-blablabla
+- Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere turpis nec eros feugiat, vel scelerisque purus tempus.
+
+- Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam.
+
+- Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?
+
+- Nemo enim ipsam voluptatem, quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos.
+
+- Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora.
+
+- Quis autem vel eum iure reprehenderit, qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat.
+
+(CONCLUSION from chapter 3)
+
+This study undertakes the first analysis of the intrinsic productivity of krill in Subarea 48.1 using the quantitative method Length-Based Spawning Potential Ratio (LBSPR) which proved to be a useful tool to assess the influence of multiple stressors on the spatial variability of krill intrinsic productivity while elucidating the environmental drivers of growth and reproductive processes. This approach also provided a robust method to measure temporal trends in spatially-explicit population status relative to limit and target biological reference points. These spatio-temporal variations in intrinsic productivity serve as a fundamental basis as a management procedure, which seeks to integrate the complexities of krill population dynamics into a framework aligned with CCAMLR revised management strategy for Subarea 48.1. The proposed HCR aligns with the revised scheme, and given the absence of biologically-based allocation of catch across strata in the WAP, it would serve well to inform the meaningful allocation of current catch limits in the region, and in turn, contributes to a paradigm shift towards a spatially explicit management scheme. By aligning fishing practices with the natural flows of krill productivity, this approach lays the foundation for a useful coexistence between fishing harvesting and the Antarctic ecosystem, ultimately contributing to the sustainability of this vital element of the Southern Ocean.
+
+
