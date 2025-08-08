@@ -22,6 +22,20 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae risus vive
 Nulla malesuada, diam sed finibus sodales, eros justo condimentum elit, nec tincidunt libero dolor nec tellus. Fusce tincidunt congue diam, ut lacinia dolor fermentum vitae. Quisque imperdiet convallis nisi, id tincidunt libero porta sed. Suspendisse ut sollicitudin sem. Nulla facilisi. Nam vel rutrum sapien. Sed faucibus leo id elit malesuada, eget cursus lorem placerat. Pellentesque eget ipsum felis. In a fermentum tellus. Etiam non sapien a risus finibus porttitor.
 
 
+### About Aims
+
+It is driven by a strong belief that decision-making must be anchored in the best available science—science that is both technically rigorous and ecologically informed. In this way, the thesis aims not only to protect the krill resource itself, but also to support the broader integrity and resilience of the Antarctic marine ecosystem.
+
+### Abput Management
+
+
+ The management system also incorporates real-time monitoring of fishing activities and ecosystem indicators to adaptive management responses [REF]. The sustainability of krill fisheries in the context of climate change presents significant challenges for management. Projected changes in krill distribution and abundance due to environmental variability require adaptive management strategies that can respond to ecosystem changes [REF]. The development of management procedures that incorporate climate variability and ecosystem indicators represents an ongoing priority for CCAMLR [REF]. Future research priorities for krill population dynamics and fishery management in the WAP region include improved understanding of population connectivity, climate change impacts on recruitment success, and the development of ecosystem models that can predict krill population responses to environmental change [REF]. These research needs are critical for maintaining the sustainability of both the krill fishery and the broader Antarctic ecosystem in the face of ongoing environmental change [REF].
+
+The integration of traditional fisheries science with ecosystem-based management approaches represents a paradigm shift in how krill populations are managed, recognizing their fundamental role in ecosystem functioning and the need for precautionary management in the face of uncertainty [REF]. This approach acknowledges that the management of krill populations must consider not only the sustainability of the target species but also the maintenance of ecosystem integrity and the conservation of dependent species [REF].
+
+
+
+
 ## Conclusion
 
 
