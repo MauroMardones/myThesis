@@ -50,7 +50,44 @@ where Length is the krill *Length* for observation *i*, used as a proxy for grow
 
 ### LBSPR Model 
 
-The Length-Based Spawning Potential Ratio (LBSPR) method is a fishery assessment tool that uses the length distribution in a fishery to estimate reproductive characteristics based on life history parameters [@Hordyk2016]. It aids in fishery management by offering insights into overfishing risks with minimal data, applicable to both long-lived species with low reproductive output, and short-lived species with highly reproductive outputs associated with a high growth rate, such as krill [@Thanassekos2014]. LBSPR uses length composition data and assumptions about biological and fisheries parameters to make a rapid assessment of stock status relative to virgin (or unfished) levels. Previous work has shown that under equilibrium conditions (constant F and no recruitment variability) and assuming a von Bertalanffy growth function, constant natural mortality for all ages, and logistic or jack-knife selectivity, the standardization of the composition of lengths of two populations with the same biological and selectivity parameters are identical [@Canales2021; @Hordyk2016]. The LBSPR model depends on both biological and fishery parameters taken from previous works about krill life history and fishery [@Maschette2020; @Thanassekos2014], which are described in S1 Table 1. Biological parameters included von Bertalanffy asymptotic length (L~inf~), M/K ratio (natural mortality and von Bertalanffy K in a coefficient ratio), length at 50% maturity (L~50~), length at 95% maturity (L~95~), Coefficient of Variation of length (CVL), and maturity by length (maturity ogive). Fishery parameters include length at 50% selectivity (SL~50~), length at 95% selectivity (SL~95~), and the F/M ratio (fishing mortality and natural mortality). By fitting the model to krill length data, we can evaluate its performance. Since most estimates of biological and reproduction parameters for krill have been made at the global SO scale [@Bahlburg2023], we assumed the same set of parameters for the five strata of Subarea 48.1. The methodological development from which the SPR calculation is derived was extracted from [@Goodyear1993], where the ratio of lifetime average egg production per recruit (EPR) was calculated for fished and non-fished population. Like any assessment method, the LBSPR model relies on a number of simplifying assumptions. In particular, the LBSPR model assumes population equilibrium and that the length composition data is representative of the harvested population at steady state [@Hordyk2014; @Hordyk2016], which we assume plausible for krill. 
+The Length-Based Spawning Potential Ratio (LBSPR) method is a fishery assessment tool that uses the length distribution in a fishery to estimate reproductive characteristics based on life history parameters [@Hordyk2016]. It aids in fishery management by offering insights into overfishing risks with minimal data, applicable to both long-lived species with low reproductive output, and short-lived species with highly reproductive outputs associated with a high growth rate, such as krill [@Thanassekos2014]. LBSPR uses length composition data and assumptions about biological and fisheries parameters to make a rapid assessment of stock status relative to virgin (or unfished) levels. A schematic representation of the length-based model structure and processes is presented in Figure \@ref(fig:lbsprdiag). 
+
+```{r lbsprdiag, out.width="90%", fig.cap= "Schematic representation of Length-based Spawning Potential Ratio (LBSPR) method Mod. Hordyk et al., 2016)"}
+knitr::include_graphics('figures/LBSPRdiag.png')
+```
+
+Previous work has shown that under equilibrium conditions (constant F and no recruitment variability) and assuming a von Bertalanffy growth function, constant natural mortality for all ages, and logistic or jack-knife selectivity, the standardization of the composition of lengths of two populations with the same biological and selectivity parameters are identical [@Canales2021; @Hordyk2016]. The LBSPR model depends on both biological and fishery parameters taken from previous works about krill life history and fishery [@Maschette2020; @Thanassekos2014], which are described in Table \@ref(tab:tablepar). Biological parameters included von Bertalanffy asymptotic length (L~inf~), M/K ratio (natural mortality and von Bertalanffy K in a coefficient ratio), length at 50% maturity (L~50~), length at 95% maturity (L~95~), Coefficient of Variation of length (CVL), and maturity by length (maturity ogive). Fishery parameters include length at 50% selectivity (SL~50~), length at 95% selectivity (SL~95~), and the F/M ratio (fishing mortality and natural mortality). By fitting the model to krill length data, we can evaluate its performance. Since most estimates of biological and reproduction parameters for krill have been made at the global SO scale [@Bahlburg2023], we assumed the same set of parameters for the five strata of Subarea 48.1. The methodological development from which the SPR calculation is derived was extracted from [@Goodyear1993], where the ratio of lifetime average egg production per recruit (EPR) was calculated for fished and non-fished population. Like any assessment method, the LBSPR model relies on a number of simplifying assumptions. In particular, the LBSPR model assumes population equilibrium and that the length composition data is representative of the harvested population at steady state [@Hordyk2014; @Hordyk2016], which we assume plausible for krill. 
+
+```{r tablepar}
+tablepar <- data.frame(
+  Parameter = c("Linf", "L50", "L95", "M/K", "SL50", "SL95", "SPR", 
+                "Walpha", "Wbeta", "BinMax", "BinMin", "Units"),
+  Value = c(60, 34, 55,
+            round(0.4/0.45, 3), 40, 56, 0.75,
+            1, 3.0637, 70, 0,
+            "mm"), 
+  Description = c("VB asymptotic length", "Maturity 50%",
+                  "Maturity 95%", "M/K Ratio", "Selectivity 50%", 
+                  "Selectivity 95%", "SPR (used as BRP)", "a (Length-Weight Relation)", 
+                  "b (Length-Weight Relation)", "Bin Max", "Bin Min", "milimeters")
+)
+
+ft_params <- flextable(tablepar) |>
+  set_caption("Life history and fishery parameters for Euphausia superba used in LBSPR assessment") |>
+  theme_booktabs() |>
+  fontsize(size = 8, part = "all") |>
+  bold(part = "header") |>
+  align(align = "center", part = "header") |>
+  align(j = 2, align = "center", part = "body") |>  # Centrar valores
+  width(j = 1, width = 1.2, unit = "in") |>        # Ancho columna Parameter
+  width(j = 2, width = 0.8, unit = "in") |>        # Ancho columna Value
+  width(j = 3, width = 3.0, unit = "in") |>        # Ancho columna Description
+  line_spacing(space = 0.6, part = "all") |>       # Más compacto
+  padding(padding.top = 1, padding.bottom = 1, part = "all") |>  # Mínimo paddin
+  set_table_properties(width = 1, layout = "fixed") |>
+  keep_with_next()
+ft_params
+```
 
 ### Biological Reference Points for krill
 
@@ -59,7 +96,11 @@ By definition, the SPR is equal to 100% in an unexploited stock, and zero in a n
 
 ### Sensitivity scenarios analysis.
 
-Environmental factors can exert a significant influence on fish growth rates. Consequently, individual growth trajectories may serve as proxies for the environmental conditions encountered by an organism during its lifespan [@Croll2023]. SPR estimates from the LBSPR model are susceptible to changes in growth parameters [@Coscino2024; @Hordyk2016; @Baudron2014; @Hidalgo2011; @Hidalgo2018; @Portner2001]. Considering this, we tested 10 values between the lower and upper  range for *L~inf~* (55 to 65 mm). Secondly, we evaluated three theoretical *k* scenarios related to environmental conditions, expressed as low growth (*k* = 0.2), medium growth (*k*= 0.7, current parameter used in krill management), and high growth (*k*= 1.2) (S1 Fig 2). Each scenario was applied to the five strata within the Subarea 48.1, which comprised a total of 65 combined scenarios. Results were compared with those provided in S1 Table 1 serving as the base model (in particular, *k* = 0.45, *L~inf~* = 60 mm). This analytical approach investigated how fluctuations in environmental drivers, specifically those influencing growth (parameters *L~inf~* and *k*) of organisms like krill, can affect the reproductive success of the species. By examining these interconnections, we aim to elucidate the mechanisms underlying krill population dynamics and potential vulnerabilities in response to future environmental changes. Model equations, figures, tables and auto-reproducible guide to LBSPR model application is available at S1 Appendix.
+Environmental factors can exert a significant influence on fish growth rates. Consequently, individual growth trajectories may serve as proxies for the environmental conditions encountered by an organism during its lifespan [@Croll2023]. SPR estimates from the LBSPR model are susceptible to changes in growth parameters [@Coscino2024; @Hordyk2016; @Baudron2014; @Hidalgo2011; @Hidalgo2018; @Portner2001]. Considering this, we tested 10 values between the lower and upper  range for *L~inf~* (55 to 65 mm). Secondly, we evaluated three theoretical *k* scenarios related to environmental conditions, expressed as low growth (*k* = 0.2), medium growth (*k*= 0.7, current parameter used in krill management), and high growth (*k*= 1.2) (Figure \@ref(fig:teogrowth)). Each scenario was applied to the five strata within the Subarea 48.1, which comprised a total of 65 combined scenarios. Results were compared with those provided in S1 Table 1 serving as the base model (in particular, *k* = 0.45, *L~inf~* = 60 mm). This analytical approach investigated how fluctuations in environmental drivers, specifically those influencing growth (parameters *L~inf~* and *k*) of organisms like krill, can affect the reproductive success of the species. By examining these interconnections, we aim to elucidate the mechanisms underlying krill population dynamics and potential vulnerabilities in response to future environmental changes. Model equations, figures, tables and auto-reproducible guide to LBSPR model application is available at S1 Appendix.
+
+```{r teogrowth, out.width="65%", fig.cap= "Theoretical growth curves for krill based on three SPR sensitivity scenarios that were tested using LBSPR"}
+knitr::include_graphics('figures/GrowthTeo.jpeg')
+```
 
 ## Results
 
@@ -74,112 +115,77 @@ LBSPR model outputs exhibited adequate fits, as evidenced by the residual analys
 Krill SPR varied significantly across years and strata. Notably, none of the strata yielded SPR above the reference level of 75% in any year examined, and all strata, with the exception of Joinville (only 2 years of data) and the last years of the series in Elephant Island, contained years with SPR below the limit reference point of 20% (Fig \@ref(fig:Figure2)). In fact, intrinsic productivity in Bransfield and Gerlache remained consistently below SPR~20%~ for all years in the time series, while Elephant Island and Joinville Island showed an increasing trend in SPR, which corresponded to the increased prevalence of adults in the catch in recent years (Fig \@ref(fig:Figure2)). All the estimated values and their associated standard deviation of SPR by stratum and by year are shown in Table \@ref(tab:Table1). The analysis for the whole area 48.1 indicated that SPR values remain stable over time, predominantly below the 0.25 threshold, with no significant trends observed (S1 Table 5). 
 
 
-```{r Figure2, out.width="90%", fig.cap= "Krill intrinsic productivity (SPR) by management strata and by year. The green dashed line represents 75% SPR (reference target) and the red line is 20% SPR  (reference limit). BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West."}
+```{r Figure2, out.width="100%", fig.cap= "Krill intrinsic productivity (SPR) by management strata and by year. The green dashed line represents 75% SPR (reference target) and the red line is 20% SPR  (reference limit). BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West."}
 knitr::include_graphics('figures/Fig2.png')
 ```
 
 
 ```{r Table1}
-data <- data.frame(
-  Year = 2001:2020,
-  BS = c("0.132 (0.024)", "0.15 (0.008)", "0.25 (0.014)", "0.214 (0.009)", "0.108 (0.078)", "-", "-", 
-         "0.197 (0.004)", "0.185 (0.012)", "0.156 (0.004)", "0.13 (0.001)", "0.175 (0.002)", 
-         "0.19 (0.003)", "0.288 (0.01)", "0.165 (0.004)", "0.165 (0.003)", "0.161 (0.004)", "0.11 (0.004)",
-         "-", "-"),
-  EI = c("0.223 (0.062)", "0.219 (0.028)", "-", "-", "0.095 (0.008)", "0.069 (0.008)", "0.322 (0.058)", 
-         "0.329 (0.02)", "-", "-", "0.191 (0.013)", "0.201 (0.007)", "0.389 (0.022)", "0.36 (0.057)", "-", 
-         "0.334 (0.019)", "0.425 (0.02)", "-", "-", "-"),
-  GS = c("-", "-", "-", "0.152 (0.09)", "0.069 (0.014)", "-", "-", "0.242 (0.014)", "-", "0.148 (0.003)", 
-         "0.123 (0.002)", "0.172 (0.006)", "0.177 (0.003)", "0.293 (0.007)", "0.214 (0.016)", "0.162 (0.004)", 
-         "0.141 (0.005)", "0.087 (0.004)", "-", "-"),
-  JOIN = c("-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "-", "0.331 (0.19)", "0.249 (0.022)", 
-           "-", "-", "-", "-", "-"),
-  SSWI = c("0.196 (0.011)", "0.21 (0.045)", "0.253 (0.005)", "0.349 (0.025)", "0.277 (0.057)", "NA", 
-           "0.232 (0.016)", "0.31 (0.008)", "0.426 (0.009)", "0.386 (0.006)", "0.176 (0.005)", 
-           "0.311 (0.004)", "0.386 (0.026)", "0.266 (0.033)", "0.27 (0.01)", "0.294 (0.018)", 
-           "0.349 (0.006)", "0.24 (0.012)", "-", "-")
-)
-
-
-# Crear flextable
+data <- read_csv("data/SPR_Total.csv")
 ft <- flextable(data) |>
-  set_caption("Antarctic krill SPR estimates from CCAMLR(1) Subarea 48.1 , by management strata and year (parentheses represent the standard deviation). BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West") |>
+  set_caption("Antarctic krill SPR estimates from CCAMLR(1) Subarea 48.1 , by management strata and year (parentheses represent the standard deviation). BS = Bransfield Strait, EI = Elephant Island, GS = Gerlache Strait, JOIN = Joinville Island, SSWI = South West") |>
   theme_booktabs() |>
-  fontsize(size = 10, part = "all") |>
-  autofit() |>
-  set_table_properties(width = 1, layout = "autofit")
-
+  fontsize(size = 8, part = "all") |>    autofit() |>
+  line_spacing(space = 0.2, part = "all") |>
+  padding(padding.top = 1, padding.bottom = 1, part = "all") |> 
+  set_table_properties(width = 1, layout = "fixed") |>
+  keep_with_next()  
 ft
 ```
 
 
 ### Sensitivity analysis
 
-We found that as asymptotic length (L~inf~)  increased, the median SPR values generally decreased, with the highest medians observed at L~inf~ 55 mm and the lowest at L~inf~ 65 mm. Specifically, the median SPR values for the Bransfield Strait ranged from 0.28 at L~inf~ 55 mm to 0.12 at L~inf~ 65 mm. In general, lower L~inf~ values in the LBSPR model resulted in higher SPR estimates, a trend that was consistent across all strata. These results suggest a tendency toward greater stability in SPR estimates as L~inf~ increases  (Fig \@ref(fig:Figure3); Table \@ref(tab:Table2)). Regarding the three growth rates (*k*) tested (low, medium, and high), high and medium growth rates produced very low SPR estimates compared to low growth, with particularly high individual growth leading to SPR values very close to the reference level of 75% SPR, while remaining far from the limit reference level of 20% (Fig \@ref(fig:Figure4); Table \@ref(tab:Table2)). Sensitivity analysis  of the asymptotic length (L~inf~) for  Subarea 48.1, shows that SPR estimates consistently fall below the target reference point of 0.75, although some variability occurs across the tested parameter range, with values clustering around the 0.20 threshold. In contrast, sensitivity to the *k* reveals a strong influence on SPR outcomes: the "Low" growth scenario results in higher SPR values (~0.6), whereas the "Med" and "High" growth scenarios yield significantly lower values, consistently below 0.2. Overall, the analysis points to low spawning potential for krill in area 48.1, with results being robust to L~inf~ but highly sensitive to growth rate assumptions (Fig \@ref(fig:Figure5)).
+We found that as asymptotic length (L~inf~)  increased, the median SPR values generally decreased, with the highest medians observed at L~inf~ 55 mm and the lowest at L~inf~ 65 mm. Specifically, the median SPR values for the Bransfield Strait ranged from 0.28 at L~inf~ 55 mm to 0.12 at L~inf~ 65 mm. In general, lower L~inf~ values in the LBSPR model resulted in higher SPR estimates, a trend that was consistent across all strata. These results suggest a tendency toward greater stability in SPR estimates as L~inf~ increases  (Fig \@ref(fig:Figure3); Table \@ref(tab:Table2)). Regarding the three growth rates (*k*) tested (low, medium, and high), high and medium growth rates produced very low SPR estimates compared to low growth, with particularly high individual growth leading to SPR values very close to the reference level of 75% SPR, while remaining far from the limit reference level of 20% (Fig \@ref(fig:Figure4); Table \@ref(tab:Table3)). Sensitivity analysis  of the asymptotic length (L~inf~) for  Subarea 48.1, shows that SPR estimates consistently fall below the target reference point of 0.75, although some variability occurs across the tested parameter range, with values clustering around the 0.20 threshold. In contrast, sensitivity to the *k* reveals a strong influence on SPR outcomes: the "Low" growth scenario results in higher SPR values (~0.6), whereas the "Med" and "High" growth scenarios yield significantly lower values, consistently below 0.2. 
 
 
-```{r Figure3, out.width="90%", fig.cap="Sensitivity analysis in SPR estimation by management strata in relation to the scenario of a range of VB asymptotic length values for Antarctic krill. The green dashed line represents 75% SPR (reference target), and the red dashed line is 20% SPR (reference limit). Red boxes represent current parameters used in krill management. BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West."}
+```{r Figure3, out.width="100%", fig.cap="Sensitivity analysis in SPR estimation by management strata in relation to the scenario of a range of VB asymptotic length values for Antarctic krill. The green dashed line represents 75% SPR (reference target), and the red dashed line is 20% SPR (reference limit). Red boxes represent current parameters used in krill management. BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West."}
 knitr::include_graphics('figures/Fig3.png')
 ```
 
 
-```{r Figure4,  out.width="90%", fig.cap="Sensitivity analysis to SPR estimation by management strata in relation to a range of growth coefficients (k) representing three different Antarctic krill growth rates (low = 0.2, medium = 0.7, and high = 1.2). The green dashed line represents 75% SPR (reference target) and the red dashed line is 20% SPR (reference limit). Red boxes represent current parameters used in krill management. BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West."}
+```{r Figure4,  out.width="100%", fig.cap="Sensitivity analysis to SPR estimation by management strata in relation to a range of growth coefficients (k) representing three different Antarctic krill growth rates (low = 0.2, medium = 0.7, and high = 1.2). The green dashed line represents 75% SPR (reference target) and the red dashed line is 20% SPR (reference limit). Red boxes represent current parameters used in krill management. BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West."}
 knitr::include_graphics('figures/Fig4.png')
 ```
 
 
+```{r Table2}
+linfi <- read_csv("data/SPR_Linf.csv")
 
-```{r Figure5, out.width='90%', fig.cap="Overall results of SPR estimation and sensitivity scenarios of Antarctic krill for Subarea  48.1. A) SPR values in time series (2000-2020), B) scenario comparisons with VB asymptotic length values and C) SPR variability for growth rates scenario"}
-knitr::include_graphics('figures/Fig5.png')
+ft2 <- flextable(linfi) |>
+  set_caption("SPR estimates under different VB scenarios, by management strata") |>
+  theme_booktabs() |>
+  fontsize(size = 9, part = "all") |>  # Fuente más pequeña
+  set_table_properties(layout = "fixed", width = 1) |>  # Ocupa el 100% del ancho disponible
+  autofit() |>   # Ajusta ancho de columnas
+  align(align = "center", part = "all") |>  # Centra texto
+  keep_with_next()  # Evita que se corte entre páginas
+ft2
 ```
 
-```{r Table2}
-df <- data.frame(
-  Category = c(rep("Asymptotic length (Linf)", 11), rep("Growth Scenario (k)", 3)),
-  Row_Label = c(paste0("Linf", 55:65), "Low", "Med", "High"),
-  BS = c("0.28 (0.07)", "0.25 (0.07)", "0.23 (0.06)", "0.21 (0.06)", "0.19 (0.05)", "0.17 (0.05)",
-         "0.16 (0.04)", "0.15 (0.04)", "0.14 (0.04)", "0.13 (0.04)", "0.12 (0.04)",
-         "0.49 (0.08)", "0.08 (0.03)", "0.05 (0.02)"),
-  EI = c("0.46 (0.23)", "0.42 (0.23)", "0.39 (0.23)", "0.36 (0.23)", "0.34 (0.23)", "0.32 (0.23)",
-         "0.30 (0.21)", "0.27 (0.18)", "0.25 (0.17)", "0.24 (0.15)", "0.22 (0.14)",
-         "0.61 (0.19)", "0.17 (0.13)", "0.10 (0.08)"),
-  GS = c("0.27 (0.11)", "0.24 (0.09)", "0.22 (0.08)", "0.20 (0.08)", "0.18 (0.07)", "0.17 (0.06)",
-         "0.15 (0.06)", "0.14 (0.05)", "0.13 (0.05)", "0.13 (0.05)", "0.12 (0.04)",
-         "0.47 (0.14)", "0.08 (0.03)", "0.04 (0.02)"),
-  JOIN = c("0.47 (0.07)", "0.42 (0.07)", "0.38 (0.07)", "0.35 (0.06)", "0.32 (0.06)", "0.29 (0.06)",
-           "0.27 (0.06)", "0.25 (0.05)", "0.23 (0.05)", "0.22 (0.05)", "0.21 (0.05)",
-           "0.71 (0.05)", "0.15 (0.05)", "0.08 (0.03)"),
-  SSWI = c("0.47 (0.13)", "0.42 (0.11)", "0.38 (0.10)", "0.34 (0.09)", "0.32 (0.08)", "0.29 (0.07)",
-           "0.27 (0.07)", "0.25 (0.06)", "0.23 (0.06)", "0.22 (0.05)", "0.21 (0.05)",
-           "0.65 (0.11)", "0.15 (0.05)", "0.09 (0.03)")
-)
 
-# Crear tabla flextable con agrupación
-ft2 <- flextable(df) |>
-  set_header_labels(
-    Row_Label = "",
-    BS = "BS",
-    EI = "EI",
-    GS = "GS",
-    JOIN = "JOIN",
-    SSWI = "SSWI"
-  ) |>
-  merge_v(j = "Category") |> 
-  merge_at(i = 1:11, j = "Category") |> 
-  merge_at(i = 12:14, j = "Category") |> 
-  valign(j = "Category", valign = "top") |>
+```{r Table3}
+k <- read_csv("data/SPR_K.csv")
+ft3 <- flextable(k) |>
+  set_caption("SPR estimates under different growth scenarios (k), by management strata") |>
   theme_booktabs() |>
-  fontsize(size = 10, part = "all") |>
-  autofit() |>
-  set_caption("Antarctic krill LBSPR estimates from CCAMLR Subarea 48.1 by management strata in relation to a range of theoretical krill growth parameters, including eleven asymptotic lengths and three growth rate coefficients (low = 0.2, medium = 0.7, and high = 1.2) (parentheses represent the standard deviation). In bold, the values of the parameters currently used in management (Maschette et al, 2020). BS=Bransfield Strait, EI= Elephant Island, GS= Gerlache Strait, JOIN= Joinville Island, SSWI= South West")
+  fontsize(size = 9, part = "all") |>  # Fuente más pequeña
+  set_table_properties(layout = "fixed", width = 1) |>  
+  line_spacing(space = 0.5, part = "all") |>
+  autofit() |>   # Ajusta ancho de columnas
+  align(align = "center", part = "all") |>  # Centra texto
+  keep_with_next()  # Evita que se corte entre páginas
 
-ft2
+ft3
 ```
 
 
 ## Discussion
 
 ### Spatial and temporal heterogeneity in intrinsic krill productivity
+
+> By analyzing spatial patterns alongside environmental drivers and biological indicators that vary across regions, this thesis aims to enhance the resolution and realism of stock assessments and to support spatially explicit management measures. Recognizing and incorporating the spatial scale at which krill aggregate allows for a more accurate representation of population dynamics and aligns management strategies with spatial heterogeneity in the WAP.
+
 
 In most marine populations, spatial heterogeneity in distribution patterns is the rule rather than the exception [@Cadrin2023]. Population dynamics and changes in spatial patterns of krill productivity can be influenced by fishing activity, or the fishing activity "follows" those changes, concentrating in places where the population is most productive. On the other hand, changes in the ecosystem triggered by environmental and ecological variables are also direct drivers that cause changes in the population structure of krill on the spatial scale [@Hill2016; @McBride2021; @SantaCruz2022]. Consequently, it is imperative to account for spatial heterogeneity in stock structure and distribution when evaluating stock indicators. This is particularly critical for krill, as the fishery has transitioned from a widely dispersed to a highly concentrated spatial distribution into small areas over the past 20 years, particularly in Subarea 48.1. Such concentration may amplify the potential impacts of harvesting. To date, a quantitative assessment of spatial heterogeneity in stock status for krill has been lacking, hindering effective management [@Atkinson2019a; @Atkinson2022; @McBride2021; @Reiss2020; @Watters2013].
 
@@ -201,11 +207,12 @@ Testing different growth rate scenarios (*k*) also revealed that slower growth r
 
 ### CCAMLR krill fishery management and spatial heterogeneity
 
+> Despite its importance, the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR) has yet to fully implement spatially structured models or management approaches that reflect the complex spatial ecology of krill populations in the WAP.
+
 A precautionary management approach for the sustainability of commercial krill harvesting relies on maintaining a healthy population through sustainable harvesting practices, which can be influenced by variations in intrinsic productivity. In a standard fishery science context, a robust management procedure typically includes a Harvest Control Rule (HCR), which is based on an algorithm through which the mortality, harvest rate or quota to be implemented for the estimation of the quotas is chosen [@bentley2010; @Punt2016]. The HCR provides for adjusting catch limits in accordance with a target fishery reference point (fishing mortality or biomass) that relates to changes in an indicator of stock status, such as SPR. The current krill fishery harvest strategy in Subarea 48.1 is based on a constant catch that is not related to changes in a population and/or ecosystem indicator or associated target fishery reference point, such as Maximum Sustainable Yield (MSY), i.e., maintaining biomass at sustainable levels. CCAMLR has recognized these gaps [@Hill2016; @Hill2019; @Watters2013; @Warwick-Evans2022] particularly the absence of a stock assessment process and the lack of consideration for spatial components in the current management recommendations. This procedure was in development over the last 5 years [@Hill2016; @Kawaguchi2023; @Watters2009; @Zhao2023] and considered three pivot elements: i) update biomass estimates, whether at macro or small scale; ii) develop a stock assessment approach to estimate precautionary harvest rates or/and quotas; and iii) an overlap analysis for the spatial allocation of catch limits [@Warwick-Evans2022; @Trathan2023]. Despite these proposals for assessing krill population dynamics at a finer level, these schemes are not yet operational for decision making [@Watters2013; @Kawaguchi2023]. In fact, in 2024, the lack of consensus on the implementation of the revised management resulted in the expiration of CM 51-07 and with it, the allocation of catches divided by subareas.
 
 
 The expiration of CM 51-07 is untimely, as our results only further demonstrate the need for the revised approach and associated  implementation of an alternative HCR. The HCR could constitute an *ad hoc* approach for the adjustment of catch limits and, consequently, a scheme for spatial allocation for each stratum within subarea 48.1, based in SPR. With an associated BPR, such as SPR~75%~, this approach provides for a management trigger, such as changes to the harvest rate or adjusting catch limits by strata. The management procedure adjustment presented in this study identified the spatial differences (strata) of SPR, and the proposed HCR could change the harvest level (catch limit) according to the levels of that indicator krill status, which is an adaptation to the rule commonly used and known as a *"hockey stick"* where;
-
 
 $$
 F = \begin{cases}
@@ -214,9 +221,38 @@ F = \begin{cases}
     0 & \text{if } \frac{SPR_{i,j}}{SPR_{MSY}} < 0.2
 \end{cases}
 $$
+where *i* and *j*  indicate the SPR calculated by stratum and year, and SPR~MSY~ represent references in SPR~75%~, which is a common BRP to all stratum. SPR calculation scheme can be easily updated as new data becomes available.The graphical representation of this harvest control rule follows the form depicted in Figure \@ref(fig:plothcr).
+
+```{r plothcr, out.width="80%", fig.cap="Harvest Control Rule Based on SPR proposed to krill in WAP"}
+# Define parameters (normalized for visualization)
+SPR_MSY <- 1  # SPR at Maximum Sustainable Yield
+F_MSY <- 1    # Fishing mortality at MSY
+# Create SPR ratio sequence (SPR_i,j / SPR_MSY)
+spr_ratio <- seq(0, 1.2, by = 0.01)
+# Calculate F according to the control rule
+F_values <- ifelse(spr_ratio >= 0.75, F_MSY,
+                  ifelse(spr_ratio >= 0.2, 
+                         F_MSY * (spr_ratio - 0.2) / 0.55,  # 0.55 = 0.75-0.2
+                         0))
+plot(spr_ratio, F_values, type = "l", lwd = 3, col = "darkgray",
+     xlab = expression(SPR[i,j]/SPR[MSY]), 
+     ylab = expression(F/F[MSY]),
+     xlim = c(0, 1.2), ylim = c(0, 1.1),
+     xaxs = "i", yaxs = "i")
+abline(v = c(0.2, 0.75), lty = 2, col = "darkgray")
+abline(h = F_MSY, lty = 2, col = "darkgray")
+points(c(0.2, 0.75), c(0, F_MSY), pch = 19, col = "red3", cex = 1.5)
+text(0.1, 0.5, expression(F == 0), col = "red3", cex = 0.9)
+text(0.475, 0.5, expression(F == F[MSY] * frac(SPR[i,j]/SPR[MSY] - 0.2, 0.75)), 
+     col = "darkgreen", cex = 0.9)
+text(0.9, 0.5, expression(F == F[MSY]), col = "steelblue", cex = 0.9)
+#text(0.2, 0.15, "0.2", pos = 1, xpd = TRUE, col = "red3")
+text(0.75, 0.9, "0.75", pos = 1, xpd = TRUE, col = "red3")
+grid(col = "lightgray")
+```
 
 
-where *i* and *j*  indicate the SPR calculated by stratum and year, and SPR~MSY~ represent references in SPR~75%~, which is a common BRP to all stratum. SPR calculation scheme can be easily updated as new data becomes available. The proposal for spatial adjustment and allocation of krill catch limits is not new and has considered different criteria including the catch history, predator demand and krill standing stock by Small Scale Management Unit (SSMU) [@Constable2023; @Hewitt2004; @Watters2009]. It should be noted that our proposed harvest control rule and spatial allocation scheme is based on an assessment of a single stock of krill, providing a tactical, operational, quantifiable management procedure for krill in Antarctica [@Punt2016; @Hilborn2020a]. It also constitutes one of the first biologically-based allocation of spatial catches on krill for the management strata defined in @CCAMLR2010 (Figure \@ref(fig:GraphAbstr)).
+The proposal for spatial adjustment and allocation of krill catch limits is not new and has considered different criteria including the catch history, predator demand and krill standing stock by Small Scale Management Unit (SSMU) [@Constable2023; @Hewitt2004; @Watters2009]. It should be noted that our proposed harvest control rule and spatial allocation scheme is based on an assessment of a single stock of krill, providing a tactical, operational, quantifiable management procedure for krill in Antarctica [@Punt2016; @Hilborn2020a]. It also constitutes one of the first biologically-based allocation of spatial catches on krill for the management strata defined in @CCAMLR2010 (Figure \@ref(fig:GraphAbstr)).
 
 
 ```{r GraphAbstr, echo=FALSE, out.width='50%',fig.cap="Graphical abstract illustrating the spatial distribution of Antarctic krill under the current Harvest Control Rule (HCR) compared to the proposed HCR, which incorporates spatial heterogeneity in krill intrinsic productivity (Spawning Potential Ratio, SPR)."}

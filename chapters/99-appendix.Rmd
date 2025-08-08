@@ -89,3 +89,37 @@ if(file.exists(pdf_path)) {
   cat("Please check the file path and ensure the file exists.")
 }
 ```
+
+
+\newpage
+
+# Supplementary Material in Stock Assessment Integrated Modelling {#appendix3}
+
+## Code to reproduce stock assessment analisys
+
+**Description**: Code, analysis, formulas, and outputs of stock assessment of Antarctic krill in WAP can be found in this [link](https://mauromardones.github.io/SA_Krill/). 
+
+```{r convert-and-include3, eval= FALSE, fig.align='center', out.width='100%'}
+# Definir la ruta del PDF
+pdf_path <- "~/DOCAS/WG/SAM_2025/WG_SAM_2025_11.pdf"
+
+# Verificar si el archivo existe
+if(file.exists(pdf_path)) {
+  
+  # Convertir PDF a imágenes PNG con alta resolución
+  images <- pdf_convert(pdf_path, format = "png", dpi = 100)
+  
+  # Mostrar información del documento
+  pdf_info <- pdf_info(pdf_path)
+  cat("Document:", basename(pdf_path), "\n")
+  cat("Number of pages:", pdf_info$pages, "\n")
+  cat("File size:", round(file.size(pdf_path)/1024/1024, 2), "MB\n\n")
+  
+  # Incluir todas las páginas
+  knitr::include_graphics(images)
+  
+} else {
+  cat("Error: PDF file not found at:", pdf_path, "\n")
+  cat("Please check the file path and ensure the file exists.")
+}
+```

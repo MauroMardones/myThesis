@@ -4,7 +4,7 @@ department: 'Antarctic and SubAntartic Sciences'
 degreetype: 'Doctorate' # Replace with degree completing, e.g. Bachelor of Science Honours
 gradyear: '2024'
 author: 'Mauricio Mardones Inostroza'
-title: 'Population dynamics and fisheries of krill (*Euphausia superba*) along the Western Antarctic Peninsula'
+title: 'Population dynamics and fishery of krill (*Euphausia superba*) along the Western Antarctic Peninsula'
 knit: bookdown::render_book
 site: bookdown::bookdown_site
 output: torontodown::thesis_pdf

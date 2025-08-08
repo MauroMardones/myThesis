@@ -443,15 +443,15 @@
    \ifdim \baselinestretch pt < 1.6pt \doublespacing\fi}%
   {\par\endgroup\cleardoublepage}
 
-%% Abstract
-\renewenvironment*{abstract}%
-  {\begin{center}
-      \section*{Abstract}
-   \end{center}
-   \begingroup
-   \ifdim \baselinestretch pt < 1.6pt \doublespacing\fi}%
-  {\par\endgroup\cleardoublepage}
-
+% %% Abstract
+% \renewenvironment*{abstract}%
+%   {\begin{center}
+%       \section*{Abstract}
+%    \end{center}
+%    \begingroup
+%    \ifdim \baselinestretch pt < 1.6pt \doublespacing\fi}%
+%   {\par\endgroup\cleardoublepage}
+%
 
 
 %% Redefine `thebibliography' environment so that it generates headers
