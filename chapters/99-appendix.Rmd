@@ -50,9 +50,9 @@ if(file.exists(pdf_path)) {
 
 # Manuscript 2 {#appendix2}
 
-## "Stock assessment integrated Model in krill population in Western Antarctic Peninsula"
+## "Assessing environmental and predator impacts on Antarctic Krill (*Euphausia superba*) population dynamics from an integratedlength-to-age assessment model perspective"
 
-This manuscript examines the spatial variability of Antarctic krill (*Euphausia superba*) population dynamics throughout the Western Antarctic Peninsula region. The study analyzes multi-year survey data to identify patterns of spatial heterogeneity in krill abundance, distribution, and demographic structure. Key findings reveal significant spatial clustering of krill populations driven by oceanographic features, sea ice dynamics, and regional environmental gradients.
+This manuscript evaluates the influence of environmental factors and predator dynamics on Antarctic krill (*Euphausia superba*) population processes using an integrated length-to-age assessment modeling framework. The study incorporates ecosystem drivers into stock assessment analyses to explore their effects on krill growth, recruitment, and biomass trends. Results highlight how environmental variability and predation pressure jointly shape krill population dynamics, providing insights for ecosystem-based fisheries management in the Western Antarctic Peninsula.
 
 **Publication Status:** Published in *Journal Name* (2024)  
 **DOI:** [10.xxxx/journal.year.article](https://doi.org/10.xxxx/journal.year.article)  
