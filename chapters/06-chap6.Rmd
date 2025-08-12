@@ -26,6 +26,8 @@ Nulla malesuada, diam sed finibus sodales, eros justo condimentum elit, nec tinc
 
 It is driven by a strong belief that decision-making must be anchored in the best available science—science that is both technically rigorous and ecologically informed. In this way, the thesis aims not only to protect the krill resource itself, but also to support the broader integrity and resilience of the Antarctic marine ecosystem.
 
+> By integrating diverse data sources, including fishery operations, biological characteristics, spatiotemporal population dynamics, and key ecosystem drivers, the model strengthens the scientific foundation for sustainable management aligned with CCAMLR's ecosystem-based management objectives .
+
 ### Abput Management
 
 
@@ -33,8 +35,15 @@ It is driven by a strong belief that decision-making must be anchored in the bes
 
 The integration of traditional fisheries science with ecosystem-based management approaches represents a paradigm shift in how krill populations are managed, recognizing their fundamental role in ecosystem functioning and the need for precautionary management in the face of uncertainty [REF]. This approach acknowledges that the management of krill populations must consider not only the sustainability of the target species but also the maintenance of ecosystem integrity and the conservation of dependent species [REF].
 
+### about integrated models
 
+This finding underscores that single-species stock assessment approaches can be substantially enhanced in their biological realism when environmental covariates are incorporated into the modelling framework.
 
+### About Evironmental
+
+The observed interannual variability in chlorophyll concentrations, particularly the pronounced anomalies in 2003, 2011, 2016, and 2020, correspond to documented periods of environmental change in the Western Antarctic Peninsula region [@Veytia2020; @Ryabov2023; @Pinkerton2021].
+
+Ultimately, this contributes to stock assessments that are more robust and responsive to environmental change in this kind of species.
 
 ## Conclusion
 

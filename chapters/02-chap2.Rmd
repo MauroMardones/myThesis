@@ -74,7 +74,9 @@ knitr::include_graphics("figures/Figure2-1.jpeg")
 
 ### Environmental variables and spatial context to model krill recruitment
 
-To identify the most influential environmental drivers of krill recruitment to be use in stock evaluation processes, i examined the relationship between a recruitment index and three key environmental variables known to shape krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a (Chl-a) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) summarizes the main characteristics of the environmental datasets used in this analysis. These variables were obtained from a combination of satellite and reanalysis products, specifically *Nimbus-7* [doi.org/10.5067/QOZIVYV3V9JP](https://doi.org/10.5067/QOZIVYV3V9JP), *ERA5* [doi.org/10.48670/moi-00021](https://doi.org/10.48670/moi-00021), and the *E.U. Copernicus Marine Service* [doi.org/10.48670/moi-00148](https://doi.org/10.48670/moi-00148). The table details their spatial and temporal resolutions, as well as the time ranges covered by each dataset.
+To identify the most influential environmental drivers of krill recruitment to be use in stock evaluation processes, i examined the relationship between a recruitment index and three key environmental variables known to shape krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a (Chl-a) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) summarizes the main characteristics of the environmental datasets used in this analysis. These variables were obtained from a combination of satellite and reanalysis products, specifically *Nimbus-7* [doi.org/10.5067/QOZIVYV3V9JP](https://doi.org/10.5067/QOZIVYV3V9JP) (Figure \@ref(fig:SICmap)), *ERA5* [doi.org/10.48670/moi-00021](https://doi.org/10.48670/moi-00021) (Figure \@ref(fig:SSTmap)), and the *E.U. Copernicus Marine Service* [doi.org/10.48670/moi-00148](https://doi.org/10.48670/moi-00148) (Figure \@ref(fig:Chlmap)). The table details their spatial and temporal resolutions, as well as the time ranges covered by each dataset.
+
+Figure \@ref(fig:envf) illustrates the variables that were used in this analysis, including key environmental drivers, krill biomass, and catch across the five Management Units (MUs) of the Antarctic Peninsula (BS, EI, GS, JOIN, SSWI), highlighting the spatial heterogeneity among them. Catch and biomass data were obtained from the same fishery-dependent monitoring program (SISO) and correspond to the same temporal scale used for recruitment estimates (2000–2020). Biomass estimates were derived from the CCAMLR intersessional work [@Dornam2021], ensuring consistency with the standardized assessment procedures applied within the management framework.
 
 ```{r env}
 env_features <- data.frame(
@@ -104,11 +106,45 @@ ft_env <- flextable(env_features) |>
 ft_env
 ```
 
-Figure \@ref(fig:envf) illustrates the variables that were used in this analysis, including key environmental drivers, krill biomass, and catch across the five Management Units (MUs) of the Antarctic Peninsula (BS, EI, GS, JOIN, SSWI), highlighting the spatial heterogeneity among them. Catch and biomass data were obtained from the same fishery-dependent monitoring program (SISO) and correspond to the same temporal scale used for recruitment estimates (2000–2020). Biomass estimates were derived from the CCAMLR intersessional work [@Dornam2021], ensuring consistency with the standardized assessment procedures applied within the management framework.
+
+\pagebreak
+
+\begin{landscape}
+
+```{r SICmap, out.width="100%",  eval=TRUE, fig.cap= "Sea ice cover concentration (km) in Subarea 48.1 from 2020 to present. Wide stripe represents the temporal average over the observation period, illustrating departures from mean ice cover conditions that may influence krill habitat availability"}
+knitr::include_graphics('figures/SIC_map.png')
+```
+
+\end{landscape}
+
+\pagebreak
+
+
+\begin{landscape}
+
+```{r SSTmap, out.width="100%",  eval=TRUE, fig.cap= "Satellital Sea surface temperature in Subarea 48.1 from 2020 to present. Wide stripe represents the temporal average over the observation period, providing a baseline against which seasonal and interannual anomalies can be compared."}
+knitr::include_graphics('figures/SST_map.png')
+```
+
+\end{landscape}
+
+\pagebreak
+
+\begin{landscape}
+
+```{r Chlmap, out.width="100%",  eval=TRUE, fig.cap= "Chlorophyll-a concentration in Subarea 48.1 from 2020 to present. Wide stripe represents the temporal average over the observation period, highlighting interannual variability relative to the mean productivity conditions in the WAP"}
+knitr::include_graphics('figures/Chl_map.png')
+```
+
+\end{landscape}
+
+\pagebreak
+
 
 ```{r envf, out.width='100%', fig.pos= "H", fig.cap="Temporal variation in biomass estimates, fisheries catch data, and environmental drivers across management units in the Antarctic Peninsula (Subarea 48.1)"}
 knitr::include_graphics("figures/varenv.png")
 ```
+
 
 
 ### Correlation analysis
@@ -208,6 +244,8 @@ knitr::include_graphics("figures/Figure6-1 2.jpeg")
  
 
 ## Discussion
+
+In this thesis chapter, the influence of key environmental variables—sea surface temperature, sea ice concentration, and chlorophyll-a—on the population dynamics of Antarctic krill (Euphausia superba) was analyzed, with a focus on recruitment processes in Subarea 48.1. The results are discussed in terms of their ecological relevance, their potential integration into stock assessment models, and their implications for achieving fisheries management that is more realistic and responsive to environmental variability.
 
 ### Environmental drivers of krill population dynamics
 

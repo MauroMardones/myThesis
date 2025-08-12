@@ -17,7 +17,7 @@ keep_tex: true
 #     always_allow_html: true
 #     reference_docx: custom-reference.docx # opcional si tienes una plantilla
 latex_engine: xelatex
-bibliography: [bib/ThesisDOCAS_limpio.bib]
+bibliography: [bib/ThesisDOCAS.bib]
 csl: csl/apa.csl
 link-citations: true
 linkcolor: blue

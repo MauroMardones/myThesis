@@ -178,9 +178,9 @@ ft3
 
 ## Discussion
 
-### Spatial and temporal heterogeneity in intrinsic krill productivity
+In this thesis chapter, spatial patterns are analyzed alongside environmental drivers and biological indicators that vary across management units (MUs) in Subarea 48.1, with the aim of improving the resolution and realism of krill population dynamics and supporting spatially explicit management measures. By recognizing and incorporating the spatial scale at which krill aggregate, the analysis provides a more accurate representation of population processes and ensures that management strategies are better aligned with the spatial heterogeneity of the Western Antarctic Peninsula.
 
-By analyzing spatial patterns alongside environmental drivers and biological indicators that vary across MU in Subarea 48.1, this chapter aims to enhance the resolution and realism of population dynamics and to support spatially explicit management measures. Recognizing and incorporating the spatial scale at which krill aggregate allows for a more accurate representation of population dynamics and aligns management strategies with spatial heterogeneity in the WAP.
+### Spatial and temporal heterogeneity in intrinsic krill productivity
 
 In most marine populations, spatial heterogeneity in distribution patterns is the rule rather than the exception [@Cadrin2023]. Population dynamics and changes in spatial patterns of krill productivity can be influenced by fishing activity, or the fishing activity "follows" those changes, concentrating in places where the population is most productive. On the other hand, changes in the ecosystem triggered by environmental and ecological variables are also direct drivers that cause changes in the population structure of krill on the spatial scale [@Hill2016; @McBride2021; @SantaCruz2022]. Consequently, it is imperative to account for spatial heterogeneity in stock structure and distribution when evaluating stock indicators. This is particularly critical for krill, as the fishery has transitioned from a widely dispersed to a highly concentrated spatial distribution into small areas over the past 20 years, particularly in Subarea 48.1. To date, a quantitative assessment of spatial heterogeneity in krill stock status has been lacking, which has hindered effective management. This spatial concentration of krill may amplify the potential impacts of harvesting [@Atkinson2019; @Atkinson2022; @McBride2021; @Reiss2020; @Watters2013].
 
@@ -215,7 +215,7 @@ F = \begin{cases}
 $$
 where *i* and *j*  indicate the SPR calculated by stratum and year, and SPR~MSY~ represent references in SPR~75%~, which is a common BRP to all stratum. SPR calculation scheme can be easily updated as new data becomes available.The graphical representation of this harvest control rule follows the form depicted in Figure \@ref(fig:plothcr).
 
-```{r plothcr, out.width="80%", fig.cap="Harvest Control Rule Based on SPR proposed to krill in WAP"}
+```{r plothcr, out.width="100%", fig.cap="Harvest Control Rule Based on SPR proposed to krill in WAP"}
 # Define parameters (normalized for visualization)
 SPR_MSY <- 1  # SPR at Maximum Sustainable Yield
 F_MSY <- 1    # Fishing mortality at MSY
