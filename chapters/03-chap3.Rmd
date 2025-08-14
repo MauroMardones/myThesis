@@ -145,6 +145,7 @@ knitr::include_graphics('figures/Fig3.png')
 knitr::include_graphics('figures/Fig4.png')
 ```
 
+\newpage
 
 ```{r Table2}
 linfi <- read_csv("data/SPR_Linf.csv")
