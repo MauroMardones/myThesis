@@ -244,10 +244,10 @@ grid(col = "lightgray")
 ```
 
 
-The proposal for spatial adjustment and allocation of krill catch limits is not new and has considered different criteria including the catch history, predator demand and krill standing stock by Small Scale Management Unit (SSMU) [@Constable2023; @Hewitt2004; @Watters2009]. It should be noted that our proposed harvest control rule and spatial allocation scheme is based on an assessment of a single stock of krill, providing a tactical, operational, quantifiable management procedure for krill in Antarctica [@Punt2016; @Hilborn2020a]. It also constitutes one of the first biologically-based allocation of spatial catches on krill for the management strata defined in @CCAMLR2010 (Figure \@ref(fig:GraphAbstr)).
+The proposal for spatial adjustment and allocation of krill catch limits is not new and has considered different criteria including the catch history, predator demand and krill standing stock by Small Scale Management Unit (SSMU) [@Constable2023; @Hewitt2004; @Watters2009]. It should be noted that our proposed harvest control rule and spatial allocation scheme is based on an assessment of a single stock of krill, providing a tactical, operational, quantifiable management procedure for krill in Antarctica [@Punt2016; @Hilborn2020a]. It also constitutes one of the first biologically-based allocation of spatial catches on krill for the management strata defined in @CCAMLR2010 (Figure \@ref(fig:grabst)).
 
 
-```{r GraphAbstr, echo=FALSE, out.width='50%',fig.cap="Schematic illustrating the spatial distribution of Antarctic krill under the current Harvest Control Rule (HCR) compared to the proposed HCR, which incorporates spatial heterogeneity in krill intrinsic productivity (Spawning Potential Ratio, SPR)."}
+```{r grabst, out.width='100%',fig.cap="Schematic showing Antarctic krill spatial distribution under the current Harvest Control Rule (HCR) versus a proposed HCR that accounts for spatial variation in intrinsic productivity (Spawning Potential Ratio, SPR)."}
 knitr::include_graphics('figures/graphabstra2.png')
 ```
 

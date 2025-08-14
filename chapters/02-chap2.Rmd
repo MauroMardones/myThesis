@@ -107,8 +107,6 @@ ft_env
 ```
 
 
-\pagebreak
-
 \begin{landscape}
 
 ```{r SICmap, out.width="100%",  eval=TRUE, fig.cap= "Sea ice cover concentration (km) in Subarea 48.1 from 2020 to present. Wide stripe represents the temporal average over the observation period, illustrating departures from mean ice cover conditions that may influence krill habitat availability"}
@@ -116,8 +114,6 @@ knitr::include_graphics('figures/SIC_map.png')
 ```
 
 \end{landscape}
-
-\pagebreak
 
 
 \begin{landscape}
@@ -195,7 +191,7 @@ knitr::include_graphics("figures/vardistr.jpeg")
 
 The correlation matrix provides valuable insights into the relationships among the variables, representing the output of the Pearson correlation model (Figure \@ref(fig:coor)). The variables `PROLOG` and `PROP` are highly positively correlated, with values around 0.70–0.71. Similarly, `MAT` (presumably maturity) shows strong positive correlations with `LENGTH` (0.78) and `LENGTH_P75` (0.76). On the other hand, `seaice` is negatively correlated with several biological variables: it has a correlation of –0.97 with `tsm`, –0.79 with `Chla`, –0.78 with `MAT`, and –0.81 with `LENGTH`. 
 
-```{r coor, out.width="70%", fig.cap="Correlation plot exploring pairwise relationships between variables using both color intensity and numerical values. Yellow indicates strong positive correlations (close to +1), green indicates strong negative correlations (close to –1), and lighter colors represent weaker correlations (closer to 0). The size of each circle is also proportional to the strength of the correlation."}
+```{r coor, out.width="70%", fig.pos="h!", fig.cap="Correlation plot exploring pairwise relationships between variables using both color intensity and numerical values. Yellow indicates strong positive correlations (close to +1), green indicates strong negative correlations (close to –1), and lighter colors represent weaker correlations (closer to 0). The size of each circle is also proportional to the strength of the correlation."}
 knitr::include_graphics("figures/Figure3-1.jpeg")
 ```
 
@@ -209,8 +205,6 @@ knitr::include_graphics("figures/Figure5-1.jpeg")
 
 
 ```{r tabcomglm}
-library(flextable)
-
 model_perf <- data.frame(
   Name = c("Mod 2", "Mod 3", "Mod 5", "Mod 4", "Mod 1", "Mod 5 Lag"),
   Model = rep("glm", 6),
@@ -231,8 +225,6 @@ ft_mod <- flextable(model_perf) |>
   set_table_properties(width = 1, layout = "autofit")
 
 ft_mod
-
-
 ```
 
 Having identified chlorophyll as an important driver, we analyzed its linear relationship with recruitment across the temporal series. Figure \@ref(fig:Figure6) reveals a significant negative relationship between Chl-a concentration and the recruitment index of Antarctic krill over the 22-year period (2001-2022). The negative slope indicates an inverse relationship where recruitment index decreases as Chl-a concentration increases. This pattern is statistically robust, supported by a correlation coefficient of $R = -0.58$ and a significant p-value of 0.018. 

@@ -86,5 +86,5 @@ library(ggcorrplot)
 ```
 
 
-
+<!-- Cambiar todas las tablas a flextable() -->
 
