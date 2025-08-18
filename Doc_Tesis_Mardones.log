@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2025.7.14)  14 AUG 2025 19:45
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (TeX Live 2022) (preloaded format=pdflatex 2025.7.14)  18 AUG 2025 15:07
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -810,7 +810,7 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman (
 )
 Package scrwfile Info: Using immediate redefinition of `\@starttoc' on input line 247.
 Package scrwfile Info: Extending `\@starttoc`  on input line 247.
-<figures/logoUMAG.jpg, id=183, 224.84pt x 225.84375pt>
+<figures/logoUMAG.jpg, id=179, 224.84pt x 225.84375pt>
 File: figures/logoUMAG.jpg Graphic file (type jpg)
 <use figures/logoUMAG.jpg>
 Package pdftex.def Info: figures/logoUMAG.jpg  used on input line 254.
@@ -826,162 +826,179 @@ LaTeX Font Warning: Font shape `T1/lmr/m/scit' undefined
 
 {/Users/mauriciomardones/Library/TinyTeX/texmf-var/fonts/map/pdftex/updmap/pdftex.map} <./figures/logoUMAG.jpg>] [2
 
-] [3] [4] [5
-
-] [6
-
-
-] (./Doc_Tesis_Mardones.toc
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1.
+] [3] [4]
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1.
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 1.
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 1.
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 1.
+(Font)              <10> on input line 305.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1.
+(Font)              <7> on input line 305.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1.
-LaTeX Font Info:    Trying to load font information for U+lasy on input line 1.
+(Font)              <5> on input line 305.
+LaTeX Font Info:    Trying to load font information for U+lasy on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/base/ulasy.fd
 File: ulasy.fd 1998/08/17 v2.2e LaTeX symbol font definitions
 )
-LaTeX Font Info:    Trying to load font information for U+msa on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 1.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 305.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/microtype/mt-msb.cfg
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) [7]) [8] (./Doc_Tesis_Mardones.lof
+) [5
+
+] [6
+
+
+] (./Doc_Tesis_Mardones.toc [7]) [8] (./Doc_Tesis_Mardones.lof
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[9] [10]) [11] (./Doc_Tesis_Mardones.lot) [12] [1
+[9]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+[10]) [11] (./Doc_Tesis_Mardones.lot) [12] [1
 
 
 ] [2]
 Chapter 1.
 [3
 
-] [4] [5] [6] [7] [8] [9]
-<figures/Esquema2.png, id=689, 908.193pt x 477.639pt>
-File: figures/Esquema2.png Graphic file (type png)
-<use figures/Esquema2.png>
-Package pdftex.def Info: figures/Esquema2.png  used on input line 433.
-(pdftex.def)             Requested size: 650.43001pt x 342.07048pt.
-[10
+]
+<figures/krill_watercolor.jpg, id=468, 1186.4325pt x 1660.2025pt>
+File: figures/krill_watercolor.jpg Graphic file (type jpg)
+<use figures/krill_watercolor.jpg>
+Package pdftex.def Info: figures/krill_watercolor.jpg  used on input line 409.
+(pdftex.def)             Requested size: 451.68752pt x 632.04881pt.
+
+LaTeX Warning: Float too large for page by 5.56323pt on input line 414.
+
+[4] [5
 pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.437 \end{landscape}
+l.425 
+       <./figures/krill_watercolor.jpg>] [6] [7] [8] [9] [10]
+<figures/Esquema2.png, id=692, 908.193pt x 477.639pt>
+File: figures/Esquema2.png Graphic file (type png)
+<use figures/Esquema2.png>
+Package pdftex.def Info: figures/Esquema2.png  used on input line 460.
+(pdftex.def)             Requested size: 650.43001pt x 342.07048pt.
+[11
+pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.464 \end{landscape}
                       <./figures/Esquema2.png>]
 Chapter 2.
-[11
+[12
 
 
 
 ]
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 454.
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 481.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-) [12]
-<figures/studyarea.png, id=757, 892.33376pt x 479.7925pt>
+) [13]
+<figures/studyarea.png, id=761, 892.33376pt x 479.7925pt>
 File: figures/studyarea.png Graphic file (type png)
 <use figures/studyarea.png>
-Package pdftex.def Info: figures/studyarea.png  used on input line 474.
+Package pdftex.def Info: figures/studyarea.png  used on input line 501.
 (pdftex.def)             Requested size: 451.68752pt x 242.86798pt.
-[13]
-<figures/Length_Strata_NoChina.png, id=769, 594.22pt x 350.30875pt>
+[14]
+<figures/Length_Strata_NoChina.png, id=772, 594.22pt x 350.30875pt>
 File: figures/Length_Strata_NoChina.png Graphic file (type png)
 <use figures/Length_Strata_NoChina.png>
-Package pdftex.def Info: figures/Length_Strata_NoChina.png  used on input line 488.
+Package pdftex.def Info: figures/Length_Strata_NoChina.png  used on input line 515.
 (pdftex.def)             Requested size: 316.17987pt x 186.40575pt.
-[14
+[15
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.502 
+l.529 
        <./figures/studyarea.png>]
-<figures/Figure2-1.jpeg, id=781, 650.43pt x 144.54pt>
+<figures/Figure2-1.jpeg, id=784, 650.43pt x 144.54pt>
 File: figures/Figure2-1.jpeg Graphic file (type jpg)
 <use figures/Figure2-1.jpeg>
-Package pdftex.def Info: figures/Figure2-1.jpeg  used on input line 505.
+Package pdftex.def Info: figures/Figure2-1.jpeg  used on input line 532.
 (pdftex.def)             Requested size: 451.68752pt x 100.3767pt.
-[15
+[16
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.518 
+l.545 
       
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.518 
-       <./figures/Length_Strata_NoChina.png> <./figures/Figure2-1.jpeg>] [16]
-<figures/SIC_map.png, id=812, 919.435pt x 607.26875pt>
+l.545 
+       <./figures/Length_Strata_NoChina.png> <./figures/Figure2-1.jpeg>] [17]
+<figures/SIC_map.png, id=815, 919.435pt x 607.26875pt>
 File: figures/SIC_map.png Graphic file (type png)
 <use figures/SIC_map.png>
-Package pdftex.def Info: figures/SIC_map.png  used on input line 583.
+Package pdftex.def Info: figures/SIC_map.png  used on input line 610.
 (pdftex.def)             Requested size: 650.43001pt x 429.61638pt.
 
-LaTeX Warning: Float too large for page by 13.87329pt on input line 588.
+LaTeX Warning: Float too large for page by 13.87329pt on input line 615.
 
-[17
+[18
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.590 \end{landscape}
+l.617 \end{landscape}
                       <./figures/SIC_map.png>]
-<figures/SST_map.png, id=818, 927.465pt x 608.2725pt>
+<figures/SST_map.png, id=821, 927.465pt x 608.2725pt>
 File: figures/SST_map.png Graphic file (type png)
 <use figures/SST_map.png>
-Package pdftex.def Info: figures/SST_map.png  used on input line 596.
+Package pdftex.def Info: figures/SST_map.png  used on input line 623.
 (pdftex.def)             Requested size: 650.43001pt x 426.58606pt.
 
-LaTeX Warning: Float too large for page by 10.84297pt on input line 601.
+LaTeX Warning: Float too large for page by 10.84297pt on input line 628.
 
-[18
+[19
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.603 \end{landscape}
+l.630 \end{landscape}
                       <./figures/SST_map.png>]
-<figures/Chl_map.png, id=824, 942.52126pt x 606.265pt>
+<figures/Chl_map.png, id=828, 942.52126pt x 606.265pt>
 File: figures/Chl_map.png Graphic file (type png)
 <use figures/Chl_map.png>
-Package pdftex.def Info: figures/Chl_map.png  used on input line 611.
+Package pdftex.def Info: figures/Chl_map.png  used on input line 638.
 (pdftex.def)             Requested size: 650.43001pt x 418.38806pt.
 
-LaTeX Warning: Float too large for page by 2.64497pt on input line 616.
+LaTeX Warning: Float too large for page by 2.64497pt on input line 643.
 
-[19
+[20
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.618 \end{landscape}
+l.645 \end{landscape}
                       <./figures/Chl_map.png>]
-<figures/varenv.png, id=831, 807.015pt x 937.5025pt>
+<figures/varenv.png, id=834, 807.015pt x 937.5025pt>
 File: figures/varenv.png Graphic file (type png)
 <use figures/varenv.png>
-Package pdftex.def Info: figures/varenv.png  used on input line 624.
+Package pdftex.def Info: figures/varenv.png  used on input line 651.
 (pdftex.def)             Requested size: 451.68752pt x 524.72603pt.
-[20
+[21
 
 
 
@@ -992,9 +1009,9 @@ Package pdftex.def Info: figures/varenv.png  used on input line 624.
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.635 
+l.662 
        <./figures/varenv.png>]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 649.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 676.
 (/Users/mauriciomardones/Library/TinyTeX/texmf-dist/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1005,196 +1022,173 @@ Package microtype Info: Loading generic protrusion settings for font family
 
 Underfull \vbox (badness 3333) has occurred while \output is active []
 
-[21] [22]
-<figures/vardistr.jpeg, id=868, 505.89pt x 361.35pt>
+[22] [23]
+<figures/vardistr.jpeg, id=871, 505.89pt x 361.35pt>
 File: figures/vardistr.jpeg Graphic file (type jpg)
 <use figures/vardistr.jpeg>
-Package pdftex.def Info: figures/vardistr.jpeg  used on input line 677.
+Package pdftex.def Info: figures/vardistr.jpeg  used on input line 704.
 (pdftex.def)             Requested size: 361.35138pt x 258.10966pt.
-<figures/Figure3-1.jpeg, id=870, 505.89pt x 578.16pt>
+<figures/Figure3-1.jpeg, id=873, 505.89pt x 578.16pt>
 File: figures/Figure3-1.jpeg Graphic file (type jpg)
 <use figures/Figure3-1.jpeg>
-Package pdftex.def Info: figures/Figure3-1.jpeg  used on input line 688.
+Package pdftex.def Info: figures/Figure3-1.jpeg  used on input line 715.
 (pdftex.def)             Requested size: 316.17987pt x 361.35793pt.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[23
+[24
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.696 
+l.723 
        <./figures/vardistr.jpeg>]
 Underfull \vbox (badness 2452) has occurred while \output is active []
 
-[24
+[25
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.698 
+l.725 
        <./figures/Figure3-1.jpeg>]
-<figures/Figure5-1.jpeg, id=884, 505.89pt x 361.35pt>
+<figures/Figure5-1.jpeg, id=888, 505.89pt x 361.35pt>
 File: figures/Figure5-1.jpeg Graphic file (type jpg)
 <use figures/Figure5-1.jpeg>
-Package pdftex.def Info: figures/Figure5-1.jpeg  used on input line 701.
+Package pdftex.def Info: figures/Figure5-1.jpeg  used on input line 728.
 (pdftex.def)             Requested size: 383.93713pt x 274.24289pt.
-[25
+[26
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.774 \end{longtable}
+l.801 \end{longtable}
                       <./figures/Figure5-1.jpeg>]
-<figures/Figure6-1 2.jpeg, id=891, 433.62pt x 289.08pt>
+<figures/Figure6-1 2.jpeg, id=894, 433.62pt x 289.08pt>
 File: figures/Figure6-1 2.jpeg Graphic file (type jpg)
 <use figures/Figure6-1 2.jpeg>
-Package pdftex.def Info: figures/Figure6-1 2.jpeg  used on input line 790.
+Package pdftex.def Info: figures/Figure6-1 2.jpeg  used on input line 817.
 (pdftex.def)             Requested size: 338.76563pt x 225.85641pt.
-[26] [27
+[27] [28
 pdfTeX warning (ext4): destination with the same identifier (name{figure.2.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.821 
-       <./figures/Figure6-1 2.jpeg>] [28]
+l.847 
+       <./figures/Figure6-1 2.jpeg>] [29]
 Chapter 3.
-[29
+[30
 
-] [30] [31] [32]
+] [31] [32] [33]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
-[33]
-<figures/LBSPRdiag.png, id=1177, 1478.52374pt x 580.1675pt>
+[34]
+<figures/LBSPRdiag.png, id=1180, 1478.52374pt x 580.1675pt>
 File: figures/LBSPRdiag.png Graphic file (type png)
 <use figures/LBSPRdiag.png>
-Package pdftex.def Info: figures/LBSPRdiag.png  used on input line 887.
+Package pdftex.def Info: figures/LBSPRdiag.png  used on input line 918.
 (pdftex.def)             Requested size: 406.516pt x 159.51556pt.
-[34
+[35
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.1}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.998 \end{longtable}
-                      <./figures/LBSPRdiag.png>] [35]
-<figures/GrowthTeo.jpeg, id=1230, 505.89pt x 361.35pt>
+l.1029 \end{longtable}
+                       <./figures/LBSPRdiag.png>] [36]
+<figures/GrowthTeo.jpeg, id=1233, 505.89pt x 361.35pt>
 File: figures/GrowthTeo.jpeg Graphic file (type jpg)
 <use figures/GrowthTeo.jpeg>
-Package pdftex.def Info: figures/GrowthTeo.jpeg  used on input line 1022.
+Package pdftex.def Info: figures/GrowthTeo.jpeg  used on input line 1053.
 (pdftex.def)             Requested size: 293.59412pt x 209.71547pt.
-[36
+[37
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.2}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1036 
+l.1067 
         <./figures/GrowthTeo.jpeg>]
-<figures/Fig2.png, id=1248, 505.89pt x 216.81pt>
+<figures/Fig2.png, id=1253, 505.89pt x 216.81pt>
 File: figures/Fig2.png Graphic file (type png)
 <use figures/Fig2.png>
-Package pdftex.def Info: figures/Fig2.png  used on input line 1046.
+Package pdftex.def Info: figures/Fig2.png  used on input line 1077.
 (pdftex.def)             Requested size: 451.68752pt x 193.58554pt.
-[37] [38
+[38] [39
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1191 \end{longtable}
+l.1222 \end{longtable}
                        <./figures/Fig2.png>]
-<figures/Fig3.png, id=1265, 578.16pt x 216.81pt>
+<figures/Fig3.png, id=1268, 578.16pt x 216.81pt>
 File: figures/Fig3.png Graphic file (type png)
 <use figures/Fig3.png>
-Package pdftex.def Info: figures/Fig3.png  used on input line 1210.
+Package pdftex.def Info: figures/Fig3.png  used on input line 1241.
 (pdftex.def)             Requested size: 451.68752pt x 169.38239pt.
-<figures/Fig4.png, id=1266, 578.16pt x 216.81pt>
+<figures/Fig4.png, id=1269, 578.16pt x 216.81pt>
 File: figures/Fig4.png Graphic file (type png)
 <use figures/Fig4.png>
-Package pdftex.def Info: figures/Fig4.png  used on input line 1219.
+Package pdftex.def Info: figures/Fig4.png  used on input line 1250.
 (pdftex.def)             Requested size: 451.68752pt x 169.38239pt.
-[39] [40
+[40] [41
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1226 \newpage
+l.1257 \newpage
                
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1226 \newpage
-                <./figures/Fig3.png> <./figures/Fig4.png>] [41] [42] [43] [44]
-<Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf, id=1397, 469.755pt x 325.215pt>
+l.1257 \newpage
+                <./figures/Fig3.png> <./figures/Fig4.png>] [42] [43] [44] [45]
+<Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf, id=1400, 469.755pt x 325.215pt>
 File: Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf Graphic file (type pdf)
 <use Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf>
-Package pdftex.def Info: Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf  used on input line 1437.
+Package pdftex.def Info: Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf  used on input line 1468.
 (pdftex.def)             Requested size: 451.68752pt x 312.70901pt.
-<figures/graphabstra2.png, id=1405, 236.739pt x 277.035pt>
+<figures/graphabstra2.png, id=1408, 236.739pt x 277.035pt>
 File: figures/graphabstra2.png Graphic file (type png)
 <use figures/graphabstra2.png>
-Package pdftex.def Info: figures/graphabstra2.png  used on input line 1448.
-(pdftex.def)             Requested size: 451.68752pt x 528.61238pt.
-[45
+Package pdftex.def Info: figures/graphabstra2.png  used on input line 1479.
+(pdftex.def)             Requested size: 361.35138pt x 422.88991pt.
+[46
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1456 
-        <./Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf>] [46
+l.1487 
+        <./Doc_Tesis_Mardones_files/figure-latex/plothcr-1.pdf>] [47
 pdfTeX warning (ext4): destination with the same identifier (name{figure.3.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.1456 
-        <./figures/graphabstra2.png>] [47]
+l.1487 
+        <./figures/graphabstra2.png>] [48]
 Chapter 4.
-[48
+[49
 
 ]
-Overfull \hbox (6.72589pt too wide) has occurred while \output is active
-\T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 49
- []
-
-[49]
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 50
  []
 
 [50]
-<figures/conceptual.png, id=1554, 405.515pt x 529.98pt>
-File: figures/conceptual.png Graphic file (type png)
-<use figures/conceptual.png>
-Package pdftex.def Info: figures/conceptual.png  used on input line 1526.
-(pdftex.def)             Requested size: 180.67224pt x 236.12743pt.
-
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 51
  []
 
-[51
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.1537 
-        <./figures/conceptual.png>]
+[51]
+<figures/conceptual.png, id=1557, 405.515pt x 529.98pt>
+File: figures/conceptual.png Graphic file (type png)
+<use figures/conceptual.png>
+Package pdftex.def Info: figures/conceptual.png  used on input line 1557.
+(pdftex.def)             Requested size: 338.76563pt x 442.75409pt.
+
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 52
  []
 
-[52]
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
+[52
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.1}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.1568 
+        <./figures/conceptual.png>]
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 53
  []
 
 [53]
-Overfull \hbox (33.73717pt too wide) in alignment at lines 1569--1583
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (33.73717pt too wide) in alignment at lines 1583--1595
- [] [] [] [] [] [] [] 
- []
-
-
-Overfull \hbox (33.73717pt too wide) in alignment at lines 1595--1821
- [] [] [] [] [] [] [] 
- []
-
-
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 54
  []
@@ -1205,38 +1199,23 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
  []
 
 [55]
-Overfull \hbox (15.50125pt too wide) in alignment at lines 1852--1860
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (15.50125pt too wide) in alignment at lines 1860--1866
- [] [] [] [] [] 
- []
-
-
-Overfull \hbox (15.50125pt too wide) in alignment at lines 1866--1888
- [] [] [] [] [] 
- []
-
-
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 56
  []
 
 [56]
-Overfull \hbox (597.4473pt too wide) in alignment at lines 1937--1945
- [] [] [] [] 
+Overfull \hbox (15.50125pt too wide) in alignment at lines 1875--1883
+ [] [] [] [] [] 
  []
 
 
-Overfull \hbox (597.4473pt too wide) in alignment at lines 1945--1951
- [] [] [] [] 
+Overfull \hbox (15.50125pt too wide) in alignment at lines 1883--1889
+ [] [] [] [] [] 
  []
 
 
-Overfull \hbox (597.4473pt too wide) in alignment at lines 1951--1997
- [] [] [] [] 
+Overfull \hbox (15.50125pt too wide) in alignment at lines 1889--1911
+ [] [] [] [] [] 
  []
 
 
@@ -1255,55 +1234,37 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
  []
 
 [59]
-Overfull \hbox (745.13945pt too wide) in alignment at lines 2110--2118
- [] [] [] 
- []
-
-
-Overfull \hbox (745.13945pt too wide) in alignment at lines 2118--2124
- [] [] [] 
- []
-
-
-Overfull \hbox (745.13945pt too wide) in alignment at lines 2124--2164
- [] [] [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
-
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 60
  []
 
 [60]
-<Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf, id=1726, 650.43pt x 144.54pt>
-File: Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf Graphic file (type pdf)
-<use Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf>
-Package pdftex.def Info: Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf  used on input line 2188.
-(pdftex.def)             Requested size: 451.68752pt x 100.3767pt.
-<figures/Predator_fleet2.png, id=1735, 806.01125pt x 797.98125pt>
-File: figures/Predator_fleet2.png Graphic file (type png)
-<use figures/Predator_fleet2.png>
-Package pdftex.def Info: figures/Predator_fleet2.png  used on input line 2204.
-(pdftex.def)             Requested size: 451.68752pt x 447.18303pt.
-
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 61
  []
 
-[61
-pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
-<argument> ...shipout:D \box_use:N \l_shipout_box 
-                                                  \__shipout_drop_firstpage_...
-l.2209 \end{figure}
-                    <./Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf>]
+[61]
+<Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf, id=1737, 650.43pt x 144.54pt>
+File: Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf Graphic file (type pdf)
+<use Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf>
+Package pdftex.def Info: Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf  used on input line 2134.
+(pdftex.def)             Requested size: 451.68752pt x 100.3767pt.
+<figures/Predator_fleet2.png, id=1740, 806.01125pt x 797.98125pt>
+File: figures/Predator_fleet2.png Graphic file (type png)
+<use figures/Predator_fleet2.png>
+Package pdftex.def Info: figures/Predator_fleet2.png  used on input line 2148.
+(pdftex.def)             Requested size: 451.68752pt x 447.18303pt.
+
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 62
  []
 
-[62]
+[62
+pdfTeX warning (ext4): destination with the same identifier (name{figure.4.2}) has been already used, duplicate ignored
+<argument> ...shipout:D \box_use:N \l_shipout_box 
+                                                  \__shipout_drop_firstpage_...
+l.2163 
+        <./Doc_Tesis_Mardones_files/figure-latex/chlindex-1.pdf>]
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 63
  []
@@ -1312,7 +1273,7 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.3}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2219 
+l.2163 
         <./figures/Predator_fleet2.png>]
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1322,10 +1283,10 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
  []
 
 [64]
-<figures/Pearson2.png, id=1773, 984.67876pt x 578.16pt>
+<figures/Pearson2.png, id=1776, 984.67876pt x 578.16pt>
 File: figures/Pearson2.png Graphic file (type png)
 <use figures/Pearson2.png>
-Package pdftex.def Info: figures/Pearson2.png  used on input line 2226.
+Package pdftex.def Info: figures/Pearson2.png  used on input line 2172.
 (pdftex.def)             Requested size: 650.43001pt x 381.92201pt.
 
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
@@ -1336,12 +1297,12 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.4}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2233 \end{landscape}
+l.2179 \end{landscape}
                        <./figures/Pearson2.png>]
-<figures/Rho_Value.jpeg, id=1780, 433.62pt x 289.08pt>
+<figures/Rho_Value.jpeg, id=1783, 433.62pt x 289.08pt>
 File: figures/Rho_Value.jpeg Graphic file (type jpg)
 <use figures/Rho_Value.jpeg>
-Package pdftex.def Info: figures/Rho_Value.jpeg  used on input line 2244.
+Package pdftex.def Info: figures/Rho_Value.jpeg  used on input line 2190.
 (pdftex.def)             Requested size: 338.76563pt x 225.85641pt.
 
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
@@ -1355,13 +1316,13 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.5}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2255 
+l.2201 
         <./figures/Rho_Value.jpeg>]
-<figures/RMSE_Value.jpeg, id=1791, 216.81pt x 216.81pt>
+<figures/RMSE_Value.jpeg, id=1794, 216.81pt x 216.81pt>
 File: figures/RMSE_Value.jpeg Graphic file (type jpg)
 <use figures/RMSE_Value.jpeg>
-Package pdftex.def Info: figures/RMSE_Value.jpeg  used on input line 2341.
-(pdftex.def)             Requested size: 338.76563pt x 338.80779pt.
+Package pdftex.def Info: figures/RMSE_Value.jpeg  used on input line 2287.
+(pdftex.def)             Requested size: 225.84375pt x 225.85422pt.
 
 Underfull \vbox (badness 10000) has occurred while \output is active []
 
@@ -1371,10 +1332,10 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
  []
 
 [67]
-<figures/comparision_total.jpeg, id=1800, 578.16pt x 361.35pt>
+<figures/comparision_total.jpeg, id=1803, 578.16pt x 361.35pt>
 File: figures/comparision_total.jpeg Graphic file (type jpg)
 <use figures/comparision_total.jpeg>
-Package pdftex.def Info: figures/comparision_total.jpeg  used on input line 2355.
+Package pdftex.def Info: figures/comparision_total.jpeg  used on input line 2301.
 (pdftex.def)             Requested size: 451.68752pt x 282.304pt.
 
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
@@ -1385,13 +1346,21 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.6}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2363 
+l.2309 
         <./figures/RMSE_Value.jpeg>]
-<figures/alloutput_variable2.png, id=1809, 742.775pt x 299.1175pt>
+<figures/alloutput_variable2.png, id=1812, 742.775pt x 299.1175pt>
 File: figures/alloutput_variable2.png Graphic file (type png)
 <use figures/alloutput_variable2.png>
-Package pdftex.def Info: figures/alloutput_variable2.png  used on input line 2366.
+Package pdftex.def Info: figures/alloutput_variable2.png  used on input line 2312.
 (pdftex.def)             Requested size: 451.68752pt x 181.90001pt.
+<figures/R0plot.png, id=1814, 610.28pt x 371.3875pt>
+File: figures/R0plot.png Graphic file (type png)
+<use figures/R0plot.png>
+Package pdftex.def Info: figures/R0plot.png  used on input line 2323.
+(pdftex.def)             Requested size: 338.76563pt x 206.16216pt.
+
+Underfull \vbox (badness 1314) has occurred while \output is active []
+
 
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 69
@@ -1401,14 +1370,8 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.7}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2374 
+l.2331 
         <./figures/comparision_total.jpeg>]
-<figures/R0plot.png, id=1815, 610.28pt x 371.3875pt>
-File: figures/R0plot.png Graphic file (type png)
-<use figures/R0plot.png>
-Package pdftex.def Info: figures/R0plot.png  used on input line 2377.
-(pdftex.def)             Requested size: 338.76563pt x 206.16216pt.
-
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 70
  []
@@ -1417,17 +1380,17 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.8}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2385 
+l.2331 
        
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.9}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2385 
+l.2331 
         <./figures/alloutput_variable2.png> <./figures/R0plot.png>]
-<figures/produc_com.png, id=1824, 860.21375pt x 358.33875pt>
+<figures/produc_com.png, id=1827, 860.21375pt x 358.33875pt>
 File: figures/produc_com.png Graphic file (type png)
 <use figures/produc_com.png>
-Package pdftex.def Info: figures/produc_com.png  used on input line 2388.
+Package pdftex.def Info: figures/produc_com.png  used on input line 2334.
 (pdftex.def)             Requested size: 451.68752pt x 188.16347pt.
 
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
@@ -1438,12 +1401,12 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.10}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2396 
+l.2342 
         <./figures/produc_com.png>]
-<figures/ACF_Plot.png, id=1831, 1083.04625pt x 210.7875pt>
+<figures/ACF_Plot.png, id=1834, 1083.04625pt x 210.7875pt>
 File: figures/ACF_Plot.png Graphic file (type png)
 <use figures/ACF_Plot.png>
-Package pdftex.def Info: figures/ACF_Plot.png  used on input line 2399.
+Package pdftex.def Info: figures/ACF_Plot.png  used on input line 2345.
 (pdftex.def)             Requested size: 451.68752pt x 87.90938pt.
 
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
@@ -1454,8 +1417,11 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 pdfTeX warning (ext4): destination with the same identifier (name{figure.4.11}) has been already used, duplicate ignored
 <argument> ...shipout:D \box_use:N \l_shipout_box 
                                                   \__shipout_drop_firstpage_...
-l.2519 \end{longtable}
-                       <./figures/ACF_Plot.png>]
+l.2356 
+        <./figures/ACF_Plot.png>]
+Underfull \vbox (badness 8038) has occurred while \output is active []
+
+
 Overfull \hbox (6.72589pt too wide) has occurred while \output is active
 \T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 73
  []
@@ -1481,19 +1447,14 @@ Overfull \hbox (6.72589pt too wide) has occurred while \output is active
  []
 
 [77]
-Overfull \hbox (6.72589pt too wide) has occurred while \output is active
-\T1/lmr/m/scsl/10 Chapter 4.  Integrated stock assessment model on Antarctic Krill population dynamics \T1/lmr/m/n/10 78
- []
-
-[78]
 Chapter 5.
-[79
+[78
 
-] [80] [81]
+] [79] [80]
 Chapter 6.
-[82
+[81
 
-] [83] [84] [85] [86
+] [82] [83] [84] [85] [86
 
 ]
 Underfull \vbox (badness 10000) has occurred while \output is active []
@@ -1570,21 +1531,21 @@ Appendix C.
 LaTeX Warning: There were multiply-defined labels.
 
 Package rerunfilecheck Info: File `Doc_Tesis_Mardones.out' has not changed.
-(rerunfilecheck)             Checksum: 37CCD2FF42D3161F0E9A719DE20C1B7B;8325.
+(rerunfilecheck)             Checksum: 8194FE01500E212D6EFCE3770EEA9256;8215.
  ) 
 Here is how much of TeX's memory you used:
- 18518 strings out of 478033
- 313622 string characters out of 5838239
- 1895330 words of memory out of 5000000
- 37378 multiletter control sequences out of 15000+600000
- 616845 words of font info for 225 fonts, out of 8000000 for 9000
+ 18533 strings out of 478033
+ 314121 string characters out of 5838239
+ 1893330 words of memory out of 5000000
+ 37386 multiletter control sequences out of 15000+600000
+ 614125 words of font info for 227 fonts, out of 8000000 for 9000
  14 hyphenation exceptions out of 8191
- 94i,10n,92p,5795b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
-{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx9.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
-Output written on Doc_Tesis_Mardones.pdf (117 pages, 7460531 bytes).
+ 94i,10n,92p,5472b,553s stack positions out of 10000i,1000n,20000p,200000b,200000s
+{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ec.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathit.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathsy.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-rm.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-mathex.enc}{/Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/enc/dvips/lm/lm-ts1.enc}</Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbx8.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmbxi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsc10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmcsco10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmex10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi5.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmmi7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr12.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr8.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmr9.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmri7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy10.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmsy7.pfb></Users/mauriciomardones/Library/TinyTeX/texmf-dist/fonts/type1/public/lm/lmtt10.pfb>
+Output written on Doc_Tesis_Mardones.pdf (117 pages, 7772058 bytes).
 PDF statistics:
- 2556 PDF objects out of 2984 (max. 8388607)
- 2318 compressed objects within 24 object streams
- 562 named destinations out of 1000 (max. 500000)
- 60420 words of extra memory for PDF output out of 61914 (max. 10000000)
+ 2554 PDF objects out of 2984 (max. 8388607)
+ 2317 compressed objects within 24 object streams
+ 563 named destinations out of 1000 (max. 500000)
+ 58369 words of extra memory for PDF output out of 61914 (max. 10000000)
 

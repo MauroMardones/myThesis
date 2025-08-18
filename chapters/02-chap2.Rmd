@@ -249,6 +249,9 @@ The comparative analysis of Pearson and GLM model formulations revealed distinct
 
 ### Chlorophyll-a and Recruitment Relationship
 
+> The recruitment index exhibited clear spatial variability across the Management Units (MUs) of Subarea 48.1. In Bransfield Strait (BS) and the “Extra” MU, recruitment anomalies were predominantly positive, particularly after 2010, indicating favorable conditions for krill recruitment. By contrast, Elephant Island (EI) and South Shetland Inner Waters (SSIW) showed mostly negative anomalies, with only occasional positive signals, suggesting more constrained recruitment dynamics in those regions. The Joinville MU displayed very limited data, precluding robust interpretation. These spatially structured recruitment patterns are consistent with the influence of local environmental variability, as our analyses revealed significant correlations between recruitment indices and key environmental drivers.
+
+
 Having identified chlorophyll as an important driver, we analyzed its linear relationship with recruitment across the temporal series. The analysis reveals a significant negative relationship between Chl-a concentration and the recruitment index of Antarctic krill over the 22-year period (2001-2022), supported by a correlation coefficient of R = -0.58 and a significant p-value of 0.018. As identified in our regression analyses, these findings suggest that elevated Chlorophyll-a concentrations are associated with reduced krill recruitment in the study region. This counterintuitive relationship challenges the conventional assumption that higher primary productivity directly translates to enhanced krill recruitment success. The negative correlation may reflect complex ecological dynamics where elevated chlorophyll concentrations could indicate environmental conditions that are suboptimal for krill early life stages.
 
 ### Mechanistic interpretations
