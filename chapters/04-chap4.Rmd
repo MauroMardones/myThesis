@@ -138,42 +138,6 @@ The statistical model to krill was configured using Stock Synthesis v 3.30.21 (S
 
 ### Environmental variable modelling
 
-To identify the most influential environmental drivers of krill recruitment to be considered in stock evaluation processes, we examined the relationship between a recruitment index and three key environmental variables described previously as critical in shaping krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a concentration (Chla) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:envsa) summarizes the key characteristics of the environmental datasets used in the analysis, including sea ice, sea surface temperature (SST), and chlorophyll a. These variables were obtained from different satellite platforms and reanalysis products, namely Nimbus-7, ERA5, and Copernicus. The table details spatial and temporal resolution, as well as the temporal coverage of each dataset.
-
-```{r envsa, eval=TRUE}
-env_features <- data.frame(
-  Feature = c("Sea Ice", "SST", "Chlorophyll a"),
-  Platform = c("Nimbus-7", "ERA5", "E.U. Copernicus Marine Service"),
-  Spatial_Resolution = c("25 × 25 km", "0.25º × 0.25º", "0.25º × 0.25º"),
-  Temporal_Resolution = c("Daily", "Monthly", "Daily-Monthly"),
-  Time_Range = c("1978 - Present", "1991 - Present", "2000 - Present"),
-  stringsAsFactors = FALSE
-)
-
-#to word
-ft_env <- flextable(env_features) |>
-  set_header_labels(
-    Feature = "Feature",
-    Platform = "Platform",
-    Spatial_Resolution = "Spatial Resolution",
-    Temporal_Resolution = "Temporal Resolution",
-    Time_Range = "Time Range"
-  ) |>
-  set_caption("Summary of environmental variables used in correlation analysis") |>
-  color(part = "header", color = "black") |>
-  theme_booktabs() |>
-  fontsize(size = 10) 
-
-ft_1 <- autofit(ft_env)
-ft_2 <- set_table_properties(ft_1, width = .5, layout = "autofit")
-ft_2
-```
-
-
-All environmental data were processed at their original spatial resolution using the R packages *sf* and *ncdf4* [@Pebezma2018; @Pierce2021], incorporating spatial manipulation, rasterization, and coordinate transformations. We modelled the relation the environmental influence on krill recruitment with a serie of linear models, progressively incorporating the environmental variables to identify the one with the greatest explanatory power. The initial model considered only the effect of strata (spatial), while subsequent models sequentially included Chla, SST, SIC and interaction terms. This modeling framework allowed us to determine the relative contribution of each factor and their interactions on the recruitment process. All models and their results can be found in the Supplementary Material 2.
-
-
-
 One of the key challenges in this stock assessment framework is integrating ecosystem variables and drivers into the primary process of population dynamics [@Marshall2019] and SS3 addresses these approaches. According to [@methot2020stock], Stock Synthesis (SS3) can estimate recruitment levels as a function of the spawning biomass from the previous season, incorporating the effects of an environmental time series and a log-bias adjustment. This integrated approach allows for a more realistic and dynamic estimation of recruitment by linking it to both biological and environmental drivers in this way;
 
 $$
@@ -321,7 +285,7 @@ where \( X \) represents the quantities (such as spawning stock biomass (SSB) or
 
 ### Environmental data 
 
-Based on linear models performances and ecological relevance, Chla emerged as the most influential predictor, therefore, this variable was selected for incorporation into the stock assessment model as an environmental covariate (Table 2, S2).  Figure \@ref(fig:Chlmap) presents a time series of Chl-a concentration (mg/m-3) in the waters around the Antarctic Peninsula from 2000 to 2020. Each panel represents a different year, showing spatial variations in Chl-a levels, which indicate phytoplankton biomass. The highest concentrations were observed along the coastal regions, while offshore areas exhibit lower Chl-a levels. 
+We modeled the relationship between environmental variables and krill recruitment using a series of linear models, where progressively incorporated different variables to identify those with the greatest explanatory power. The initial model considered only the effect of strata (spatial), while subsequent models sequentially included Chla, SST, SIC and interaction terms. This modeling framework allowed us to determine the relative contribution of each factor and their interactions on the recruitment process. Based on the results of [Chapter 2](#chap2), Chl-a emerged as the most influential predictor, therefore, this variable was selected for incorporation into the stock assessment model as an environmental covariate (Table 2, S2).  Figure \@ref(fig:Chlmap) presents a time series of Chl-a concentration (mg/m-3) in the waters around the Antarctic Peninsula from 2000 to 2020. Each panel represents a different year, showing spatial variations in Chl-a levels, which indicate phytoplankton biomass. The highest concentrations were observed along the coastal regions, while offshore areas exhibit lower Chl-a levels. 
 
 <!-- ```{r mapachl, eval=FALSE, out.width="100%", eval=TRUE, fig.cap="Time series (2000-2020) to Chlorophyll in Subarea 48.1"} -->
 <!-- knitr::include_graphics('figures/chla_grilled.png') -->

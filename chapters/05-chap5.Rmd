@@ -8,15 +8,11 @@
 
 ## Introduction
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vehicula, neque nec gravida cursus, orci eros convallis tellus, nec lobortis massa nulla sed turpis. Integer non magna a erat pulvinar rutrum at et justo. Integer cursus tincidunt diam, vitae consequat lorem rutrum non. Sed imperdiet nibh a volutpat pharetra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. 
+Management Strategy Evaluation (MSE) is a simulation-based framework that tests the performance of alternative management procedures under uncertainty, providing a robust approach for evaluating fishery management strategies in complex and variable environments [@Punt2016; @Butterworth2007]. The MSE framework consists of three main components: an operating model that represents the "true" population dynamics, an observation model that simulates data collection processes, and a management procedure that encompasses stock assessment methods and harvest control rules [@Smith1999; @Rademeyer2007].
 
-Donec vitae viverra nisi. Etiam scelerisque malesuada nisi. Vivamus non convallis metus. Morbi scelerisque blandit massa non pulvinar. Curabitur tincidunt ante vel purus convallis, ac facilisis nunc feugiat. Pellentesque vulputate, erat nec sagittis accumsan, justo leo blandit ante, in facilisis eros nisl id mi. Nam eu ex vel arcu ultricies fermentum. Proin ut diam diam. 
+Given the computational complexity and data requirements of full MSE implementations, this chapter employs a short-cut MSE approach [@Smith2021; @Plaganyi2014]. This streamlined methodology conditions the operating model directly on the outputs from the integrated stock assessment model developed in [Chapter4](#chap4)., thereby maintaining consistency with the estimated population parameters while reducing computational burden. The operating model incorporates the estimated biomass trajectories, recruitment patterns, and associated uncertainty from the stock assessment, allowing for efficient exploration of management scenarios.
 
-Fusce egestas urna at felis fermentum efficitur. Suspendisse laoreet imperdiet finibus. Aliquam eget mi vel elit finibus mattis. Vestibulum condimentum pretium leo non fringilla. Suspendisse at dolor sed erat laoreet cursus sed vitae elit. Nullam nec arcu ut sapien volutpat fermentum sed sed leo. Vivamus dapibus elit sit amet nulla placerat blandit. Sed eu leo vel tellus viverra vehicula ac sit amet est. Nullam id sagittis risus, ac fermentum justo.
-
-Curabitur a justo mauris. Morbi at leo a metus scelerisque tincidunt. Aenean lobortis nisi in nisi tincidunt, nec sollicitudin purus gravida. Sed egestas, tortor a semper gravida, nulla metus sodales tellus, sed volutpat nisl lorem et magna. In sagittis luctus sodales. Curabitur posuere nunc id enim malesuada fermentum. Aenean mattis vitae sapien sed vestibulum. Vestibulum porttitor elit et lacus imperdiet, at tincidunt odio placerat. Sed id fermentum orci. Sed fringilla vehicula augue. Vivamus egestas nec diam ac lacinia. Proin at sodales lacus. 
-
-Maecenas laoreet blandit turpis. Sed mollis dui felis, nec gravida nulla imperdiet nec. Mauris quis velit eget sem malesuada scelerisque non eget libero. Integer sed fringilla diam. In eget lacinia nisl. Suspendisse finibus elit a finibus faucibus. Morbi dictum quam ut tortor vulputate faucibus. Quisque efficitur vestibulum sapien. In mattis nunc nec sapien vehicula, sed scelerisque magna facilisis. Sed scelerisque tincidunt sapien, nec tincidunt risus. Suspendisse imperdiet felis erat, nec pulvinar sapien malesuada ut. Vestibulum tincidunt sagittis erat, a porta ligula imperdiet vel. Proin ac lorem dolor.
+The primary objective of this MSE is to evaluate the sustainability of current krill fishery management measures, specifically the fixed Total Allowable Catch (TAC) system, under varying recruitment scenarios over the next 10-15 years. This analysis will assess the performance of existing harvest control rules in maintaining stock sustainability while accounting for recruitment variability and environmental uncertainty characteristic of the Western Antarctic Peninsula ecosystem. Through this evaluation, we aim to identify potential weaknesses in current management approaches and explore adaptive strategies that could enhance the long-term sustainability of the Antarctic krill fishery.
 
 
 ## Methodology
@@ -26,6 +22,16 @@ Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam vitae risus vive
 ## Results
 
 Nulla malesuada, diam sed finibus sodales, eros justo condimentum elit, nec tincidunt libero dolor nec tellus. Fusce tincidunt congue diam, ut lacinia dolor fermentum vitae. Quisque imperdiet convallis nisi, id tincidunt libero porta sed. Suspendisse ut sollicitudin sem. Nulla facilisi. Nam vel rutrum sapien. Sed faucibus leo id elit malesuada, eget cursus lorem placerat. Pellentesque eget ipsum felis. In a fermentum tellus. Etiam non sapien a risus finibus porttitor.
+
+
+```{r mse1, out.width='100%', fig.pos= "H", fig.cap="MSE outputs 1"}
+knitr::include_graphics("figures/statusfi-1.pdf")
+```
+
+
+```{r mse2, out.width='100%', fig.pos= "H", fig.cap="MSE outputs 2"}
+knitr::include_graphics("figures/trayec-1.pdf")
+```
 
 ## Discusion
 

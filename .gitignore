@@ -13,5 +13,5 @@ _thesis/*
 *.aux
 *.log
 *.out
-/data
+/data.
 

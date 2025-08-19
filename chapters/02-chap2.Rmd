@@ -14,7 +14,8 @@ In recent decades, evidence of changes in climatic and oceanographic drivers has
 
 The SO that surrounds Antarctica is a critical component of the marine and terrestrial system, and sustains a marine ecosystem of immense ecological, economic and intrinsic value. This ocean is spatially defined based on the Antarctic Circumpolar Current, which transports the most water in the entire ocean. This current formed 34 million years ago flows almost freely from west to east around the Antarctic continent, in a fluctuating band that is located approximately at 60º south latitude. At this point the water is colder and less salty than in adjacent oceans. For all these characteristics, this ocean is one of the most sensitive areas to CC. The key drivers and their influence on key processes within the SO have already experienced changes in their attributes, among them can be identified: ocean temperature, sea ice dynamics, stratification, currents, among others [@Sylvester2021; @Morley2020]. Local temperatures in polar marine ecosystems are increasing twice as fast as the global average [@IPCC2014], leading to significant changes in marine communities.
 
-Antarctic krill is largest marine populations on the planet, among them krill [@Atkinson2009; @Veytia2020; @Pinones2016]. This species is essential in the SO, given that they form structural part of the trophic and ecological web [@Pinones2016; @Atkinson2009]. On the other hand, they are intensively harvested by the fishing industry for more than 50 years, constituting a very important economic activity. In this sense, any impact that the different environmental drivers have on the productivity of these marine species raises multiple interests, ranging from scientific to economic. Antarctic krill exhibit a complex life cycle intricately linked to the seasonal dynamics of the SO ecosystem <!--(Figure \@ref(fig:pinones))-->. Their development—from eggs and embryos sinking to the seafloor, to larval and juvenile stages ascending through the water column—coincides with critical environmental cues such as sea ice extent, chlorophyll-a availability, and ocean temperature. These factors not only influence the timing and success of key developmental stages but also define the spatial structure of krill populations. The reliance on seasonal sea ice and primary productivity highlights the species' vulnerability to climate-driven changes in the region. As such, the close coupling between krill biology and ecosystem variability underscores the delicate balance required to sustain both krill populations and the broader food web they support [@Pinones2016]. 
+
+Antarctic krill is a key structural component of the trophic and ecological web in the SO, and the effects of environmental drivers on its productivity are of broad interest, spanning scientific, ecological, and economic dimensions [@Atkinson2009; @Veytia2020; @Pinones2016]. Krill exhibit a complex life cycle that is closely linked to the seasonal dynamics in this ecosystem. <!--(Figure \@ref(fig:pinones))-->. Their development—from eggs and embryos sinking to the seafloor, to larval and juvenile stages ascending through the water column coincides with critical environmental cues such as sea ice extent, chlorophyll-a availability, and ocean temperature. These factors not only influence the timing and success of key developmental stages but also define the spatial structure of krill populations. The reliance on seasonal sea ice and primary productivity highlights the species' vulnerability to climate-driven changes in the region. As such, the close coupling between krill biology and ecosystem variability underscores the delicate balance required to sustain both krill populations and the broader food web they support [@Pinones2016]. 
 
 ```{r pinones, eval=FALSE, out.width = "100%", fig.align='center', fig.cap="Seasonal life cycle of Antarctic krill and their vertical distribution in the water column. The diagram shows developmental stages from embryos to juveniles, aligned with seasonal changes in environmental drivers. Critical periods and the influence of Circumpolar Deep Water (CDW) are indicated"}
 knitr::include_graphics("figures/Pinones.png")
@@ -22,7 +23,7 @@ knitr::include_graphics("figures/Pinones.png")
 
 Changes in marine population distribution demonstrate that global warming is directing marine populations toward the poles [@Perry2005; @Parmesan2003], which puts focus on climate change impacts on high-latitude ecosystems and their community and population structures. Temperature trends are highly variable throughout the Antarctic continent and its adjacent ocean, and rapid warming has occurred mainly over the Antarctic Peninsula [@Turner2005]. @Pinkerton2021 identified impacts that climate condition changes have on primary producers (phytoplankton) in the last 20 years in the Southern Ocean, identifying an increase in most primary producer biomass in the SO. This positive effect would be produced by increased nutrients derived from processes such as water column mixing, marine dust input to subsurface layers, and ice cap melting.
 
-Understanding how the main drivers act and their impact on krill population processes of the most important species in the Southern Ocean, as well as how these species will respond, is fundamental for anticipating climate scenarios. Given this context, the present study seeks to identify the environmental drivers that have significant influence on Antarctic krill recruitment in the Southern Ocean, with the objective of incorporating these environmental variables into the integrated models that will be utilized in subsequent chapters. To achieve this, the analysis will be conducted using linear and/or multivariate correlation models, providing a robust statistical framework for determining which climate drivers most critically affect recruitment dynamics in this keystone Antarctic species. This approach will strengthen the predictive capacity of population models and enhance our ability to forecast krill population responses under changing environmental conditions.
+Understanding how the main environmental drivers act and their impact on krill population processes of the most important species in the Southern Ocean, as well as how these species will respond, is fundamental for anticipating climate scenarios. Given this context, the present study seeks to identify the environmental drivers that have significant influence on Antarctic krill recruitment in the Southern Ocean, with the objective of incorporating these environmental variables into the integrated models that will be utilized in subsequent chapters. To achieve this, the analysis will be conducted using linear and/or multivariate correlation models, providing a robust statistical framework for determining which climate drivers most critically affect recruitment dynamics in this keystone Antarctic species. This approach will strengthen the predictive capacity of population models and enhance our ability to forecast krill population responses under changing environmental conditions.
 
 
 
@@ -44,22 +45,32 @@ Understanding how the main drivers act and their impact on krill population proc
 
 ### Study Area 
 
-The Western Antarctic Peninsula (WAP, FAO Statistical Subarea 48.1, left panel, Figure \@ref(fig:studyarea)), constitutes the primary focus of this thesis. Over the past 50 years, the WAP has emerged as one of the most rapidly warming regions in the Southern Ocean, undergoing significant physical and ecological transformations. Concurrently, it has been the main area area for the Antarctic krill fishery over the last four decades, drawing sustained commercial and scientific interest. The WAP also hosts some of the most comprehensive ecosystem monitoring efforts in the Southern Ocean, including the CCAMLR Ecosystem Monitoring Program (CEMP), long-term acoustic surveys led by initiatives such as the U.S. AMLR program, and a growing body of multidisciplinary research run by different National Antarctic Programs (NAP) operating in the area. These initiatives have produced a rich, spatially resolved archive of biological and environmental data, which this thesis harnesses to explore the interplay between krill life-history traits, environmental variability, and fishing pressure. In doing so, the study aims to inform adaptive, ecosystem-based management approaches within this increasingly dynamic polar marine ecosystem. 
+The Western Antarctic Peninsula (WAP, FAO Statistical Subarea 48.1, left panel, Figure \@ref(fig:studyarea)), constitutes the primary focus of this thesis. Over the past 50 years, the WAP has emerged as one of the most rapidly warming regions in the Southern Ocean, undergoing significant physical and ecological transformations. Concurrently, it has been the main area area for the Antarctic krill fishery over the last four decades, drawing sustained commercial and scientific interest. The WAP also hosts some of the most comprehensive ecosystem monitoring efforts in the Southern Ocean, including the CCAMLR Ecosystem Monitoring Program (CEMP), long-term acoustic surveys led by initiatives such as the U.S. AMLR program, and a growing body of multidisciplinary research run by different National Antarctic Programs (NAP) operating in the area. These initiatives have produced a rich, spatially resolved archive of biological and environmental data, which this thesis harnesses to explore the interplay between krill life-history traits and  environmental variability.
 
 Antarctic krill dynamic relation with environmental drivers were analyzed across five distinct candidate management units (MUs) along the WAP (right panel Figure \@ref(fig:studyarea)), each representing ecologically meaningful subregions: Bransfield Strait (BS), a semienclosed basin influenced by both shelf and oceanic waters; Elephant Island (EI)), an important fishing ground with complex hydrography and productivity patterns; Gerlache Strait (GS), a narrow fjord-like system characterized by high krill biomass and predator activity; Joinville Island (JOIN) representing the transitional zone connecting the Bransfield and Gerlache straits; and South Shetland Western Islands (SSWI), encompassing the exposed western shelf of the South Shetland Islands, frequently targeted by the krill fishery. These MUs capture the spatial heterogeneity of krill habitat and are used to evaluate environmental effects and fishing pressure in a spatially explicit framework. In summary, this region is defined by its ecological heterogeneity and marked environmental gradients, offering a unique natural laboratory for investigating the dynamics of Antarctic krill populations.
+
+\pagebreak
+
+\begin{landscape}
 
 ```{r studyarea, out.width = "100%", fig.align='center', fig.cap="Study area in the Southwest Atlantic sector of the Southern Ocean. The left panel shows the FAO statistical Subarea 48.1, highlighted in red, which includes the western Antarctic Peninsula. The right panel presents the five Management Units (MUs) used in this study: Elephant Island (EI), Joinville Island (JOIN), Bransfield Strait (BS), Gerlashe Strait (GS) and South Shetland Islands West (SSIW), overlaid on a high-resolution spatial grid key in this thesis"}
 knitr::include_graphics("figures/studyarea.png")
 ```
+
+\end{landscape}
+
+\pagebreak
+
 
 ### Length composition data as indicator of recruitment 
 
 Recruitment estimates were derived from Antarctic krill length requency data of Antarctic krill were obtained from the fishery-dependent observations conducted under the Scheme of International Scientific Observation (SISO) coordinated by the Commission for the Conservation of Antarctic Marine Living Resources (CCAMLR). The dataset comprises individual total length measurements collected from commercial krill catches over two decades (2000–2020). Sampling was carried out across all active fishing seasons within this period, with data aggregated at a temporal resolution of two periods per year and spatially stratified by Small-Scale Management Units (SSMUs) as defined by CCAMLR. The recruitment index is calculated by first determining the proportion of juvenile krill individuals based on their total length, specifically those under a threshold of 3.6 cm (Figure \@ref(fig:length)). 
 
 
-```{r length, out.width = "70%", fig.align='center', fig.cap="Length structures of krill from fishery dependent data. Red line represent recruitment size in 3.6 cm"}
+```{r length, out.width = "100%", fig.align='center', fig.cap="Length structures of krill from fishery dependent data. Red line represent recruitment size in 3.6 cm"}
 knitr::include_graphics("figures/Length_Strata_NoChina.png")
 ```
+
 This proportion is calculated following the method provided by @Perry2020, where the the ratio of juvenile individuals to the total number of krill sampled within a given year and for each MU. The resulting proportion is then transformed using a logarithmic function of length, which represents the log-transformed recruitment index. Next, the values were standardized to fall within a specific range, typically between -1 and 1. This standardization process is achieved by applying the following equation:
 
 $$
@@ -72,13 +83,13 @@ In this equation, *Proplog* represents the logarithm of the proportion of juveni
 knitr::include_graphics("figures/Figure2-1.jpeg")
 ```
 
-### Environmental variables and spatial context to model krill recruitment
+### Environmental variables and spatial context to model krill recruitment {#env-vars}
 
-To identify the most influential environmental drivers of krill recruitment to be use in stock evaluation processes, i examined the relationship between a recruitment index and three key environmental variables known to shape krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a (Chl-a) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) summarizes the main characteristics of the environmental datasets used in this analysis. These variables were obtained from a combination of satellite and reanalysis products, specifically *Nimbus-7* [doi.org/10.5067/QOZIVYV3V9JP](https://doi.org/10.5067/QOZIVYV3V9JP) (Figure \@ref(fig:SICmap)), *ERA5* [doi.org/10.48670/moi-00021](https://doi.org/10.48670/moi-00021) (Figure \@ref(fig:SSTmap)), and the *E.U. Copernicus Marine Service* [doi.org/10.48670/moi-00148](https://doi.org/10.48670/moi-00148) (Figure \@ref(fig:Chlmap)). The table details their spatial and temporal resolutions, as well as the time ranges covered by each dataset.
+To identify the most influential environmental drivers of krill recruitment to be use in stock evaluation processes, i examined the relationship between a recruitment index and three key environmental variables known to shape krill population dynamics: Sea Surface Temperature (SST), Sea Ice Concentration (SIC), and Chlorophyll-a (Chl-a) [@Flores2012; @Morley2020; @Saba2014; @Veytia2021; @Walsh2020]. Table \@ref(tab:env) summarizes the main characteristics of the environmental datasets used in this analysis. These variables were obtained from a combination of satellite and reanalysis products, specifically *Nimbus-7* [doi.org/10.5067/QOZIVYV3V9JP](https://doi.org/10.5067/QOZIVYV3V9JP) (Figure \@ref(fig:SICmap)), *ERA5* [doi.org/10.48670/moi-00021](https://doi.org/10.48670/moi-00021) (Figure \@ref(fig:SSTmap)), and the *E.U. Copernicus Marine Service* [doi.org/10.48670/moi-00148](https://doi.org/10.48670/moi-00148) (Figure \@ref(fig:Chlmap)). The table details their spatial and temporal resolutions, as well as the time ranges covered by each dataset. Post-processing techniques, including data cleaning and handling algorithms, manipulation of spatial data, rasterization and projection transformations were facilitated by the *sf* and *ncdf4* packages in R [@Pebezma2018; @Pierce2021]. 
 
 Figure \@ref(fig:envf) illustrates the variables that were used in this analysis, including key environmental drivers, krill biomass, and catch across the five Management Units (MUs) of the Antarctic Peninsula (BS, EI, GS, JOIN, SSWI), highlighting the spatial heterogeneity among them. Catch and biomass data were obtained from the same fishery-dependent monitoring program (SISO) and correspond to the same temporal scale used for recruitment estimates (2000–2020). Biomass estimates were derived from the CCAMLR intersessional work [@Dornam2021], ensuring consistency with the standardized assessment procedures applied within the management framework.
 
-```{r env}
+```{r env, eval=TRUE}
 env_features <- data.frame(
   Feature = c("Sea Ice", "SST", "Chlorophyll a"),
   Platform = c("Nimbus-7", "ERA5", "E.U. Copernicus Marine Service"),
@@ -88,6 +99,7 @@ env_features <- data.frame(
   stringsAsFactors = FALSE
 )
 
+#to word
 ft_env <- flextable(env_features) |>
   set_header_labels(
     Feature = "Feature",
@@ -96,16 +108,15 @@ ft_env <- flextable(env_features) |>
     Temporal_Resolution = "Temporal Resolution",
     Time_Range = "Time Range"
   ) |>
-  set_caption("Summary of environmental variables used in the correlation analysis") |>
+  set_caption("Summary of environmental variables used in correlation analysis") |>
   color(part = "header", color = "black") |>
   theme_booktabs() |>
-  line_spacing(space = 0.5, part = "all") |>
-  fontsize(size = 8) |>
-  autofit() |> 
-  set_table_properties(width = .5, layout = "autofit")
-ft_env
-```
+  fontsize(size = 10) 
 
+ft_1 <- autofit(ft_env)
+ft_2 <- set_table_properties(ft_1, width = .5, layout = "autofit")
+ft_2
+```
 
 \begin{landscape}
 
@@ -159,9 +170,6 @@ The Pearson correlation coefficient ($r$) quantifies the strength and direction 
 #### Generalized linear and mixed-effects models
 
 Inorder to evaluate the spatial and temporal variability of krill recruit from fishery and its relationship with environmental covariates, we applied a series of regression models, including generalized linear models (GLMs) and general linear mixed-effects models (GLMMs). Initial GLMs were constructed to assess the fixed effects of year (ANO), spatial strata (ID), sea ice concentration, chlorophyll-a (Chla), and sea surface temperature (TSM) on krill recruit. To account for the hierarchical structure of the data, I incorporated random intercepts for year (ANO) and spatial strata (ID) using the `lme4` package in R. Interactions between ID and ANO were tested to explore whether temporal trends in krill recruit differed across spatial units. Model selection was based on the Akaike Information Criterion (AIC) and residual deviance, with lower values indicating better model fit. Variance inflation factors (VIF) were calculated to check for multicollinearity among environmental predictors, and when necessary, covariates were standardized or imputed to handle missing data. The inclusion of random effects allowed me to capture unexplained annual variability while accounting for spatial heterogeneity in krill growth patterns. Visualization of model predictions and marginal effects was conducted using the `ggeffects` [@Ludecke2018] and `sjPlot` packages [@Ludecke2024], providing insights into how krill recruit dynamics respond to environmental and spatial drivers over time.  
-
-
-### Statisticals models
 
 The analysis of the correlation between the logarithmic recruitment index (*Proplog2*) and environmental variables were approached through a series of regression models designed to examine the impact of various environmental factors on the recruitment process of krill. These models progressively include more explanatory variables, allowing us to evaluate the relative contribution of each environmental factor, as well as potential interactions between them, on the recruitment index. Each model represents a different level of complexity and addresses distinct aspects of the potential relationship between recruitment and environmental conditions.
 
@@ -248,9 +256,6 @@ About the primary environmental variables that influence krill biomass and popul
 The comparative analysis of Pearson and GLM model formulations revealed distinct differences in explanatory power among environmental predictors, with chlorophyll-a emerging as the most influential factor affecting recruitment success. The results of Model 2, which includes ID, Year, and Chla as predictors, reveal several significant findings. The negative coefficient for chlorophyll-a exhibits a significant relationship with the response variable (p = 0.026849), suggesting that higher levels of chlorophyll-a are associated with lower recruitment values. While the Year variable shows a positive but non-significant effect (p = 0.382954), the model's AIC value (39.505) and residual deviance (4.3936) suggest a reasonable fit with the predictors contributing to explaining variability in the response variable. The statistical isolation of this primary environmental driver provides a robust foundation for its integration into population assessment models, addressing a key limitation in traditional stock assessment approaches that often treat recruitment as a purely stochastic process.
 
 ### Chlorophyll-a and Recruitment Relationship
-
-> The recruitment index exhibited clear spatial variability across the Management Units (MUs) of Subarea 48.1. In Bransfield Strait (BS) and the “Extra” MU, recruitment anomalies were predominantly positive, particularly after 2010, indicating favorable conditions for krill recruitment. By contrast, Elephant Island (EI) and South Shetland Inner Waters (SSIW) showed mostly negative anomalies, with only occasional positive signals, suggesting more constrained recruitment dynamics in those regions. The Joinville MU displayed very limited data, precluding robust interpretation. These spatially structured recruitment patterns are consistent with the influence of local environmental variability, as our analyses revealed significant correlations between recruitment indices and key environmental drivers.
-
 
 Having identified chlorophyll as an important driver, we analyzed its linear relationship with recruitment across the temporal series. The analysis reveals a significant negative relationship between Chl-a concentration and the recruitment index of Antarctic krill over the 22-year period (2001-2022), supported by a correlation coefficient of R = -0.58 and a significant p-value of 0.018. As identified in our regression analyses, these findings suggest that elevated Chlorophyll-a concentrations are associated with reduced krill recruitment in the study region. This counterintuitive relationship challenges the conventional assumption that higher primary productivity directly translates to enhanced krill recruitment success. The negative correlation may reflect complex ecological dynamics where elevated chlorophyll concentrations could indicate environmental conditions that are suboptimal for krill early life stages.
 
